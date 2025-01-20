@@ -1,0 +1,1034 @@
+D:\WebApi\WebApi\bin\Debug\net7.0\appsettings.Development.json
+D:\WebApi\WebApi\bin\Debug\net7.0\appsettings.json
+D:\WebApi\WebApi\bin\Debug\net7.0\WebApi.exe
+D:\WebApi\WebApi\bin\Debug\net7.0\WebApi.deps.json
+D:\WebApi\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+D:\WebApi\WebApi\bin\Debug\net7.0\WebApi.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\WebApi.pdb
+D:\WebApi\WebApi\bin\Debug\net7.0\Azure.Core.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Humanizer.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+D:\WebApi\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\WebApi\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+D:\WebApi\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+D:\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+D:\WebApi\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\WebApi\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+D:\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+D:\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+D:\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\WebApi\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+D:\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+D:\WebApi\WebApi\obj\Debug\net7.0\WebApi.dll
+D:\WebApi\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+D:\WebApi\WebApi\obj\Debug\net7.0\WebApi.pdb
+D:\WebApi\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+D:\WebApi\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\appsettings.Development.json
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\appsettings.json
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\WebApi.exe
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\WebApi.deps.json
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\WebApi.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\WebApi.pdb
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Azure.Core.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Humanizer.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Du an Web\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\WebApi.dll
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\WebApi.pdb
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+E:\Du an Web\WebApi\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\appsettings.Development.json
+E:\WebApi\WebApi\bin\Debug\net7.0\appsettings.json
+E:\WebApi\WebApi\bin\Debug\net7.0\WebApi.exe
+E:\WebApi\WebApi\bin\Debug\net7.0\WebApi.deps.json
+E:\WebApi\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+E:\WebApi\WebApi\bin\Debug\net7.0\WebApi.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\WebApi.pdb
+E:\WebApi\WebApi\bin\Debug\net7.0\Azure.Core.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Humanizer.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+E:\WebApi\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\WebApi\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+E:\WebApi\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+E:\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+E:\WebApi\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+E:\WebApi\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+E:\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+E:\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+E:\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+E:\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+E:\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+E:\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+E:\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+E:\WebApi\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+E:\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+E:\WebApi\WebApi\obj\Debug\net7.0\WebApi.dll
+E:\WebApi\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+E:\WebApi\WebApi\obj\Debug\net7.0\WebApi.pdb
+E:\WebApi\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+E:\WebApi\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\appsettings.Development.json
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\appsettings.json
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.exe
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.deps.json
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.pdb
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Azure.Core.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Humanizer.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.pdb
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\appsettings.json
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\appsettings.Development.json
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.exe
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.deps.json
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.pdb
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Azure.Core.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Humanizer.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.pdb
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+G:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+F:\_Unprotected\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\appsettings.Development.json
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\appsettings.json
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.exe
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.deps.json
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.pdb
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Azure.Core.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Humanizer.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.dll
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.pdb
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+D:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\appsettings.Development.json
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\appsettings.json
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.exe
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.deps.json
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\WebApi.pdb
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Azure.Core.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Humanizer.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\DU AN WEB\WebApi\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.dll
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.pdb
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+F:\DU AN WEB\WebApi\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\appsettings.Development.json
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\appsettings.json
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\WebApi.exe
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\WebApi.deps.json
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\WebApi.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\WebApi.pdb
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Azure.Core.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Humanizer.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.pdb
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\appsettings.json
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\appsettings.Development.json
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\WebApi.exe
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\WebApi.deps.json
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\WebApi.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\WebApi.pdb
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Azure.Core.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Humanizer.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.csproj.Up2Date
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.pdb
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+D:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+E:\DU AN WEB\WebApi-QLTB\WebApi\obj\Debug\net7.0\WebApi.csproj.Up2Date
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\appsettings.Development.json
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\appsettings.json
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.exe
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.deps.json
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.pdb
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Azure.Core.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Humanizer.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.csproj.Up2Date
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.dll
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.pdb
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+G:\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\appsettings.json
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.exe
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.deps.json
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.pdb
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.csproj.Up2Date
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.pdb
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\appsettings.json
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.exe
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.deps.json
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.pdb
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.csproj.Up2Date
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.pdb
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\EPPlus.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\EPPlus.Interfaces.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\EPPlus.System.Drawing.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Formats.Asn1.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Text.Encoding.CodePages.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Text.Json.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Text.Encoding.CodePages.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+C:\Users\hungl\OneDrive\Desktop\LAP TRINH\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\EPPlus.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\EPPlus.Interfaces.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\EPPlus.System.Drawing.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Formats.Asn1.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\System.Text.Json.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\Angular-QLTB\Api\WebApi\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
