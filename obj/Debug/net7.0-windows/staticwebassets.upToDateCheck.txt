@@ -309,3 +309,7 @@ wwwroot\Images\ThietBi\server-chiase.jpg
 wwwroot\Images\ThietBi\Surface-Pro-7.jpg
 wwwroot\Images\ThietBi\Win11_MonLight.png
 wwwroot\Reports\Quatgio\Quatgio_20250115113916.xlsx
+wwwroot\Reports\Quatgio\Quatgio_20250115114848.xlsx
+wwwroot\Reports\Quatgio\Quatgio_20250116012136.xlsx
+wwwroot\Reports\Quatgio\Quatgio_20250116012300.xlsx
+wwwroot\Reports\Quatgio\Quatgio_20250116120508.xlsx

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Api.Data.Entites;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using WebApi.Data.Entites;
@@ -42,6 +43,7 @@ namespace WebApi.Data.EF
         public DbSet<NhatkyMayxuc> NhatkyMayxucs { get;set; }
         public DbSet<ThongsokythuatMayxuc> ThongsokythuatMayxucs { get; set; }
         public DbSet<Quatgio> Quatgios { get; set; }
+        public DbSet<ThongsokythuatQuatgio> ThongsokythuatQuatgios{get;set;}
 
     }
 }
