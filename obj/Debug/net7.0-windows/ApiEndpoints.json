@@ -774,6 +774,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Api.Controllers.ThongsokythuatquatgioController",
+    "Method": "Create",
+    "RelativePath": "api/Thongsokythuatquatgio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "response",
+        "Type": "Api.Data.Entites.ThongsokythuatQuatgio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApi.Controllers.TonghopcameraController",
     "Method": "getAll",
     "RelativePath": "api/Tonghopcamera",

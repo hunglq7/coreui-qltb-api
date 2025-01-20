@@ -1,3 +1,4 @@
+using Api.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Hosting;
@@ -71,6 +72,7 @@ builder.Services.AddTransient<ITonghopcameraService, TonghopcameraService>();
 builder.Services.AddTransient<IThongsokythuatmayxucService, ThongsokythuatmayxucService>();
 builder.Services.AddTransient<INhatkymayxucService, NhatkymayxucService>();
 builder.Services.AddTransient<IQuatgioService, QuatgioService>();
+builder.Services.AddTransient<IThongsokythuatquatgioService,ThongsokythuatquatgioService>();
 builder.Services.Configure<FormOptions>(o =>
 {
     o.ValueLengthLimit = int.MaxValue;

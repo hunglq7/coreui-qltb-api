@@ -1475,6 +1475,37 @@
         }
       }
     },
+    "/api/Thongsokythuatquatgio": {
+      "post": {
+        "tags": [
+          "Thongsokythuatquatgio"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongsokythuatQuatgio"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongsokythuatQuatgio"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongsokythuatQuatgio"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Tonghopcamera": {
       "get": {
         "tags": [
@@ -2782,7 +2813,6 @@
       "MayXuc": {
         "required": [
           "loaiThietBi",
-          "maTaiSan",
           "tenThietBi"
         ],
         "type": "object",
@@ -2790,11 +2820,6 @@
           "id": {
             "type": "integer",
             "format": "int32"
-          },
-          "maTaiSan": {
-            "maxLength": 100,
-            "minLength": 1,
-            "type": "string"
           },
           "tenThietBi": {
             "maxLength": 100,
@@ -2847,6 +2872,10 @@
             "type": "integer",
             "format": "int32"
           },
+          "maQuanLy": {
+            "type": "string",
+            "nullable": true
+          },
           "mayXucId": {
             "type": "integer",
             "format": "int32"
@@ -2888,6 +2917,10 @@
           "id": {
             "type": "integer",
             "format": "int32"
+          },
+          "maQuanLy": {
+            "type": "string",
+            "nullable": true
           },
           "mayXucId": {
             "type": "integer",
@@ -3391,6 +3424,35 @@
         },
         "additionalProperties": false
       },
+      "Quatgio": {
+        "required": [
+          "tenQuat"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenQuat": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "loaiThietBi": {
+            "maxLength": 200,
+            "type": "string",
+            "nullable": true
+          },
+          "thongsokythuatQuatgios": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ThongsokythuatQuatgio"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "QuatgioCreateRequest": {
         "type": "object",
         "properties": {
@@ -3736,6 +3798,73 @@
         },
         "additionalProperties": false
       },
+      "ThongsokythuatQuatgio": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quatgioId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nuocSX": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "duongKinhBanhCT": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "soBanhCT": {
+            "maxLength": 50,
+            "type": "integer",
+            "format": "int32"
+          },
+          "tocDo": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "luuLuong": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "haAp": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "congSuat": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "kichThuoc": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "chieuDai": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "maxLength": 200,
+            "type": "string",
+            "nullable": true
+          },
+          "quatgio": {
+            "$ref": "#/components/schemas/Quatgio"
+          }
+        },
+        "additionalProperties": false
+      },
       "TongHopMayXuc": {
         "type": "object",
         "properties": {
@@ -3746,6 +3875,11 @@
           "mayXucId": {
             "type": "integer",
             "format": "int32"
+          },
+          "maQuanLy": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
           },
           "loaiThietBiId": {
             "maxLength": 200,
