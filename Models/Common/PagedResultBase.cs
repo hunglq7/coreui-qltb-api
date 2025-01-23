@@ -7,6 +7,7 @@
         public int PageSize { get; set; }
 
         public int TotalRecords { get; set; }
+        public int SumRecords { get; set; }
 
         public int PageCount
         {
