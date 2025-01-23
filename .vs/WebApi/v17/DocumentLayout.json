@@ -1,38 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\DU AN WEB\\Angular-QLTB\\Api\\",
+  "WorkspaceRootPath": "D:\\DU AN WEB\\Angular-QLTB\\Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\controllers\\thongsokythuatquatgiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\angular-qltb\\api\\controllers\\thongsokythuatquatgiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\thongsokythuatquatgiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\services\\thongsokythuatquatgioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\angular-qltb\\api\\controllers\\tonghopmayxuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\tonghopmayxuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\angular-qltb\\api\\services\\thongsokythuatquatgioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\thongsokythuatquatgioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\controllers\\quatgiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\quatgiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\angular-qltb\\api\\services\\tonghopmayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\tonghopmayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\services\\quatgioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\quatgioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\models\\thongsokythuatquatgio\\getmanagerthongsokythuatquatgiopagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\thongsokythuatquatgio\\getmanagerthongsokythuatquatgiopagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\models\\common\\pagedresultbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\common\\pagedresultbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\models\\thongsokythuatquatgio\\thongsokythuatquatgiocreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\thongsokythuatquatgio\\thongsokythuatquatgiocreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\models\\common\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\common\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\angular-qltb\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ThongsokythuatquatgioController.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\ThongsokythuatquatgioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ThongsokythuatquatgioController.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\ThongsokythuatquatgioController.cs",
-              "RelativeToolTip": "Controllers\\ThongsokythuatquatgioController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAADcAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T01:53:08.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ThongsokythuatquatgioCreateRequest.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Models\\ThongsokythuatQuatgio\\ThongsokythuatquatgioCreateRequest.cs",
-              "RelativeDocumentMoniker": "Models\\ThongsokythuatQuatgio\\ThongsokythuatquatgioCreateRequest.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Models\\ThongsokythuatQuatgio\\ThongsokythuatquatgioCreateRequest.cs",
-              "RelativeToolTip": "Models\\ThongsokythuatQuatgio\\ThongsokythuatquatgioCreateRequest.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T01:49:14.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetManagerThongsokythuatquatgioPagingRequest.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Models\\ThongsokythuatQuatgio\\GetManagerThongsokythuatquatgioPagingRequest.cs",
-              "RelativeDocumentMoniker": "Models\\ThongsokythuatQuatgio\\GetManagerThongsokythuatquatgioPagingRequest.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Models\\ThongsokythuatQuatgio\\GetManagerThongsokythuatquatgioPagingRequest.cs",
-              "RelativeToolTip": "Models\\ThongsokythuatQuatgio\\GetManagerThongsokythuatquatgioPagingRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T01:29:32.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PagedResultBase.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Models\\Common\\PagedResultBase.cs",
-              "RelativeDocumentMoniker": "Models\\Common\\PagedResultBase.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Models\\Common\\PagedResultBase.cs",
-              "RelativeToolTip": "Models\\Common\\PagedResultBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T01:29:12.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ThongsokythuatquatgioService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\ThongsokythuatquatgioService.cs",
-              "RelativeDocumentMoniker": "Services\\ThongsokythuatquatgioService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\ThongsokythuatquatgioService.cs",
-              "RelativeToolTip": "Services\\ThongsokythuatquatgioService.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAUwDQAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T01:14:39.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "QuatgioController.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\QuatgioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\QuatgioController.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\QuatgioController.cs",
-              "RelativeToolTip": "Controllers\\QuatgioController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwCoAAAAJAAAA",
+              "Title": "ThongsokythuatquatgioService.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\ThongsokythuatquatgioService.cs",
+              "RelativeDocumentMoniker": "Services\\ThongsokythuatquatgioService.cs",
+              "ToolTip": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\ThongsokythuatquatgioService.cs",
+              "RelativeToolTip": "Services\\ThongsokythuatquatgioService.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAHIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T01:36:29.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PagedResult.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Models\\Common\\PagedResult.cs",
-              "RelativeDocumentMoniker": "Models\\Common\\PagedResult.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Models\\Common\\PagedResult.cs",
-              "RelativeToolTip": "Models\\Common\\PagedResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T01:34:02.104Z",
+              "WhenOpened": "2025-01-23T14:06:16.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "QuatgioService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\QuatgioService.cs",
-              "RelativeDocumentMoniker": "Services\\QuatgioService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\QuatgioService.cs",
-              "RelativeToolTip": "Services\\QuatgioService.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAYwA4AAAAGAAAA",
+              "Title": "TonghopmayxucService.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\TonghopmayxucService.cs",
+              "RelativeDocumentMoniker": "Services\\TonghopmayxucService.cs",
+              "ToolTip": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\TonghopmayxucService.cs",
+              "RelativeToolTip": "Services\\TonghopmayxucService.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwGkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T01:16:42.994Z",
+              "WhenOpened": "2025-01-23T14:05:55.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TonghopmayxucController.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\TonghopmayxucController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TonghopmayxucController.cs",
+              "ToolTip": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\TonghopmayxucController.cs",
+              "RelativeToolTip": "Controllers\\TonghopmayxucController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T14:05:19.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ThongsokythuatquatgioController.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\ThongsokythuatquatgioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ThongsokythuatquatgioController.cs",
+              "ToolTip": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\ThongsokythuatquatgioController.cs",
+              "RelativeToolTip": "Controllers\\ThongsokythuatquatgioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T14:04:51.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-23T13:03:49.636Z",
               "EditorCaption": ""
             }
           ]

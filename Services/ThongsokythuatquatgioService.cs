@@ -13,6 +13,7 @@ namespace Api.Services
     {
         Task<int> Create(ThongsokythuatquatgioCreateRequest response);
         Task<int> Update(ThongsokythuatquatgioUpdateRequest request);
+        Task<ThongsokythuatQuatgio> GetById(int id);
         Task<int> Delete(int id);
         Task<PagedResult<ThongsokythuatquatgioVm>> GetAllPaging(GetManagerThongsokythuatquatgioPagingRequest request);
     }
@@ -98,6 +99,22 @@ namespace Api.Services
                 Items = data
             };
             return pagedResult;
+        }
+
+        public async Task<ThongsokythuatQuatgio> GetById(int id)
+        {
+            var query = await _thietbiDbContext.ThongsokythuatQuatgios.FindAsync(id);
+            if(query == null)
+            {
+                query = new ThongsokythuatQuatgio()
+                {
+                    Id = 0,
+                  QuatgioId=1,
+                }
+                     ;
+            }
+
+            return query;
         }
 
         public async Task<int> Update(ThongsokythuatquatgioUpdateRequest request)
