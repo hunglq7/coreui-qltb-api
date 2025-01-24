@@ -52,6 +52,14 @@ namespace Api.Controllers
             return Ok(items);
         }
 
+
+        [HttpGet("{Id}")]
+        public async Task<ActionResult> GetById(int Id)
+        {
+            var query = await _thongsokythuatquatgioService.GetById(Id);
+            return Ok(query);
+        }
+
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
