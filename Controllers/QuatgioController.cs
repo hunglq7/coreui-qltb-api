@@ -48,6 +48,14 @@ namespace WebApi.Controllers
             return Ok(quatgios);
         }
 
+        [HttpGet("getAll")]
+        public async Task<IActionResult> getAll()
+        {
+            var quatgios = await _quatgioService.GetAll();
+            return Ok(quatgios);
+        }
+        
+        
         [HttpGet("{Id}")]
         public async Task<ActionResult> GetById(int Id)
         {

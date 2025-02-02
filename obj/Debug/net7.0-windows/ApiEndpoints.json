@@ -601,6 +601,16 @@
   },
   {
     "ContainingType": "WebApi.Controllers.QuatgioController",
+    "Method": "getAll",
+    "RelativePath": "api/Quatgio/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.QuatgioController",
     "Method": "GetAllPaging",
     "RelativePath": "api/Quatgio/paging",
     "HttpMethod": "GET",
@@ -841,6 +851,96 @@
     "ContainingType": "Api.Controllers.ThongsokythuatquatgioController",
     "Method": "GetAllPaging",
     "RelativePath": "api/Thongsokythuatquatgio/paging",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ToitrucController",
+    "Method": "Post",
+    "RelativePath": "api/Toitruc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Models.ToiTruc.ToitrucCreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ToitrucController",
+    "Method": "Put",
+    "RelativePath": "api/Toitruc",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "toitruc",
+        "Type": "WebApi.Models.ToiTruc.ToitrucUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ToitrucController",
+    "Method": "Get",
+    "RelativePath": "api/Toitruc/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ToitrucController",
+    "Method": "Delete",
+    "RelativePath": "api/Toitruc/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ToitrucController",
+    "Method": "Get",
+    "RelativePath": "api/Toitruc/paging",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

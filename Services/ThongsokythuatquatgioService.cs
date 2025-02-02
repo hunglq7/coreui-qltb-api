@@ -16,6 +16,7 @@ namespace Api.Services
         Task<ThongsokythuatQuatgio> GetById(int id);
         Task<int> Delete(int id);
         Task<PagedResult<ThongsokythuatquatgioVm>> GetAllPaging(GetManagerThongsokythuatquatgioPagingRequest request);
+      
     }
     public class ThongsokythuatquatgioService : IThongsokythuatquatgioService
     {
@@ -64,6 +65,8 @@ namespace Api.Services
             return count;
         }
 
+       
+
         public async Task<PagedResult<ThongsokythuatquatgioVm>> GetAllPaging(GetManagerThongsokythuatquatgioPagingRequest request)
         {
             var query = from t in _thietbiDbContext.ThongsokythuatQuatgios.Include(q => q.Quatgio)
@@ -109,7 +112,8 @@ namespace Api.Services
                 query = new ThongsokythuatQuatgio()
                 {
                     Id = 0,
-                  QuatgioId=1,
+                  QuatgioId=0,
+                  SoBanhCT=1,
                 }
                      ;
             }

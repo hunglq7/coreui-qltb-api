@@ -652,7 +652,6 @@ D:\DU AN WEB\Angular-QLTB\Api\obj\Debug\net7.0-windows\refint\WebApi.dll
 D:\DU AN WEB\Angular-QLTB\Api\obj\Debug\net7.0-windows\WebApi.pdb
 D:\DU AN WEB\Angular-QLTB\Api\obj\Debug\net7.0-windows\WebApi.genruntimeconfig.cache
 D:\DU AN WEB\Angular-QLTB\Api\obj\Debug\net7.0-windows\ref\WebApi.dll
-D:\DU AN WEB\Angular-QLTB\Api\obj\Debug\net7.0-windows\staticwebassets.upToDateCheck.txt
 E:\DU AN WEB\Angular-QLTB\Api\bin\Debug\net7.0-windows\AppSettings.config
 E:\DU AN WEB\Angular-QLTB\Api\bin\Debug\net7.0-windows\appsettings.Development.json
 E:\DU AN WEB\Angular-QLTB\Api\bin\Debug\net7.0-windows\appsettings.json

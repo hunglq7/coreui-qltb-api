@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http.HttpResults;
+﻿using Api.Models.ThongsokythuatQuatgio;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 using WebApi.Common;
 using WebApi.Data.EF;
@@ -16,7 +17,9 @@ namespace WebApi.Services
         Task<Quatgio> GetById(int id);
         IEnumerable<Quatgio> GetList(string keyword);
         Task<PagedResult<QuatgioVm>> GetAllPaging(GetManageQuatgioPagingRequest request);
-            }
+
+        Task<List<QuatgioVm>> GetAll();
+    }
     public class QuatgioService : IQuatgioService
     {
         private readonly ThietbiDbContext _thietbiDbContext;
@@ -53,6 +56,18 @@ namespace WebApi.Services
             _thietbiDbContext.Quatgios.Remove(query);
             _thietbiDbContext.SaveChanges();
             return true;
+        }
+
+        public async Task<List<QuatgioVm>> GetAll()
+        {
+            var query = from t in _thietbiDbContext.Quatgios
+                        select t;
+            return await query.Select(x => new QuatgioVm()
+            {
+                Id = x.Id,
+                TenQuat = x.TenQuat,
+                LoaiThietBi = x.LoaiThietBi
+            }).ToListAsync();
         }
 
         public async Task<PagedResult<QuatgioVm>> GetAllPaging(GetManageQuatgioPagingRequest request)

@@ -1142,6 +1142,18 @@
         }
       }
     },
+    "/api/Quatgio/getAll": {
+      "get": {
+        "tags": [
+          "Quatgio"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Quatgio/{Id}": {
       "get": {
         "tags": [
@@ -1616,6 +1628,152 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Toitruc/paging": {
+      "get": {
+        "tags": [
+          "Toitruc"
+        ],
+        "parameters": [
+          {
+            "name": "Keyword",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "PageIndex",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Toitruc/{id}": {
+      "get": {
+        "tags": [
+          "Toitruc"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Toitruc"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Toitruc": {
+      "post": {
+        "tags": [
+          "Toitruc"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ToitrucCreateRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ToitrucCreateRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ToitrucCreateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Toitruc"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ToitrucUpdateRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ToitrucUpdateRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ToitrucUpdateRequest"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "Success"
@@ -3988,6 +4146,178 @@
             "nullable": true
           },
           "ghiChu": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ToitrucCreateRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maQuanLy": {
+            "type": "string",
+            "nullable": true
+          },
+          "maHieu": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenLoai": {
+            "type": "string",
+            "nullable": true
+          },
+          "nuocSX": {
+            "type": "string",
+            "nullable": true
+          },
+          "hangSX": {
+            "type": "string",
+            "nullable": true
+          },
+          "namSX": {
+            "type": "string",
+            "nullable": true
+          },
+          "congSuat": {
+            "type": "string",
+            "nullable": true
+          },
+          "dienAp": {
+            "type": "string",
+            "nullable": true
+          },
+          "soVongQuay": {
+            "type": "string",
+            "nullable": true
+          },
+          "lucKeo": {
+            "type": "string",
+            "nullable": true
+          },
+          "tocDoKeoCham": {
+            "type": "string",
+            "nullable": true
+          },
+          "tocDoKeoNhanh": {
+            "type": "string",
+            "nullable": true
+          },
+          "trongLuongToi": {
+            "type": "string",
+            "nullable": true
+          },
+          "kichThuocNgoaiHinh": {
+            "type": "string",
+            "nullable": true
+          },
+          "duongKinhCap": {
+            "type": "string",
+            "nullable": true
+          },
+          "chieuDaiCapQuan": {
+            "type": "string",
+            "nullable": true
+          },
+          "apLucKhiNen": {
+            "type": "string",
+            "nullable": true
+          },
+          "luongKhiNenTieuHao": {
+            "type": "string",
+            "nullable": true
+          },
+          "giChu": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ToitrucUpdateRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maQuanLy": {
+            "type": "string",
+            "nullable": true
+          },
+          "maHieu": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenLoai": {
+            "type": "string",
+            "nullable": true
+          },
+          "nuocSX": {
+            "type": "string",
+            "nullable": true
+          },
+          "hangSX": {
+            "type": "string",
+            "nullable": true
+          },
+          "namSX": {
+            "type": "string",
+            "nullable": true
+          },
+          "congSuat": {
+            "type": "string",
+            "nullable": true
+          },
+          "dienAp": {
+            "type": "string",
+            "nullable": true
+          },
+          "soVongQuay": {
+            "type": "string",
+            "nullable": true
+          },
+          "lucKeo": {
+            "type": "string",
+            "nullable": true
+          },
+          "tocDoKeoCham": {
+            "type": "string",
+            "nullable": true
+          },
+          "tocDoKeoNhanh": {
+            "type": "string",
+            "nullable": true
+          },
+          "trongLuongToi": {
+            "type": "string",
+            "nullable": true
+          },
+          "kichThuocNgoaiHinh": {
+            "type": "string",
+            "nullable": true
+          },
+          "duongKinhCap": {
+            "type": "string",
+            "nullable": true
+          },
+          "chieuDaiCapQuan": {
+            "type": "string",
+            "nullable": true
+          },
+          "apLucKhiNen": {
+            "type": "string",
+            "nullable": true
+          },
+          "luongKhiNenTieuHao": {
+            "type": "string",
+            "nullable": true
+          },
+          "giChu": {
             "type": "string",
             "nullable": true
           }
