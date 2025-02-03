@@ -47,5 +47,7 @@ namespace WebApi.Data.Entites
         public string? LuongKhiNenTieuHao { get; set; }
         [MaxLength(50)]
         public string? GiChu { get; set; }
+
+        public virtual IEnumerable<TongHopToiTruc>? TongHopToiTrucs { get; set; }
     }
 }
