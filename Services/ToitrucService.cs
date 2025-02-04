@@ -12,6 +12,7 @@ namespace WebApi.Services
         Task<int> Update(ToitrucUpdateRequest request);
         Task<int> Delete(int id);
         Task<ToiTruc> GetById(int id);
+        Task<List<ToitrucVm>> GetAll();
         Task<PagedResult<ToitrucVm>> GetAllPaging(GetManagerToitrucPagingRequest request);
 
 
@@ -68,6 +69,22 @@ namespace WebApi.Services
             _dbcontext.ToiTrucs.Remove(query);
             var count = await _dbcontext.SaveChangesAsync();
             return count;
+        }
+
+        public async Task<List<ToitrucVm>> GetAll()
+        {
+            var query = from t in _dbcontext.ToiTrucs
+                        select t;
+            return await query.Select(x=>new ToitrucVm()
+            {
+                Id= x.Id,
+                MaQuanLy=x.MaQuanLy,
+                MaHieu=x.MaHieu,
+                TenLoai=x.TenLoai,
+                NuocSX=x.NuocSX,
+                HangSX=x.HangSX,
+                NamSX=x.NamSX
+            }).ToListAsync();
         }
 
         public async Task<PagedResult<ToitrucVm>> GetAllPaging(GetManagerToitrucPagingRequest request)

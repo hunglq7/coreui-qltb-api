@@ -20,6 +20,12 @@ namespace WebApi.Controllers
             var toitrucs = await _toitrucService.GetAllPaging(request);
             return Ok(toitrucs);
         }
+        [HttpGet("getAll")]
+        public async Task<IActionResult> GetAll()
+        {
+            var query= await _toitrucService.GetAll();
+            return Ok(query);
+        }
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {

@@ -13,10 +13,11 @@ namespace WebApi.Controllers
         private readonly ITonghoptoitrucService _service;
         public TonghoptoitrucController(ITonghoptoitrucService service)
         {
-            service = _service;
+            _service = service;
         }
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] TonghoptoitrucCreateRequest request) {
+        public async Task<IActionResult> Create([FromBody] TonghoptoitrucCreateRequest request)
+        {
             var query = await _service.Create(request);
             return Ok(query);
         }
@@ -39,7 +40,13 @@ namespace WebApi.Controllers
             return Ok(query);
 
         }
-      
+        [HttpGet("paging")]
+        public async Task<IActionResult> Get([FromQuery] GetManagerTonghoptoitrucPagingRequest request)
+        {
+            var query = await _service.GetAllPaging(request);
+            return Ok(query);
+
+        }
 
     }
 }
