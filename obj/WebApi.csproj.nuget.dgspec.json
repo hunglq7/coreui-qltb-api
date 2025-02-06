@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DU AN WEB\\Api\\WebApi.csproj": {}
+    "E:\\DU AN WEB\\Angular-QLTB\\Api\\WebApi.csproj": {}
   },
   "projects": {
-    "D:\\DU AN WEB\\Api\\WebApi.csproj": {
+    "E:\\DU AN WEB\\Angular-QLTB\\Api\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DU AN WEB\\Api\\WebApi.csproj",
+        "projectUniqueName": "E:\\DU AN WEB\\Angular-QLTB\\Api\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "D:\\DU AN WEB\\Api\\WebApi.csproj",
+        "projectPath": "E:\\DU AN WEB\\Angular-QLTB\\Api\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\DU AN WEB\\Api\\obj\\",
+        "outputPath": "E:\\DU AN WEB\\Angular-QLTB\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -109,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
