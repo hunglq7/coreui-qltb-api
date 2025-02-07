@@ -10,10 +10,10 @@ namespace WebApi.Controllers
     public class NhatkymayxucController : ControllerBase
     {
         public readonly INhatkymayxucService _nhatkymayxucService;
-        public NhatkymayxucController( INhatkymayxucService nhatkymayxucService)
+        public NhatkymayxucController(INhatkymayxucService nhatkymayxucService)
         {
             _nhatkymayxucService = nhatkymayxucService;
-            
+
         }
         [HttpGet]
         public async Task<ActionResult> GetAll()

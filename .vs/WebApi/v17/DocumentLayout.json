@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "E:\\DU AN WEB\\Angular-QLTB\\Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DU AN WEB\\Angular-QLTB\\Api\\Migrations\\20250206081056_nhatkytonghoptoitruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250206081056_nhatkytonghoptoitruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DU AN WEB\\Angular-QLTB\\Api\\Migrations\\20250206081008_Nhatkytonghoptoitruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250206081008_Nhatkytonghoptoitruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\data\\entites\\nhatkytonghoptoitruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:data\\entites\\nhatkytonghoptoitruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\data\\entites\\tonghoptoitruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:data\\entites\\tonghoptoitruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DU AN WEB\\Angular-QLTB\\Api\\Migrations\\20250206074955_nhatkytonghoptoitruc-edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250206074955_nhatkytonghoptoitruc-edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\services\\nhatkytonghoptoitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\nhatkytonghoptoitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\services\\nhatkymayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\nhatkymayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\controllers\\nhatkytonghoptoitruccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\nhatkytonghoptoitruccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\controllers\\nhatkymayxuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\nhatkymayxuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250206081056_nhatkytonghoptoitruc.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Migrations\\20250206081056_nhatkytonghoptoitruc.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250206081056_nhatkytonghoptoitruc.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Migrations\\20250206081056_nhatkytonghoptoitruc.cs",
-              "RelativeToolTip": "Migrations\\20250206081056_nhatkytonghoptoitruc.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAgwDIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T08:10:56.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250206081008_Nhatkytonghoptoitruc.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Migrations\\20250206081008_Nhatkytonghoptoitruc.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250206081008_Nhatkytonghoptoitruc.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Migrations\\20250206081008_Nhatkytonghoptoitruc.cs",
-              "RelativeToolTip": "Migrations\\20250206081008_Nhatkytonghoptoitruc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T08:10:08.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NhatkyTonghoptoitruc.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Data\\Entites\\NhatkyTonghoptoitruc.cs",
-              "RelativeDocumentMoniker": "Data\\Entites\\NhatkyTonghoptoitruc.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Data\\Entites\\NhatkyTonghoptoitruc.cs",
-              "RelativeToolTip": "Data\\Entites\\NhatkyTonghoptoitruc.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAQwBUAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T08:00:29.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TongHopToiTruc.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Data\\Entites\\TongHopToiTruc.cs",
-              "RelativeDocumentMoniker": "Data\\Entites\\TongHopToiTruc.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Data\\Entites\\TongHopToiTruc.cs",
-              "RelativeToolTip": "Data\\Entites\\TongHopToiTruc.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T07:59:45.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250206074955_nhatkytonghoptoitruc-edit.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Migrations\\20250206074955_nhatkytonghoptoitruc-edit.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250206074955_nhatkytonghoptoitruc-edit.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Migrations\\20250206074955_nhatkytonghoptoitruc-edit.cs",
-              "RelativeToolTip": "Migrations\\20250206074955_nhatkytonghoptoitruc-edit.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAUwD8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T07:49:55.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "NhatkyTonghoptoitrucService.cs",
               "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\NhatkyTonghoptoitrucService.cs",
               "RelativeDocumentMoniker": "Services\\NhatkyTonghoptoitrucService.cs",
               "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\NhatkyTonghoptoitrucService.cs",
               "RelativeToolTip": "Services\\NhatkyTonghoptoitrucService.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAADwvzwAAAAoAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAYwCIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T07:48:41.635Z",
+              "WhenOpened": "2025-02-07T07:55:40.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NhatkymayxucService.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\NhatkymayxucService.cs",
+              "RelativeDocumentMoniker": "Services\\NhatkymayxucService.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\NhatkymayxucService.cs",
+              "RelativeToolTip": "Services\\NhatkymayxucService.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T07:55:16.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NhatkymayxucController.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\NhatkymayxucController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhatkymayxucController.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\NhatkymayxucController.cs",
+              "RelativeToolTip": "Controllers\\NhatkymayxucController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwCMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T07:49:48.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NhatkyTonghoptoitrucController.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\NhatkyTonghoptoitrucController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhatkyTonghoptoitrucController.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\NhatkyTonghoptoitrucController.cs",
+              "RelativeToolTip": "Controllers\\NhatkyTonghoptoitrucController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAqwCIAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T07:41:32.009Z",
               "EditorCaption": ""
             }
           ]
