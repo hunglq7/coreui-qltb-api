@@ -76,6 +76,7 @@ builder.Services.AddTransient<IThongsokythuatquatgioService,Thongsokythuatquatgi
 builder.Services.AddTransient<IToitrucService, ToitrucService>();
 builder.Services.AddTransient<ITonghoptoitrucService, TonghoptoitrucService>();
 builder.Services.AddTransient<INhatkyTonghoptoitrucService, NhatkyTonghoptoitrucService>();
+builder.Services.AddTransient<IDanhmuctoitrucService,DanhmuctoitrucService>();
 builder.Services.Configure<FormOptions>(o =>
 {
     o.ValueLengthLimit = int.MaxValue;
