@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "E:\\DU AN WEB\\Angular-QLTB\\Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\services\\nhatkytonghoptoitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\nhatkytonghoptoitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\services\\mayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\mayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\services\\nhatkymayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\nhatkymayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\controllers\\nhatkytonghoptoitruccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\nhatkytonghoptoitruccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\controllers\\nhatkymayxuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\nhatkymayxuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\services\\toitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\toitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NhatkyTonghoptoitrucService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\NhatkyTonghoptoitrucService.cs",
-              "RelativeDocumentMoniker": "Services\\NhatkyTonghoptoitrucService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\NhatkyTonghoptoitrucService.cs",
-              "RelativeToolTip": "Services\\NhatkyTonghoptoitrucService.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAYwCIAAAANAAAA",
+              "Title": "MayXucService.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\MayXucService.cs",
+              "RelativeDocumentMoniker": "Services\\MayXucService.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\MayXucService.cs",
+              "RelativeToolTip": "Services\\MayXucService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAmwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T07:55:40.265Z",
+              "WhenOpened": "2025-02-08T00:45:09.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NhatkymayxucService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\NhatkymayxucService.cs",
-              "RelativeDocumentMoniker": "Services\\NhatkymayxucService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\NhatkymayxucService.cs",
-              "RelativeToolTip": "Services\\NhatkymayxucService.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Title": "ToitrucService.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\ToitrucService.cs",
+              "RelativeDocumentMoniker": "Services\\ToitrucService.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\ToitrucService.cs",
+              "RelativeToolTip": "Services\\ToitrucService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T07:55:16.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NhatkymayxucController.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\NhatkymayxucController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NhatkymayxucController.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\NhatkymayxucController.cs",
-              "RelativeToolTip": "Controllers\\NhatkymayxucController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAwwCMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T07:49:48.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NhatkyTonghoptoitrucController.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\NhatkyTonghoptoitrucController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NhatkyTonghoptoitrucController.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\NhatkyTonghoptoitrucController.cs",
-              "RelativeToolTip": "Controllers\\NhatkyTonghoptoitrucController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAqwCIAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T07:41:32.009Z",
+              "WhenOpened": "2025-02-08T00:44:08.4Z",
               "EditorCaption": ""
             }
           ]
