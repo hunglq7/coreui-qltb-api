@@ -1,0 +1,81 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Api.Models.Thongsokythuattoitruc;
+using Api.Services;
+using Microsoft.AspNetCore.Mvc;
+using WebApi.Models.ThongsokythuatMayXuc;
+
+namespace Api.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class ThongsokythuattoitrucController : ControllerBase
+    {
+        private readonly IThongsokythuattoitrucService _thongsokythuattoitrucService;
+        public ThongsokythuattoitrucController(IThongsokythuattoitrucService thongsokythuattoitrucService)
+        {
+            _thongsokythuattoitrucService = thongsokythuattoitrucService;
+
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var items = await _thongsokythuattoitrucService.GetAll();
+            if (items == null)
+            {
+                return NotFound();
+            }
+            return Ok(items);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> Add([FromBody] ThongsokythuattoitrucEdit request)
+        {
+            if (request == null)
+            {
+                return BadRequest();
+            }
+            await _thongsokythuattoitrucService.Add(request);
+            return Ok();
+        }
+
+        [HttpGet("{Id}")]
+        public async Task<ActionResult> GetById(int Id)
+        {
+            var items = await _thongsokythuattoitrucService.GetById(Id);
+            return Ok(items);
+        }
+
+        [HttpGet("DetailById/{Id}")]
+        public async Task<ActionResult> GetDetailById(int Id)
+        {
+            var items = await _thongsokythuattoitrucService.getDatailById(Id);
+            return Ok(items);
+        }
+
+        [HttpPut("update")]
+        public async Task<ActionResult> Update([FromBody] ThongsokythuatEdit request)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            await _thongsokythuatmayxucService.Update(request);
+            return Ok();
+        }
+
+        [HttpDelete("{Id}")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            if (id == 0)
+            {
+                return BadRequest();
+            }
+            await _thongsokythuatmayxucService.Delete(id);
+            return Ok();
+        }
+
+    }
+}
