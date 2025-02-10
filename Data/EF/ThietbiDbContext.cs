@@ -47,6 +47,8 @@ namespace WebApi.Data.EF
         public DbSet<ToiTruc> ToiTrucs { get; set; }
         public DbSet<TongHopToiTruc> TongHopToiTrucs { get; set; }
         public DbSet<NhatkyTonghoptoitruc> NhatkyTonghoptoitrucs { get; set; }
+        public DbSet<Danhmuctoitruc> Danhmuctoitrucs{get;set;}
+        public DbSet<ThongsokythuatToitruc> ThongsokythuatToitrucs{get;set;}
 
     }
 }
