@@ -51,18 +51,18 @@ namespace Api.Controllers
         [HttpGet("DetailById/{Id}")]
         public async Task<ActionResult> GetDetailById(int Id)
         {
-            var items = await _thongsokythuattoitrucService.getDatailById(Id);
+            var items = await _thongsokythuattoitrucService.getDetailById(Id);
             return Ok(items);
         }
 
         [HttpPut("update")]
-        public async Task<ActionResult> Update([FromBody] ThongsokythuatEdit request)
+        public async Task<ActionResult> Update([FromBody] ThongsokythuattoitrucEdit request)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest();
             }
-            await _thongsokythuatmayxucService.Update(request);
+            await _thongsokythuattoitrucService.Update(request);
             return Ok();
         }
 
@@ -73,7 +73,7 @@ namespace Api.Controllers
             {
                 return BadRequest();
             }
-            await _thongsokythuatmayxucService.Delete(id);
+            await _thongsokythuattoitrucService.Delete(id);
             return Ok();
         }
 
