@@ -95,7 +95,6 @@ namespace Api.Services
             var Query = from t in _thietbiDbContext.ThongsokythuatToitrucs.Where(x => x.DanhmuctoitrucId == id)
                         join m in _thietbiDbContext.Danhmuctoitrucs on t.DanhmuctoitrucId equals m.Id
 
-
                         select new { t, m };
             return await Query.Select(x => new ThongsokythuattoitrucVm
             {
