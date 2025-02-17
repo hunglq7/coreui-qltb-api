@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DU AN WEB\\Angular-QLTB\\Api\\",
+  "WorkspaceRootPath": "D:\\DU AN WEB\\Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DU AN WEB\\Angular-QLTB\\Api\\Migrations\\20250127162430_ToiTruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250127162430_ToiTruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\api\\services\\mayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\mayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\angular-qltb\\api\\controllers\\toitruccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\toitruccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\angular-qltb\\api\\controllers\\thongsokythuatquatgiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\thongsokythuatquatgiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\api\\services\\toitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\toitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250127162430_ToiTruc.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Migrations\\20250127162430_ToiTruc.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250127162430_ToiTruc.cs",
-              "ToolTip": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Migrations\\20250127162430_ToiTruc.cs",
-              "RelativeToolTip": "Migrations\\20250127162430_ToiTruc.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAADUAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T16:24:31.018Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ThongsokythuatquatgioController.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\ThongsokythuatquatgioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ThongsokythuatquatgioController.cs",
-              "ToolTip": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\ThongsokythuatquatgioController.cs",
-              "RelativeToolTip": "Controllers\\ThongsokythuatquatgioController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAC8AAAAQAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MayXucService.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Api\\Services\\MayXucService.cs",
+              "RelativeDocumentMoniker": "Services\\MayXucService.cs",
+              "ToolTip": "D:\\DU AN WEB\\Api\\Services\\MayXucService.cs",
+              "RelativeToolTip": "Services\\MayXucService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAmwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T16:20:11.743Z",
+              "WhenOpened": "2025-02-08T00:45:09.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ToitrucController.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\ToitrucController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ToitrucController.cs",
-              "ToolTip": "D:\\DU AN WEB\\Angular-QLTB\\Api\\Controllers\\ToitrucController.cs",
-              "RelativeToolTip": "Controllers\\ToitrucController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Title": "ToitrucService.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Api\\Services\\ToitrucService.cs",
+              "RelativeDocumentMoniker": "Services\\ToitrucService.cs",
+              "ToolTip": "D:\\DU AN WEB\\Api\\Services\\ToitrucService.cs",
+              "RelativeToolTip": "Services\\ToitrucService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T16:15:12.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T00:44:08.4Z"
             }
           ]
         }

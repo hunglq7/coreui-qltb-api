@@ -870,3 +870,6 @@ D:\DU AN WEB\Api\obj\Debug\net7.0-windows\refint\WebApi.dll
 D:\DU AN WEB\Api\obj\Debug\net7.0-windows\WebApi.pdb
 D:\DU AN WEB\Api\obj\Debug\net7.0-windows\WebApi.genruntimeconfig.cache
 D:\DU AN WEB\Api\obj\Debug\net7.0-windows\ref\WebApi.dll
+D:\DU AN WEB\Api\bin\Debug\net7.0-windows\WebApi.staticwebassets.endpoints.json
+D:\DU AN WEB\Api\obj\Debug\net7.0-windows\staticwebassets.build.endpoints.json
+D:\DU AN WEB\Api\obj\Debug\net7.0-windows\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

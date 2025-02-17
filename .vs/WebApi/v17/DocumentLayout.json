@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\DU AN WEB\\Angular-QLTB\\Api\\",
+  "WorkspaceRootPath": "D:\\DU AN WEB\\Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\services\\mayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\api\\services\\mayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\mayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\api\\services\\toitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\api\\services\\toitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\toitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MayXucService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\MayXucService.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Api\\Services\\MayXucService.cs",
               "RelativeDocumentMoniker": "Services\\MayXucService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\MayXucService.cs",
+              "ToolTip": "D:\\DU AN WEB\\Api\\Services\\MayXucService.cs",
               "RelativeToolTip": "Services\\MayXucService.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAmwAAAAAAAAAAA",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-08T00:45:09.42Z",
               "EditorCaption": ""
@@ -37,11 +37,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ToitrucService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\ToitrucService.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Api\\Services\\ToitrucService.cs",
               "RelativeDocumentMoniker": "Services\\ToitrucService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Api\\Services\\ToitrucService.cs",
+              "ToolTip": "D:\\DU AN WEB\\Api\\Services\\ToitrucService.cs",
               "RelativeToolTip": "Services\\ToitrucService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-08T00:44:08.4Z",
               "EditorCaption": ""
