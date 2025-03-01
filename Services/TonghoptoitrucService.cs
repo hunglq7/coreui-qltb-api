@@ -14,6 +14,7 @@ namespace WebApi.Services
         Task<int> Update(TonghoptoitrucUpdateRequest request);
         Task<int> Delete(int id);
         Task<TongHopToiTruc> GetById(int id);
+
         Task<PagedResult<TonghoptoitrucVm>> GetAllPaging(GetManagerTonghoptoitrucPagingRequest request);
     }
     public class TonghoptoitrucService : ITonghoptoitrucService
@@ -33,7 +34,7 @@ namespace WebApi.Services
             }
             var items = new TongHopToiTruc()
             {
-                Id = request.Id,
+             Id=request.Id,
                 MaQuanLy = request.MaQuanLy,
                 ThietbiId = request.ThietbiId,
                 DonViSuDungId = request.DonViSuDungId,
@@ -45,7 +46,7 @@ namespace WebApi.Services
                 GhiChu = request.GhiChu
 
             };
-            await _thietbiDbContext.AddRangeAsync(items);
+            await _thietbiDbContext.TongHopToiTrucs.AddAsync(items);
             return await _thietbiDbContext.SaveChangesAsync();
         }
 
@@ -61,9 +62,10 @@ namespace WebApi.Services
 
         }
 
+
         public async Task<PagedResult<TonghoptoitrucVm>> GetAllPaging(GetManagerTonghoptoitrucPagingRequest request)
         {
-            var query = from t in _thietbiDbContext.TongHopToiTrucs.Include(x => x.ToiTruc).Include(x => x.PhongBan)
+            var query = from t in _thietbiDbContext.TongHopToiTrucs.Include(x => x.Danhmuctoitruc).Include(x => x.PhongBan)
                         select t;
             if (!string.IsNullOrEmpty(request.Keyword))
             {
@@ -77,7 +79,7 @@ namespace WebApi.Services
                 {
                     Id = x.Id,
                     MaQuanLy = x.MaQuanLy,
-                    TenThietBi = x.ToiTruc.MaHieu,
+                    TenThietBi = x.Danhmuctoitruc.TenThietBi,
                     PhongBan = x.PhongBan.TenPhong,
                     ViTriLapDat = x.ViTriLapDat,
                     NgayLap = x.NgayLap,

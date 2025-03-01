@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Api.Data.Entites;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebApi.Data.Entites
@@ -23,7 +24,7 @@ namespace WebApi.Data.Entites
         [MaxLength(500)]
         public string? GhiChu { get; set; }
         [ForeignKey("ThietbiId")]
-        public virtual ToiTruc? ToiTruc { get; set; }
+        public virtual  Danhmuctoitruc? Danhmuctoitruc { get; set; }
         [ForeignKey("DonViSuDungId")]
         public virtual PhongBan? PhongBan { get; set; }
 
