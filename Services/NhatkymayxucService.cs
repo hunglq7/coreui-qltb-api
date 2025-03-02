@@ -2,13 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
-using WebApi.Models.Camera;
 using WebApi.Models.Common;
-using WebApi.Models.Donvitinh;
 using WebApi.Models.Nhatkymayxuc;
-using WebApi.Models.ThongsokythuatMayXuc;
-using WebApi.Models.Tonghopmayxuc;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+
 
 namespace WebApi.Services
 {
@@ -98,8 +94,7 @@ namespace WebApi.Services
                 return new ApiErrorResult<int>("Cập nhật dữ liệu không hợp lệ");
             }
             _thietbiDbContext.UpdateRange(request);
-            var count = await _thietbiDbContext.SaveChangesAsync();
-            var UpdateMuliple = _thietbiDbContext.Cameras.Where(x => ids.Contains(x.Id)).ToList();
+            var count = await _thietbiDbContext.SaveChangesAsync();         
 
             return new ApiSuccessResult<int>(count);
         }

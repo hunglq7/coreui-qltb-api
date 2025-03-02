@@ -13,6 +13,7 @@ namespace WebApi.Services
         Task<int> Create(TonghoptoitrucCreateRequest request);
         Task<int> Update(TonghoptoitrucUpdateRequest request);
         Task<int> Delete(int id);
+        Task<int> SumTonghoptoitruc();
         Task<TongHopToiTruc> GetById(int id);
 
         Task<PagedResult<TonghoptoitrucVm>> GetAllPaging(GetManagerTonghoptoitrucPagingRequest request);
@@ -112,6 +113,14 @@ namespace WebApi.Services
 
             }
             return query;
+        }
+
+        public async Task<int> SumTonghoptoitruc()
+        {
+            var query = from s in _thietbiDbContext.TongHopToiTrucs
+                        select s;
+            var sum = await query.SumAsync(x => x.SoLuong);
+            return sum;
         }
 
         public async Task<int> Update(TonghoptoitrucUpdateRequest request)

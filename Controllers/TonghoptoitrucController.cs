@@ -47,6 +47,13 @@ namespace WebApi.Controllers
             return Ok(query);
 
         }
+        [HttpGet("sumTonghoptoitruc")]
+
+        public async Task<ActionResult> SumTonghopmayxuc()
+        {
+            var query = await _service.SumTonghoptoitruc();
+            return Ok(query);
+        }
 
     }
 }

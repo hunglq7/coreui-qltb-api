@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DU AN WEB\\Api\\",
+  "WorkspaceRootPath": "D:\\DU AN WEB\\Quanlythietbi-Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\api\\services\\mayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\mayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\quanlythietbi-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\api\\services\\toitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\toitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\quanlythietbi-api\\controllers\\capdiencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\capdiencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\quanlythietbi-api\\services\\capdienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\capdienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\quanlythietbi-api\\controllers\\nhatkymayxuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\nhatkymayxuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\quanlythietbi-api\\services\\nhatkymayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\nhatkymayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\quanlythietbi-api\\data\\entites\\nhatkymayxuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:data\\entites\\nhatkymayxuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MayXucService.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\Api\\Services\\MayXucService.cs",
-              "RelativeDocumentMoniker": "Services\\MayXucService.cs",
-              "ToolTip": "D:\\DU AN WEB\\Api\\Services\\MayXucService.cs",
-              "RelativeToolTip": "Services\\MayXucService.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAmwAAAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\DU AN WEB\\Quanlythietbi-Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFAAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T00:45:09.42Z",
+              "WhenOpened": "2025-03-02T16:01:29.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ToitrucService.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\Api\\Services\\ToitrucService.cs",
-              "RelativeDocumentMoniker": "Services\\ToitrucService.cs",
-              "ToolTip": "D:\\DU AN WEB\\Api\\Services\\ToitrucService.cs",
-              "RelativeToolTip": "Services\\ToitrucService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "CapdienController.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Controllers\\CapdienController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CapdienController.cs",
+              "ToolTip": "D:\\DU AN WEB\\Quanlythietbi-Api\\Controllers\\CapdienController.cs",
+              "RelativeToolTip": "Controllers\\CapdienController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T00:44:08.4Z"
+              "WhenOpened": "2025-03-02T15:46:14.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NhatkymayxucController.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Controllers\\NhatkymayxucController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhatkymayxucController.cs",
+              "ToolTip": "D:\\DU AN WEB\\Quanlythietbi-Api\\Controllers\\NhatkymayxucController.cs",
+              "RelativeToolTip": "Controllers\\NhatkymayxucController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:45:29.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NhatkyMayxuc.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Data\\Entites\\NhatkyMayxuc.cs",
+              "RelativeDocumentMoniker": "Data\\Entites\\NhatkyMayxuc.cs",
+              "ToolTip": "D:\\DU AN WEB\\Quanlythietbi-Api\\Data\\Entites\\NhatkyMayxuc.cs",
+              "RelativeToolTip": "Data\\Entites\\NhatkyMayxuc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:44:55.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NhatkymayxucService.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Services\\NhatkymayxucService.cs",
+              "RelativeDocumentMoniker": "Services\\NhatkymayxucService.cs",
+              "ToolTip": "D:\\DU AN WEB\\Quanlythietbi-Api\\Services\\NhatkymayxucService.cs*",
+              "RelativeToolTip": "Services\\NhatkymayxucService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:30:45.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CapdienService.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Services\\CapdienService.cs",
+              "RelativeDocumentMoniker": "Services\\CapdienService.cs",
+              "ToolTip": "D:\\DU AN WEB\\Quanlythietbi-Api\\Services\\CapdienService.cs",
+              "RelativeToolTip": "Services\\CapdienService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:30:16.744Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -52,7 +52,13 @@ namespace WebApi.Controllers
             var mayxuc = await _tonghopmayxucService.getDatailById(Id);
             return Ok(mayxuc);
         }
+        [HttpGet("sumTonghopmayxuc")]
 
+        public async Task<ActionResult> SumTonghopmayxuc()
+        {
+            var query = await  _tonghopmayxucService.SumTonghopmayxuc();
+            return Ok(query);
+        }
 
         [HttpPut("update")]
         public async Task<ActionResult> UpdateTonghopmayxuc([FromBody] MayxucUpdateRequest request)

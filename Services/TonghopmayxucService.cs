@@ -15,6 +15,7 @@ namespace WebApi.Services
         Task<List<TonghopmayxucVM>> GetTonghopmayxuc();
         Task<bool> AddTonghopmayxuc([FromBody] MayxucCreateRequest Request);
         Task<TongHopMayXuc> GetById(int id);
+        Task<int> SumTonghopmayxuc();
         Task<List<TonghopmayDetailByIdVm>> getDatailById(int id);
         Task<bool> UpdateTonghopmayxuc([FromBody] MayxucUpdateRequest Request);
         Task<bool> DeleteTonghopmayxuc(int id);
@@ -100,7 +101,7 @@ namespace WebApi.Services
                     Id = 0,
                     LoaiThietBiId = 0,
                     NgayLap = DateTime.Now,
-                    SoLuong = 0
+                    SoLuong = 1
                 }
                      ;
             }
@@ -190,6 +191,12 @@ namespace WebApi.Services
             return true;
         }
 
-
+        public async Task<int> SumTonghopmayxuc()
+        {
+            var query =  from s in _thietbiDbContext.TongHopMayXucs
+                        select s;
+            var sum = await query.SumAsync(x => x.SoLuong);
+            return sum;
+        }
     }
 }
