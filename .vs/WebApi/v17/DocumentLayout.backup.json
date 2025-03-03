@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\DU AN WEB\\Quanlythietbi-Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\quanlythietbi-api\\services\\tonghoptoitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\tonghoptoitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\quanlythietbi-api\\models\\tonghoptoitruc\\getmanagertonghoptoitrucpagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\tonghoptoitruc\\getmanagertonghoptoitrucpagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\quanlythietbi-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\quanlythietbi-api\\services\\tonghopmayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\tonghopmayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\quanlythietbi-api\\models\\tonghopmayxuc\\getmanagertonghopmayxucpagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\tonghopmayxuc\\getmanagertonghopmayxucpagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\quanlythietbi-api\\controllers\\capdiencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,19 +55,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TonghoptoitrucService.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Services\\TonghoptoitrucService.cs",
+              "RelativeDocumentMoniker": "Services\\TonghoptoitrucService.cs",
+              "ToolTip": "D:\\DU AN WEB\\Quanlythietbi-Api\\Services\\TonghoptoitrucService.cs",
+              "RelativeToolTip": "Services\\TonghoptoitrucService.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAQwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T15:07:19.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetManagerTonghoptoitrucPagingRequest.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Models\\Tonghoptoitruc\\GetManagerTonghoptoitrucPagingRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Tonghoptoitruc\\GetManagerTonghoptoitrucPagingRequest.cs",
+              "ToolTip": "D:\\DU AN WEB\\Quanlythietbi-Api\\Models\\Tonghoptoitruc\\GetManagerTonghoptoitrucPagingRequest.cs",
+              "RelativeToolTip": "Models\\Tonghoptoitruc\\GetManagerTonghoptoitrucPagingRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T15:07:01.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetManagerTonghopMayxucPagingRequest.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Models\\Tonghopmayxuc\\GetManagerTonghopMayxucPagingRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Tonghopmayxuc\\GetManagerTonghopMayxucPagingRequest.cs",
+              "ToolTip": "D:\\DU AN WEB\\Quanlythietbi-Api\\Models\\Tonghopmayxuc\\GetManagerTonghopMayxucPagingRequest.cs",
+              "RelativeToolTip": "Models\\Tonghopmayxuc\\GetManagerTonghopMayxucPagingRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T12:45:10.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TonghopmayxucService.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Services\\TonghopmayxucService.cs",
+              "RelativeDocumentMoniker": "Services\\TonghopmayxucService.cs",
+              "ToolTip": "D:\\DU AN WEB\\Quanlythietbi-Api\\Services\\TonghopmayxucService.cs",
+              "RelativeToolTip": "Services\\TonghopmayxucService.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAADwv5YAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T12:42:10.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\DU AN WEB\\Quanlythietbi-Api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFAAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T16:01:29.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "CapdienController.cs",
               "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Controllers\\CapdienController.cs",
               "RelativeDocumentMoniker": "Controllers\\CapdienController.cs",
@@ -59,12 +127,11 @@
               "RelativeToolTip": "Controllers\\CapdienController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAADQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T15:46:14.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T15:46:14.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "NhatkymayxucController.cs",
               "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Controllers\\NhatkymayxucController.cs",
               "RelativeDocumentMoniker": "Controllers\\NhatkymayxucController.cs",
@@ -72,12 +139,11 @@
               "RelativeToolTip": "Controllers\\NhatkymayxucController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T15:45:29.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T15:45:29.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "NhatkyMayxuc.cs",
               "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Data\\Entites\\NhatkyMayxuc.cs",
               "RelativeDocumentMoniker": "Data\\Entites\\NhatkyMayxuc.cs",
@@ -85,25 +151,23 @@
               "RelativeToolTip": "Data\\Entites\\NhatkyMayxuc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T15:44:55.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T15:44:55.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "NhatkymayxucService.cs",
               "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Services\\NhatkymayxucService.cs",
               "RelativeDocumentMoniker": "Services\\NhatkymayxucService.cs",
-              "ToolTip": "D:\\DU AN WEB\\Quanlythietbi-Api\\Services\\NhatkymayxucService.cs*",
-              "RelativeToolTip": "Services\\NhatkymayxucService.cs*",
+              "ToolTip": "D:\\DU AN WEB\\Quanlythietbi-Api\\Services\\NhatkymayxucService.cs",
+              "RelativeToolTip": "Services\\NhatkymayxucService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T15:30:45.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T15:30:45.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CapdienService.cs",
               "DocumentMoniker": "D:\\DU AN WEB\\Quanlythietbi-Api\\Services\\CapdienService.cs",
               "RelativeDocumentMoniker": "Services\\CapdienService.cs",
@@ -111,8 +175,7 @@
               "RelativeToolTip": "Services\\CapdienService.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAuwAUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T15:30:16.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T15:30:16.744Z"
             }
           ]
         }
