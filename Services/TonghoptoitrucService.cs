@@ -1,11 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿
 using Microsoft.EntityFrameworkCore;
-using WebApi.Common;
+using WebApi.Models.Common;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
-using WebApi.Models.ToiTruc;
 using WebApi.Models.Tonghoptoitruc;
-
 namespace WebApi.Services
 {
     public interface ITonghoptoitrucService
@@ -108,7 +106,9 @@ namespace WebApi.Services
                 {
                     ThietbiId = 0,
                     DonViSuDungId = 0,
-                    NgayLap = new DateTime()
+                    NgayLap = new DateTime(),
+                    SoLuong=1
+                    
                 };
 
             }

@@ -4,9 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.Common;
-using WebApi.Models.Mayxuc;
 using WebApi.Models.Tonghopmayxuc;
-using WebApi.Models.Tonghopthietbi;
+
 
 namespace WebApi.Services
 {

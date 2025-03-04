@@ -3,8 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.TonghopCamera;
-using WebApi.Models.Tonghopthietbi;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+
 
 namespace WebApi.Services
 {

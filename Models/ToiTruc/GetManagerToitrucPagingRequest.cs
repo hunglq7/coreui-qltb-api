@@ -1,4 +1,4 @@
-﻿using WebApi.Common;
+﻿using WebApi.Models.Common;
 
 namespace WebApi.Models.ToiTruc
 {

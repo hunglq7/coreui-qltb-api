@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Server.IIS.Core;
 using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
-using WebApi.Models.Chucvu;
 using WebApi.Models.Tonghopthietbi;
 
 namespace WebApi.Services

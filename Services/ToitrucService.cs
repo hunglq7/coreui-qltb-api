@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WebApi.Common;
+using WebApi.Models.Common;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.ToiTruc;

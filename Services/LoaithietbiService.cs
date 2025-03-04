@@ -2,7 +2,6 @@
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.Common;
-using WebApi.Models.Donvitinh;
 using WebApi.Models.Loaithietbi;
 
 namespace WebApi.Services

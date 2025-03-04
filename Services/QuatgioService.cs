@@ -1,7 +1,6 @@
-﻿using Api.Models.ThongsokythuatQuatgio;
-using Microsoft.AspNetCore.Http.HttpResults;
+﻿
 using Microsoft.EntityFrameworkCore;
-using WebApi.Common;
+using WebApi.Models.Common;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.Quatgio;

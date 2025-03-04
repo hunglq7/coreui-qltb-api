@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
-using WebApi.Models.Chucvu;
 using WebApi.Models.Common;
 using WebApi.Models.Donvitinh;
 

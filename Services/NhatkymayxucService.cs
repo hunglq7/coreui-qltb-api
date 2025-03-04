@@ -1,4 +1,4 @@
-﻿using Azure.Core;
+﻿
 using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;

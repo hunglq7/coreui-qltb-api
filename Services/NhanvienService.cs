@@ -1,13 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 using System.Net.Http.Headers;
 using WebApi.Common;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.Nhanvien;
-using WebApi.Models.Tonghopthietbi;
-using WebApi.Models.Upload;
 
 namespace WebApi.Services
 {

@@ -3,7 +3,6 @@ using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.Capdien;
 using WebApi.Models.Common;
-using WebApi.Models.Nhatkymayxuc;
 
 namespace WebApi.Services
 {

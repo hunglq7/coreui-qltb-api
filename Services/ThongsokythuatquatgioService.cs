@@ -1,10 +1,8 @@
 using Api.Data.Entites;
 using Api.Models.ThongsokythuatQuatgio;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WebApi.Common;
+using WebApi.Models.Common;
 using WebApi.Data.EF;
-using WebApi.Models.Quatgio;
 using WebApi.Models.ThongsokythuatQuatgio;
 
 namespace Api.Services

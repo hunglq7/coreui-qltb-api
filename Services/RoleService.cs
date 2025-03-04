@@ -4,10 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.Common;
-using WebApi.Models.Donvitinh;
-using WebApi.Models.Role;
 using WebApi.Models.User;
-using WebApi.Models.UserRole;
+
 
 namespace WebApi.Services
 {
