@@ -2546,6 +2546,24 @@
             }
           },
           {
+            "name": "thietbiId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "donviId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
             "name": "PageIndex",
             "in": "query",
             "style": "form",
@@ -2807,6 +2825,24 @@
             "style": "form",
             "schema": {
               "type": "string"
+            }
+          },
+          {
+            "name": "thietbiId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "donviId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           },
           {

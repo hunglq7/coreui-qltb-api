@@ -33,7 +33,7 @@ namespace WebApi.Services
             }
             var items = new TongHopToiTruc()
             {
-             Id=request.Id,
+                Id = request.Id,
                 MaQuanLy = request.MaQuanLy,
                 ThietbiId = request.ThietbiId,
                 DonViSuDungId = request.DonViSuDungId,
@@ -66,10 +66,20 @@ namespace WebApi.Services
         {
             var query = from t in _thietbiDbContext.TongHopToiTrucs.Include(x => x.Danhmuctoitruc).Include(x => x.PhongBan)
                         select t;
-            if (!string.IsNullOrEmpty(request.Keyword))
+
+            if (request.thietbiId > 0 && request.donviId > 0)
             {
-                query = query.Where(x => x.MaQuanLy.Contains(request.Keyword));
+                query = query.Where(x => x.ThietbiId == request.thietbiId && x.DonViSuDungId == request.donviId);
             }
+            else if (request.thietbiId > 0 && (request.donviId == 0 || request.donviId == null))
+            {
+                query = query.Where(x => x.ThietbiId == request.thietbiId);
+            }
+            else if ((request.thietbiId == 0 || request.thietbiId == null) && request.donviId > 0)
+            {
+                query = query.Where(x => x.DonViSuDungId == request.donviId);
+            }
+
             int totalRow = await query.CountAsync();
 
             var data = await query.Skip((request.PageIndex - 1) * request.PageSize)
@@ -107,8 +117,8 @@ namespace WebApi.Services
                     ThietbiId = 0,
                     DonViSuDungId = 0,
                     NgayLap = new DateTime(),
-                    SoLuong=1
-                    
+                    SoLuong = 1
+
                 };
 
             }
