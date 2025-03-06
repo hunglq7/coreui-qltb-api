@@ -18,7 +18,7 @@ namespace WebApi.Data.Entites
         [MaxLength(200)]
         public string ThongSo { get; set; } = string.Empty;
         [ForeignKey("QuatgioId")]
-        public virtual Quatgio? Quatgio { get; set; }
+        public virtual DanhmucQuatgio? DanhmucQuatgio{ get; set; }
         
     }
 }

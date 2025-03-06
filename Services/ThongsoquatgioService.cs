@@ -62,12 +62,12 @@ namespace WebApi.Services
 
         public async Task<List<ThongsoQuatgioVm>> GetAll()
         {
-            var query = from t in _thietbiDbContext.ThongsoQuatgios.Include(x => x.Quatgio)
+            var query = from t in _thietbiDbContext.ThongsoQuatgios.Include(x => x.DanhmucQuatgio)
                         select t;
             return await query.Select(x => new ThongsoQuatgioVm()
             {
                 Id = x.Id,
-                TenThietBi=x.Quatgio.TenQuat,
+                TenThietBi=x.DanhmucQuatgio.TenQuat,
                 NoiDung = x.NoiDung,
                 DonViTinh = x.DonViTinh,
                 ThongSo = x.ThongSo,
@@ -76,7 +76,7 @@ namespace WebApi.Services
 
         public async Task<PagedResult<ThongsoQuatgioVm>> GetAllPaging(ThongsoquatgioPagingRequest request)
         {
-            var query = from t in _thietbiDbContext.ThongsoQuatgios.Include(x => x.Quatgio)
+            var query = from t in _thietbiDbContext.ThongsoQuatgios.Include(x => x.DanhmucQuatgio)
                         select t;
             if (request.thietbiId > 0)
             {
@@ -91,7 +91,7 @@ namespace WebApi.Services
                 .Select(x => new ThongsoQuatgioVm()
                 {
                     Id = x.Id,
-                    TenThietBi = x.Quatgio.TenQuat,
+                    TenThietBi = x.DanhmucQuatgio.TenQuat,
                     NoiDung = x.NoiDung,
                     DonViTinh = x.DonViTinh,
                     ThongSo = x.ThongSo,
@@ -129,14 +129,14 @@ namespace WebApi.Services
         public async Task<List<ThongsoQuatgioVm>> getDatailById(int id)
         {
             var Query = from t in _thietbiDbContext.ThongsoQuatgios.Where(x => x.QuatgioId == id)
-                        join m in _thietbiDbContext.MayXucs on t.QuatgioId equals m.Id
+                        join m in _thietbiDbContext.DanhmucQuatgios on t.QuatgioId equals m.Id
 
 
                         select new { t, m };
             return await Query.Select(x => new ThongsoQuatgioVm
             {
                 Id = x.t.Id,
-               TenThietBi = x.m.TenThietBi,
+               TenThietBi = x.m.TenQuat,
                 NoiDung = x.t.NoiDung,
                 DonViTinh = x.t.DonViTinh,
                 ThongSo = x.t.ThongSo,

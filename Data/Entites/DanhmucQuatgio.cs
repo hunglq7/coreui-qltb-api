@@ -12,8 +12,7 @@ namespace WebApi.Data.Entites
         [MaxLength(500)]
         public string? TenQuat { get; set; }
         [MaxLength(500)]
-        public string? LoaiThietBi { get; set; }
-       
-       
+        public string? LoaiThietBi { get; set; }       
+       public virtual IEnumerable<ThongsoQuatgio>? ThongsoQuatgios { get; set; }
     }
 }
