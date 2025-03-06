@@ -3,56 +3,16 @@
   "WorkspaceRootPath": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\services\\thongsokythuatmayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\thongsokythuatmayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\services\\nhatkytonghoptoitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\nhatkytonghoptoitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\data\\ef\\thietbidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:data\\ef\\thietbidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\services\\quatgioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\quatgioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\services\\thongsokythuatquatgioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\thongsokythuatquatgioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\services\\toitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\toitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\services\\tonghoptoitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\tonghoptoitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\migrations\\20250118002418_tonghopmayxuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:migrations\\20250118002418_tonghopmayxuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\services\\tonghopmayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\tonghopmayxucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\models\\tonghoptoitruc\\getmanagertonghoptoitrucpagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\tonghoptoitruc\\getmanagertonghoptoitrucpagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\models\\tonghopmayxuc\\getmanagertonghopmayxucpagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\tonghopmayxuc\\getmanagertonghopmayxucpagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\models\\thongsokythuatquatgio\\getmanagerthongsokythuatquatgiopagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\thongsokythuatquatgio\\getmanagerthongsokythuatquatgiopagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\models\\quatgio\\getmanagequatgiopagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\quatgio\\getmanagequatgiopagingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\services\\donvitinhservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\donvitinhservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\quanlythietbi-api\\data\\entites\\danhmucquatgio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:data\\entites\\danhmucquatgio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,170 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20250118002418_tonghopmayxuc.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Migrations\\20250118002418_tonghopmayxuc.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250118002418_tonghopmayxuc.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Migrations\\20250118002418_tonghopmayxuc.cs",
-              "RelativeToolTip": "Migrations\\20250118002418_tonghopmayxuc.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAADwvx4AAAATAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T00:31:32.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TonghoptoitrucService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\TonghoptoitrucService.cs",
-              "RelativeDocumentMoniker": "Services\\TonghoptoitrucService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\TonghoptoitrucService.cs",
-              "RelativeToolTip": "Services\\TonghoptoitrucService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T00:31:03.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ToitrucService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\ToitrucService.cs",
-              "RelativeDocumentMoniker": "Services\\ToitrucService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\ToitrucService.cs",
-              "RelativeToolTip": "Services\\ToitrucService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T00:30:56.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ThongsokythuatquatgioService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\ThongsokythuatquatgioService.cs",
-              "RelativeDocumentMoniker": "Services\\ThongsokythuatquatgioService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\ThongsokythuatquatgioService.cs",
-              "RelativeToolTip": "Services\\ThongsokythuatquatgioService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T00:30:49.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "QuatgioService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\QuatgioService.cs",
-              "RelativeDocumentMoniker": "Services\\QuatgioService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\QuatgioService.cs",
-              "RelativeToolTip": "Services\\QuatgioService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T00:30:40.689Z",
+              "WhenOpened": "2025-03-06T01:08:46.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NhatkyTonghoptoitrucService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\NhatkyTonghoptoitrucService.cs",
-              "RelativeDocumentMoniker": "Services\\NhatkyTonghoptoitrucService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\NhatkyTonghoptoitrucService.cs",
-              "RelativeToolTip": "Services\\NhatkyTonghoptoitrucService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAEAAAAbAAAA",
+              "Title": "ThietbiDbContext.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Data\\EF\\ThietbiDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\EF\\ThietbiDbContext.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Data\\EF\\ThietbiDbContext.cs",
+              "RelativeToolTip": "Data\\EF\\ThietbiDbContext.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAmwDoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T00:30:31.231Z",
+              "WhenOpened": "2025-03-06T01:05:11.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ThongsokythuatmayxucService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\ThongsokythuatmayxucService.cs",
-              "RelativeDocumentMoniker": "Services\\ThongsokythuatmayxucService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\ThongsokythuatmayxucService.cs",
-              "RelativeToolTip": "Services\\ThongsokythuatmayxucService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAA8wBkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T05:10:15.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TonghopmayxucService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\TonghopmayxucService.cs",
-              "RelativeDocumentMoniker": "Services\\TonghopmayxucService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\TonghopmayxucService.cs",
-              "RelativeToolTip": "Services\\TonghopmayxucService.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAUwGUAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T04:02:07.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetManagerTonghoptoitrucPagingRequest.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Models\\Tonghoptoitruc\\GetManagerTonghoptoitrucPagingRequest.cs",
-              "RelativeDocumentMoniker": "Models\\Tonghoptoitruc\\GetManagerTonghoptoitrucPagingRequest.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Models\\Tonghoptoitruc\\GetManagerTonghoptoitrucPagingRequest.cs",
-              "RelativeToolTip": "Models\\Tonghoptoitruc\\GetManagerTonghoptoitrucPagingRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T00:30:24.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GetManagerTonghopMayxucPagingRequest.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Models\\Tonghopmayxuc\\GetManagerTonghopMayxucPagingRequest.cs",
-              "RelativeDocumentMoniker": "Models\\Tonghopmayxuc\\GetManagerTonghopMayxucPagingRequest.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Models\\Tonghopmayxuc\\GetManagerTonghopMayxucPagingRequest.cs",
-              "RelativeToolTip": "Models\\Tonghopmayxuc\\GetManagerTonghopMayxucPagingRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T00:30:16.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GetManagerThongsokythuatquatgioPagingRequest.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Models\\ThongsokythuatQuatgio\\GetManagerThongsokythuatquatgioPagingRequest.cs",
-              "RelativeDocumentMoniker": "Models\\ThongsokythuatQuatgio\\GetManagerThongsokythuatquatgioPagingRequest.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Models\\ThongsokythuatQuatgio\\GetManagerThongsokythuatquatgioPagingRequest.cs",
-              "RelativeToolTip": "Models\\ThongsokythuatQuatgio\\GetManagerThongsokythuatquatgioPagingRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T00:27:02.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DonvitinhService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\DonvitinhService.cs",
-              "RelativeDocumentMoniker": "Services\\DonvitinhService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Services\\DonvitinhService.cs",
-              "RelativeToolTip": "Services\\DonvitinhService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T00:24:46.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetManageQuatgioPagingRequest.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Models\\Quatgio\\GetManageQuatgioPagingRequest.cs",
-              "RelativeDocumentMoniker": "Models\\Quatgio\\GetManageQuatgioPagingRequest.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Models\\Quatgio\\GetManageQuatgioPagingRequest.cs",
-              "RelativeToolTip": "Models\\Quatgio\\GetManageQuatgioPagingRequest.cs",
+              "DocumentIndex": 2,
+              "Title": "DanhmucQuatgio.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Data\\Entites\\DanhmucQuatgio.cs",
+              "RelativeDocumentMoniker": "Data\\Entites\\DanhmucQuatgio.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\Data\\Entites\\DanhmucQuatgio.cs",
+              "RelativeToolTip": "Data\\Entites\\DanhmucQuatgio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T00:24:07.378Z"
+              "WhenOpened": "2025-03-06T01:04:00.818Z",
+              "EditorCaption": ""
             }
           ]
         }

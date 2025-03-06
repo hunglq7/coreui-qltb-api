@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\WebApi.csproj": {}
+    "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\WebApi.csproj": {}
   },
   "projects": {
-    "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\WebApi.csproj": {
+    "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\WebApi.csproj",
+        "projectUniqueName": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\WebApi.csproj",
+        "projectPath": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\DU AN WEB\\Angular-QLTB\\Quanlythietbi-Api\\obj\\",
+        "outputPath": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
