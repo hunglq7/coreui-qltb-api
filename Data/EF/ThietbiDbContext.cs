@@ -8,9 +8,9 @@ using WebApi.Data.Extentions;
 
 namespace WebApi.Data.EF
 {
-    public class ThietbiDbContext: IdentityDbContext<AppUser, AppRole, Guid>
+    public class ThietbiDbContext : IdentityDbContext<AppUser, AppRole, Guid>
     {
-        public ThietbiDbContext(DbContextOptions options):base(options) { }
+        public ThietbiDbContext(DbContextOptions options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -35,24 +35,23 @@ namespace WebApi.Data.EF
         public DbSet<TheoDoiSuaChua> TheoDoiSuaChuas { get; set; }
         public DbSet<VatTu> VatTus { get; set; }
         public DbSet<NhanVien> NhanViens { get; set; }
-        public DbSet<NhanvienImage> NhanvienImages { get;}
+        public DbSet<NhanvienImage> NhanvienImages { get; }
         public DbSet<MayXuc> MayXucs { get; set; }
-        public DbSet<TongHopMayXuc> TongHopMayXucs { get;set; }
+        public DbSet<TongHopMayXuc> TongHopMayXucs { get; set; }
         public DbSet<Camera> Cameras { get; set; }
         public DbSet<TonghopCamera> TonghopCameras { get; set; }
-        public DbSet<NhatkyMayxuc> NhatkyMayxucs { get;set; }
-        public DbSet<ThongsokythuatMayxuc> ThongsokythuatMayxucs { get; set; }
-        public DbSet<Quatgio> Quatgios { get; set; }
-        public DbSet<ThongsokythuatQuatgio> ThongsokythuatQuatgios{get;set;}
+        public DbSet<NhatkyMayxuc> NhatkyMayxucs { get; set; }
+        public DbSet<ThongsokythuatMayxuc> ThongsokythuatMayxucs { get; set; }   
         public DbSet<ToiTruc> ToiTrucs { get; set; }
         public DbSet<TongHopToiTruc> TongHopToiTrucs { get; set; }
         public DbSet<NhatkyTonghoptoitruc> NhatkyTonghoptoitrucs { get; set; }
-        public DbSet<Danhmuctoitruc> Danhmuctoitrucs{get;set;}
-        public DbSet<ThongsokythuatToitruc> ThongsokythuatToitrucs{get;set;}
+        public DbSet<Danhmuctoitruc> Danhmuctoitrucs { get; set; }
+        public DbSet<ThongsokythuatToitruc> ThongsokythuatToitrucs { get; set; }
         public DbSet<Capdien> Capdiens { get; set; }
         public DbSet<Tonghopcapdien> Tonghopcapdiens { get; set; }
         public DbSet<ThongsoQuatgio> ThongsoQuatgios { get; set; }
         public DbSet<DanhmucQuatgio> DanhmucQuatgios { get; set; }
+        public DbSet<TonghopQuatgio> TonghopQuatgio { get;set; }
 
     }
 }

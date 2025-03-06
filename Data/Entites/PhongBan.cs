@@ -21,5 +21,6 @@ namespace WebApi.Data.Entites
         public virtual IEnumerable<NhatkyCamera>? NhatkyCameras { get;set; }
         public virtual IEnumerable<TongHopToiTruc>?TongHopToiTrucs { get; set; }
         public virtual IEnumerable<Tonghopcapdien>? Tonghopcapdiens { get; set; }
+        public virtual IEnumerable<TonghopQuatgio>? TonghopQuatgio { get;set; }
     }
 }
