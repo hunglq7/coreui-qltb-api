@@ -2,13 +2,16 @@
 using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
+using WebApi.Models.Common;
 using WebApi.Models.ThongsokythuatMayXuc;
+using WebApi.Models.ThongsoQuatgio;
 
 namespace WebApi.Services
 {
     public interface IThongsokythuatmayxucService
     {
         Task<List<ThongsokythuatmayxucVm>> GetAll();
+        Task<PagedResult<ThongsokythuatmayxucVm>> GetAllPaging( ThongsomayxucPagingRequest request);
         Task<ThongsokythuatMayxuc> GetById(int id);
         Task<List<ThongsokythuatMayxucDetailByIdVm>> getDatailById(int id);
         Task<bool> Add([FromBody] ThongsokythuatEdit Request);
@@ -67,6 +70,39 @@ namespace WebApi.Services
                 DonViTinh = x.DonViTinh,
                 ThongSo=x.ThongSo,
             }).ToListAsync();
+        }
+
+        public async Task<PagedResult<ThongsokythuatmayxucVm>> GetAllPaging(ThongsomayxucPagingRequest request)
+        {
+            var query = from t in _thietbiDbContext.ThongsokythuatMayxucs.Include(x => x.MayXuc)
+                        select t;
+            if (request.thietbiId > 0)
+            {
+                query = query.Where(x => x.MayXucId == request.thietbiId);
+            }
+
+
+            int totalRow = await query.CountAsync();
+
+            var data = await query.Skip((request.PageIndex - 1) * request.PageSize)
+                .Take(request.PageSize)
+                .Select(x => new ThongsokythuatmayxucVm()
+                {
+                    Id = x.Id,
+                    TenMayXuc = x.MayXuc.TenThietBi,
+                    NoiDung = x.NoiDung,
+                    DonViTinh = x.DonViTinh,
+                    ThongSo = x.ThongSo,
+
+                }).ToListAsync();
+            var pagedResult = new PagedResult<ThongsokythuatmayxucVm>()
+            {
+                TotalRecords = totalRow,
+                Items = data,
+                PageIndex = request.PageIndex,
+                PageSize = request.PageSize
+            };
+            return pagedResult;
         }
 
         public async Task<ThongsokythuatMayxuc> GetById(int id)
