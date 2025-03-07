@@ -24,5 +24,6 @@ namespace WebApi.Data.Entites
         public virtual DanhmucQuatgio? DanhmucQuatgio { get;set; }
         [ForeignKey("DonViId")]
         public virtual PhongBan? PhongBan { get; set; }
+        public virtual IEnumerable<NhatKyQuatGio>? NhatKyQuatGios { get; set; }
     }
 }
