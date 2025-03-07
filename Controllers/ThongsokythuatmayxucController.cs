@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Models.ThongsokythuatMayXuc;
+using WebApi.Models.ThongsoQuatgio;
 using WebApi.Models.Tonghopmayxuc;
 using WebApi.Services;
 
@@ -27,6 +28,14 @@ namespace WebApi.Controllers
                 return NotFound();
             }
             return Ok(items);
+        }
+
+        [HttpGet("paging")]
+        public async Task<IActionResult> Get([FromQuery] ThongsomayxucPagingRequest request)
+        {
+            var query = await _thongsokythuatmayxucService.GetAllPaging(request);
+            return Ok(query);
+
         }
 
         [HttpPost]

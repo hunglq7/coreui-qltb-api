@@ -168,6 +168,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApi.Controllers.DanhmucquatgioController",
+    "Method": "GetAll",
+    "RelativePath": "api/Danhmucquatgio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.DanhmucquatgioController",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/Danhmucquatgio/DeleteMultipale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reponse",
+        "Type": "System.Collections.Generic.List\u00601[[WebApi.Data.Entites.DanhmucQuatgio, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.DanhmucquatgioController",
+    "Method": "UpdateMuliple",
+    "RelativePath": "api/Danhmucquatgio/UpdateMultiple",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reponse",
+        "Type": "System.Collections.Generic.List\u00601[[WebApi.Data.Entites.DanhmucQuatgio, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Api.Controllers.DanhmuctoitrucController",
     "Method": "GetAll",
     "RelativePath": "api/Danhmuctoitruc",
@@ -678,122 +720,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApi.Controllers.QuatgioController",
-    "Method": "Create",
-    "RelativePath": "api/Quatgio",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "WebApi.Models.Quatgio.QuatgioCreateRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApi.Controllers.QuatgioController",
-    "Method": "Update",
-    "RelativePath": "api/Quatgio",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "WebApi.Models.Quatgio.QuatgioUpdateRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApi.Controllers.QuatgioController",
-    "Method": "Delete",
-    "RelativePath": "api/Quatgio/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApi.Controllers.QuatgioController",
-    "Method": "GetById",
-    "RelativePath": "api/Quatgio/{Id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApi.Controllers.QuatgioController",
-    "Method": "ExportXls",
-    "RelativePath": "api/Quatgio/ExportXls",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "keyword",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApi.Controllers.QuatgioController",
-    "Method": "getAll",
-    "RelativePath": "api/Quatgio/getAll",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApi.Controllers.QuatgioController",
-    "Method": "GetAllPaging",
-    "RelativePath": "api/Quatgio/paging",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Keyword",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "PageIndex",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "PageSize",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "WebApi.Controllers.RolesController",
     "Method": "GetAll",
     "RelativePath": "api/Roles",
@@ -927,95 +853,15 @@
   },
   {
     "ContainingType": "WebApi.Controllers.ThongsokythuatmayxucController",
-    "Method": "Update",
-    "RelativePath": "api/Thongsokythuatmayxuc/update",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "WebApi.Models.ThongsokythuatMayXuc.ThongsokythuatEdit",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Api.Controllers.ThongsokythuatquatgioController",
-    "Method": "Create",
-    "RelativePath": "api/Thongsokythuatquatgio",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "response",
-        "Type": "Api.Models.ThongsokythuatQuatgio.ThongsokythuatquatgioCreateRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Api.Controllers.ThongsokythuatquatgioController",
-    "Method": "Update",
-    "RelativePath": "api/Thongsokythuatquatgio",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "WebApi.Models.ThongsokythuatQuatgio.ThongsokythuatquatgioUpdateRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Api.Controllers.ThongsokythuatquatgioController",
-    "Method": "Delete",
-    "RelativePath": "api/Thongsokythuatquatgio/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Api.Controllers.ThongsokythuatquatgioController",
-    "Method": "GetById",
-    "RelativePath": "api/Thongsokythuatquatgio/{Id}",
+    "Method": "Get",
+    "RelativePath": "api/Thongsokythuatmayxuc/paging",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Api.Controllers.ThongsokythuatquatgioController",
-    "Method": "GetAllPaging",
-    "RelativePath": "api/Thongsokythuatquatgio/paging",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Keyword",
-        "Type": "System.String",
+        "Name": "thietbiId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
@@ -1027,6 +873,37 @@
         "Name": "PageSize",
         "Type": "System.Int32",
         "IsRequired": false
+      },
+      {
+        "Name": "TotalRecords",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SumRecords",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ThongsokythuatmayxucController",
+    "Method": "Update",
+    "RelativePath": "api/Thongsokythuatmayxuc/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Models.ThongsokythuatMayXuc.ThongsokythuatEdit",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -1107,6 +984,47 @@
   },
   {
     "ContainingType": "Api.Controllers.ThongsokythuattoitrucController",
+    "Method": "Get",
+    "RelativePath": "api/Thongsokythuattoitruc/paging",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "thietbiId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TotalRecords",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SumRecords",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Controllers.ThongsokythuattoitrucController",
     "Method": "Update",
     "RelativePath": "api/Thongsokythuattoitruc/update",
     "HttpMethod": "PUT",
@@ -1116,6 +1034,122 @@
       {
         "Name": "request",
         "Type": "Api.Models.Thongsokythuattoitruc.ThongsokythuattoitrucEdit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ThongsoquatgioController",
+    "Method": "GetAll",
+    "RelativePath": "api/Thongsoquatgio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ThongsoquatgioController",
+    "Method": "Add",
+    "RelativePath": "api/Thongsoquatgio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Data.Entites.ThongsoQuatgio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ThongsoquatgioController",
+    "Method": "GetById",
+    "RelativePath": "api/Thongsoquatgio/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ThongsoquatgioController",
+    "Method": "Delete",
+    "RelativePath": "api/Thongsoquatgio/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ThongsoquatgioController",
+    "Method": "GetDetailById",
+    "RelativePath": "api/Thongsoquatgio/DetailById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ThongsoquatgioController",
+    "Method": "Get",
+    "RelativePath": "api/Thongsoquatgio/paging",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "thietbiId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ThongsoquatgioController",
+    "Method": "Update",
+    "RelativePath": "api/Thongsoquatgio/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Data.Entites.ThongsoQuatgio",
         "IsRequired": true
       }
     ],
@@ -1426,6 +1460,142 @@
       {
         "Name": "request",
         "Type": "WebApi.Models.Tonghopmayxuc.MayxucUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopquatgioController",
+    "Method": "Add",
+    "RelativePath": "api/Tonghopquatgio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Data.Entites.TonghopQuatgio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopquatgioController",
+    "Method": "GetById",
+    "RelativePath": "api/Tonghopquatgio/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopquatgioController",
+    "Method": "Delete",
+    "RelativePath": "api/Tonghopquatgio/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopquatgioController",
+    "Method": "GetDetailById",
+    "RelativePath": "api/Tonghopquatgio/DetailById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopquatgioController",
+    "Method": "Get",
+    "RelativePath": "api/Tonghopquatgio/paging",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "thietbiId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "donviId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TotalRecords",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SumRecords",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopquatgioController",
+    "Method": "Sum",
+    "RelativePath": "api/Tonghopquatgio/sumTonghopquatgio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopquatgioController",
+    "Method": "Update",
+    "RelativePath": "api/Tonghopquatgio/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Data.Entites.TonghopQuatgio",
         "IsRequired": true
       }
     ],

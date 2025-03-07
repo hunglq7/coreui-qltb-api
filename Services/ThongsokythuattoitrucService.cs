@@ -3,12 +3,16 @@ using Api.Data.Entites;
 using Api.Models.Thongsokythuattoitruc;
 using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
+using WebApi.Models.Common;
+using WebApi.Models.Thongsokythuattoitruc;
+using WebApi.Models.ThongsoQuatgio;
 
 namespace Api.Services
 {
     public interface IThongsokythuattoitrucService
     {
         Task<List<ThongsokythuattoitrucVm>> GetAll();
+        Task<PagedResult<ThongsokythuattoitrucVm>> GetAllPaging(ThongsotoitrucPagingRequest request);
         Task<ThongsokythuatToitruc> GetById(int id);
         Task<List<ThongsokythuattoitrucVm>> getDetailById(int id);
         Task<bool> Add(ThongsokythuattoitrucEdit Request);
@@ -69,6 +73,39 @@ namespace Api.Services
                 DonViTinh = x.DonViTinh,
                 ThongSo = x.ThongSo,
             }).ToListAsync();
+        }
+
+        public async Task<PagedResult<ThongsokythuattoitrucVm>> GetAllPaging(ThongsotoitrucPagingRequest request)
+        {
+            var query = from t in _thietbiDbContext.ThongsokythuatToitrucs.Include(x => x.Danhmuctoitruc)
+                        select t;
+            if (request.thietbiId > 0)
+            {
+                query = query.Where(x => x.DanhmuctoitrucId == request.thietbiId);
+            }
+
+
+            int totalRow = await query.CountAsync();
+
+            var data = await query.Skip((request.PageIndex - 1) * request.PageSize)
+                .Take(request.PageSize)
+                .Select(x => new ThongsokythuattoitrucVm()
+                {
+                    Id = x.Id,
+                    TenToiTruc = x.Danhmuctoitruc.TenThietBi,
+                    NoiDung = x.NoiDung,
+                    DonViTinh = x.DonViTinh,
+                    ThongSo = x.ThongSo,
+
+                }).ToListAsync();
+            var pagedResult = new PagedResult<ThongsokythuattoitrucVm>()
+            {
+                TotalRecords = totalRow,
+                Items = data,
+                PageIndex = request.PageIndex,
+                PageSize = request.PageSize
+            };
+            return pagedResult;
         }
 
         public async Task<ThongsokythuatToitruc> GetById(int id)

@@ -11,11 +11,11 @@ namespace WebApi.Services
 {
     public interface ITonghopquatgioService
     {
-        Task<List<TonghopquatgioVm>> GetTonghopquatgio();
+  
         Task<bool> AddTonghopquatgio([FromBody] TonghopQuatgio Request);
         Task<TonghopQuatgio> GetById(int id);
         Task<int> SumTonghopquatgio();
-        Task<List<TonghopQuatgio>> getDatailById(int id);
+        Task<List<TonghopquatgioVm>> getDatailById(int id);
         Task<bool> UpdateTonghopquatgio([FromBody] TonghopQuatgio Request);
         Task<bool> DeleteTonghopquatgio(int id);
         Task<PagedResult<TonghopquatgioVm>> GetAllPaging(TonghopquatgioPagingRequest request);
@@ -39,7 +39,7 @@ namespace WebApi.Services
                 Id = Request.Id,
                 MaQuanLy = Request.MaQuanLy,
                 QuatGioId = Request.QuatGioId,
-                DonViId = Request.DonViId,            
+                DonViId = Request.DonViId,
                 ViTriLapDat = Request.ViTriLapDat,
                 NgayLap = Request.NgayLap,
                 SoLuong = Request.SoLuong,
@@ -90,12 +90,12 @@ namespace WebApi.Services
                 {
                     Id = x.Id,
                     MaQuanLy = x.MaQuanLy,
-                    TenThietBi= x.DanhmucQuatgio.TenQuat,
-                    TenDonVi = x.PhongBan.TenPhong,                   
+                    TenThietBi = x.DanhmucQuatgio.TenQuat,
+                    TenDonVi = x.PhongBan.TenPhong,
                     ViTriLapDat = x.ViTriLapDat,
                     NgayLap = x.NgayLap,
                     SoLuong = x.SoLuong,
-                    TinhTrangThietBi=x.TinhTrangThietBi,
+                    TinhTrangThietBi = x.TinhTrangThietBi,
                     GhiChu = x.GhiChu
 
                 }).ToListAsync();
@@ -127,13 +127,29 @@ namespace WebApi.Services
             return query;
         }
 
-        
-
-        public Task<List<TonghopquatgioVm>> GetTonghopquatgio()
+        public async Task<List<TonghopquatgioVm>> getDatailById(int id)
         {
-            throw new NotImplementedException();
+            var Query = from t in _thietbiDbContext.TonghopQuatgio.Where(x => x.Id == id)
+                        join p in _thietbiDbContext.PhongBans on t.DonViId equals p.Id
+                        join m in _thietbiDbContext.DanhmucQuatgios on t.QuatGioId equals m.Id
+                      
+
+                        select new { t, p, m};
+            return await Query.Select(x => new TonghopquatgioVm
+            {
+                Id = x.t.Id,
+                MaQuanLy = x.t.MaQuanLy,
+                TenThietBi = x.m.TenQuat,
+                TenDonVi = x.p.TenPhong,              
+                ViTriLapDat = x.t.ViTriLapDat,
+                TinhTrangThietBi = x.t.TinhTrangThietBi,
+                NgayLap = x.t.NgayLap,
+                SoLuong = x.t.SoLuong,
+                GhiChu = x.t.GhiChu
+            }).ToListAsync();
         }
 
+     
         public async Task<int> SumTonghopquatgio()
         {
             var query = from s in _thietbiDbContext.TonghopQuatgio
@@ -152,9 +168,9 @@ namespace WebApi.Services
             entity.Id = Request.Id;
             entity.MaQuanLy = Request.MaQuanLy;
             entity.QuatGioId = Request.QuatGioId;
-            entity.DonViId = Request.DonViId;         
-           entity.ViTriLapDat = Request.ViTriLapDat;
-           entity.NgayLap = Request.NgayLap;
+            entity.DonViId = Request.DonViId;
+            entity.ViTriLapDat = Request.ViTriLapDat;
+            entity.NgayLap = Request.NgayLap;
             entity.SoLuong = Request.SoLuong;
             entity.TinhTrangThietBi = Request.TinhTrangThietBi;
             entity.GhiChu = Request.GhiChu;
