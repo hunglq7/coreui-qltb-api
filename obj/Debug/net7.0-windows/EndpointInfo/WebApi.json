@@ -1190,6 +1190,122 @@
         }
       }
     },
+    "/api/Nhatkyquatgio": {
+      "get": {
+        "tags": [
+          "Nhatkyquatgio"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhatkyquatgio/DatailById/{Id}": {
+      "get": {
+        "tags": [
+          "Nhatkyquatgio"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhatkyquatgio/UpdateMultiple": {
+      "put": {
+        "tags": [
+          "Nhatkyquatgio"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyQuatGio"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyQuatGio"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyQuatGio"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhatkyquatgio/DeleteMultipale": {
+      "post": {
+        "tags": [
+          "Nhatkyquatgio"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyQuatGio"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyQuatGio"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyQuatGio"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/NhatkyTonghoptoitruc": {
       "get": {
         "tags": [
@@ -4591,6 +4707,47 @@
         },
         "additionalProperties": false
       },
+      "NhatKyQuatGio": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tonghopquatgioId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ngaythang": {
+            "type": "string",
+            "nullable": true
+          },
+          "donVi": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "viTri": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "trangThai": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "tonghopQuatgio": {
+            "$ref": "#/components/schemas/TonghopQuatgio"
+          }
+        },
+        "additionalProperties": false
+      },
       "NhatkyCamera": {
         "type": "object",
         "properties": {
@@ -5819,6 +5976,13 @@
           },
           "phongBan": {
             "$ref": "#/components/schemas/PhongBan"
+          },
+          "nhatKyQuatGios": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NhatKyQuatGio"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false

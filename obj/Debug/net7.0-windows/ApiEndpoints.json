@@ -588,6 +588,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApi.Controllers.NhatkyquatgioController",
+    "Method": "GetAll",
+    "RelativePath": "api/Nhatkyquatgio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.NhatkyquatgioController",
+    "Method": "GetDetailById",
+    "RelativePath": "api/Nhatkyquatgio/DatailById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.NhatkyquatgioController",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/Nhatkyquatgio/DeleteMultipale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[WebApi.Data.Entites.NhatKyQuatGio, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.NhatkyquatgioController",
+    "Method": "UpdateMuliple",
+    "RelativePath": "api/Nhatkyquatgio/UpdateMultiple",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[WebApi.Data.Entites.NhatKyQuatGio, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApi.Controllers.NhatkyTonghoptoitrucController",
     "Method": "GetAll",
     "RelativePath": "api/NhatkyTonghoptoitruc",

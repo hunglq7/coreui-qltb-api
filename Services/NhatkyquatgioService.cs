@@ -62,7 +62,7 @@ namespace WebApi.Services
 
         public async Task<List<NhatKyQuatGio>> getDatailById(int id)
         {
-            var Query = from t in _thietbiDbContext.NhatkyMayxucs.Where(x => x.TonghopmayxucId == id)
+            var Query = from t in _thietbiDbContext.NhatKyQuatGios.Where(x => x.TonghopquatgioId == id)
                         select t;
             return await Query.Select(x => new NhatKyQuatGio()
             {
