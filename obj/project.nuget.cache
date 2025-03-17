@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lPxQ9DOGGoI=",
+  "dgSpecHash": "eXn/cu7VSlo=",
   "success": true,
   "projectFilePath": "D:\\DU AN WEB\\coreui-qltb-api\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Admin\\.nuget\\packages\\epplus\\7.5.2\\epplus.7.5.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\epplus.interfaces\\7.5.0\\epplus.interfaces.7.5.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\epplus.system.drawing\\7.5.0\\epplus.system.drawing.7.5.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\exceldatareader\\3.7.0\\exceldatareader.3.7.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.18\\microsoft.aspnetcore.authentication.jwtbearer.7.0.18.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.18\\microsoft.aspnetcore.cryptography.internal.7.0.18.nupkg.sha512",

@@ -83,7 +83,7 @@ namespace WebApi.Services
 
 
             int totalRow = await query.CountAsync();
-
+            int sumSoluong = await query.SumAsync(x => x.SoLuong);
             var data = await query.Skip((request.PageIndex - 1) * request.PageSize)
                 .Take(request.PageSize)
                 .Select(x => new TonghopquatgioVm()
@@ -102,6 +102,7 @@ namespace WebApi.Services
             var pagedResult = new PagedResult<TonghopquatgioVm>()
             {
                 TotalRecords = totalRow,
+                SumRecords=sumSoluong,
                 Items = data,
                 PageIndex = request.PageIndex,
                 PageSize = request.PageSize

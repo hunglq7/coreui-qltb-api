@@ -5,6 +5,7 @@ namespace WebApi.Models.ThongsoBomnuoc
     public class ThongsoBomnuocVm
     {
         public int Id { get; set; }
+      
         public string? TenThietBi { get; set; }
 
         public string NoiDung { get; set; } = string.Empty;

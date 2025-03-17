@@ -84,12 +84,12 @@ namespace WebApi.Services
 
 
             int totalRow = await query.CountAsync();
-
+           
             var data = await query.Skip((request.PageIndex - 1) * request.PageSize)
                 .Take(request.PageSize)
                 .Select(x => new ThongsoBomnuocVm()
                 {
-                    Id = x.Id,
+                    Id = x.Id,                    
                     TenThietBi = x.DanhmucBomnuoc.TenThietBi,
                     NoiDung = x.NoiDung,
                     DonViTinh = x.DonViTinh,

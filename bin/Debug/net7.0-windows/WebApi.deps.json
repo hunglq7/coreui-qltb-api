@@ -9,6 +9,7 @@
       "WebApi/1.0.0": {
         "dependencies": {
           "EPPlus": "7.5.2",
+          "ExcelDataReader": "3.7.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.18",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.18",
           "Microsoft.AspNetCore.OpenApi": "7.0.13",
@@ -90,6 +91,14 @@
           "lib/net7.0/EPPlus.System.Drawing.dll": {
             "assemblyVersion": "7.5.0.0",
             "fileVersion": "7.5.0.0"
+          }
+        }
+      },
+      "ExcelDataReader/3.7.0": {
+        "runtime": {
+          "lib/netstandard2.1/ExcelDataReader.dll": {
+            "assemblyVersion": "3.7.0.0",
+            "fileVersion": "3.7.0.0"
           }
         }
       },
@@ -949,6 +958,13 @@
       "sha512": "sha512-cgwstM12foFisisURUyxwJOWHMD/rZxPSyBXFsCOFayaKq0oKlOs1mCTueKNNIlpPDG1no9vcaQiJgZXFM4KPA==",
       "path": "epplus.system.drawing/7.5.0",
       "hashPath": "epplus.system.drawing.7.5.0.nupkg.sha512"
+    },
+    "ExcelDataReader/3.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AMv3oDETRHSRyXC17rBtKH45qIfFyo433LMeaMB3u4RNr/c9Luuc0Z+JMP6+3Cx9n4wXqFqcrEIVxrf/GgYnZg==",
+      "path": "exceldatareader/3.7.0",
+      "hashPath": "exceldatareader.3.7.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
