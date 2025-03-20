@@ -83,6 +83,8 @@ builder.Services.AddTransient<IDanhmucbomnuocService, DanhmucbomnuocService>();
 builder.Services.AddTransient<INhatkybomnuocService, NhatkybomnuocService>();
 builder.Services.AddTransient<IThongsobomnuocService,ThongsobomnuocService>();
 builder.Services.AddTransient<ITonghopbomnuocService, TonghopbomnuocService>();
+builder.Services.AddTransient<ICapdienService, CapdienService>();
+builder.Services.AddTransient<ITonghopcapdienService, TonghopcapdienService>();
 
 builder.Services.Configure<FormOptions>(o =>
 {

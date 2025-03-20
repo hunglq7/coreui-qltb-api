@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\DU AN WEB\\coreui-qltb-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\services\\thongsobomnuocservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\thongsobomnuocservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\services\\danhmucbomnuocservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\danhmucbomnuocservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\models\\thongsobomnuoc\\thongsobomnuocvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\thongsobomnuoc\\thongsobomnuocvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\data\\entites\\danhmucbomnuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:data\\entites\\danhmucbomnuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\controllers\\danhmucbomnuoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\danhmucbomnuoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DanhmucBomnuoc.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Data\\Entites\\DanhmucBomnuoc.cs",
-              "RelativeDocumentMoniker": "Data\\Entites\\DanhmucBomnuoc.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Data\\Entites\\DanhmucBomnuoc.cs",
-              "RelativeToolTip": "Data\\Entites\\DanhmucBomnuoc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T15:19:34.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ThongsoBomnuocVm.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Models\\ThongsoBomnuoc\\ThongsoBomnuocVm.cs",
-              "RelativeDocumentMoniker": "Models\\ThongsoBomnuoc\\ThongsoBomnuocVm.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Models\\ThongsoBomnuoc\\ThongsoBomnuocVm.cs",
-              "RelativeToolTip": "Models\\ThongsoBomnuoc\\ThongsoBomnuocVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T15:16:37.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ThongsobomnuocService.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Services\\ThongsobomnuocService.cs",
-              "RelativeDocumentMoniker": "Services\\ThongsobomnuocService.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Services\\ThongsobomnuocService.cs",
-              "RelativeToolTip": "Services\\ThongsobomnuocService.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAADwv14AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T15:15:19.117Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-20T16:25:30.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DanhmucbomnuocService.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Services\\DanhmucbomnuocService.cs",
-              "RelativeDocumentMoniker": "Services\\DanhmucbomnuocService.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Services\\DanhmucbomnuocService.cs",
-              "RelativeToolTip": "Services\\DanhmucbomnuocService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA0wDAAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T11:01:10.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DanhmucbomnuocController.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\DanhmucbomnuocController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DanhmucbomnuocController.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\DanhmucbomnuocController.cs",
-              "RelativeToolTip": "Controllers\\DanhmucbomnuocController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T08:39:57.808Z",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-20T16:25:11.295Z",
               "EditorCaption": ""
             }
           ]
