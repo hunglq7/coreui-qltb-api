@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\DU AN WEB\\coreui-qltb-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\services\\tonghopcapdienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\tonghopcapdienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\controllers\\tonghopcapdiencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\tonghopcapdiencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\data\\entites\\tonghopcapdien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:data\\entites\\tonghopcapdien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\models\\tonghopcapdien\\tonghopcapdienvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\tonghopcapdien\\tonghopcapdienvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\controllers\\tonghopbomnuoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\tonghopbomnuoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-20T16:25:30.815Z",
+              "DocumentIndex": 2,
+              "Title": "Tonghopcapdien.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Data\\Entites\\Tonghopcapdien.cs",
+              "RelativeDocumentMoniker": "Data\\Entites\\Tonghopcapdien.cs",
+              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Data\\Entites\\Tonghopcapdien.cs",
+              "RelativeToolTip": "Data\\Entites\\Tonghopcapdien.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA2wBsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T14:58:48.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TonghopcapdienVm.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Models\\Tonghopcapdien\\TonghopcapdienVm.cs",
+              "RelativeDocumentMoniker": "Models\\Tonghopcapdien\\TonghopcapdienVm.cs",
+              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Models\\Tonghopcapdien\\TonghopcapdienVm.cs",
+              "RelativeToolTip": "Models\\Tonghopcapdien\\TonghopcapdienVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T14:16:54.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TonghopcapdienService.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Services\\TonghopcapdienService.cs",
+              "RelativeDocumentMoniker": "Services\\TonghopcapdienService.cs",
+              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Services\\TonghopcapdienService.cs",
+              "RelativeToolTip": "Services\\TonghopcapdienService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAmwF8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T14:08:41.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TonghopbomnuocController.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\TonghopbomnuocController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TonghopbomnuocController.cs",
+              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\TonghopbomnuocController.cs",
+              "RelativeToolTip": "Controllers\\TonghopbomnuocController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T14:05:12.369Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-20T16:25:11.295Z",
+              "Title": "TonghopcapdienController.cs",
+              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\TonghopcapdienController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TonghopcapdienController.cs",
+              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\TonghopcapdienController.cs",
+              "RelativeToolTip": "Controllers\\TonghopcapdienController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwC4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T14:05:04.631Z",
               "EditorCaption": ""
             }
           ]

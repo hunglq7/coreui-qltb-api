@@ -1316,5 +1316,5 @@ D:\DU AN WEB\coreui-qltb-api\obj\Debug\net7.0-windows\staticwebassets.pack.json
 D:\DU AN WEB\coreui-qltb-api\obj\Debug\net7.0-windows\WebApi.csproj.Up2Date
 D:\DU AN WEB\coreui-qltb-api\obj\Debug\net7.0-windows\WebApi.genruntimeconfig.cache
 D:\DU AN WEB\coreui-qltb-api\obj\Debug\net7.0-windows\ref\WebApi.dll
-D:\DU AN WEB\coreui-qltb-api\obj\Debug\net7.0-windows\staticwebassets.upToDateCheck.txt
 D:\DU AN WEB\coreui-qltb-api\bin\Debug\net7.0-windows\ExcelDataReader.dll
+D:\DU AN WEB\coreui-qltb-api\obj\Debug\net7.0-windows\staticwebassets.upToDateCheck.txt

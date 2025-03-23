@@ -11,12 +11,12 @@ namespace WebApi.Services
 {
     public interface ITonghopcapdienService
     {
-        Task<bool> AddTonghopcapdien([FromBody] Tonghopcapdien Request);
+        Task<bool> Add([FromBody] Tonghopcapdien Request);
         Task<Tonghopcapdien> GetById(int id);
-        Task<int> SumTonghopcapdien();
+        Task<int> Sum();
         Task<List<TonghopcapdienVm>> getDatailById(int id);
-        Task<bool> UpdateTonghopcapdien([FromBody] Tonghopcapdien Request);
-        Task<bool> DeleteTonghopcapdien(int id);
+        Task<bool> Update([FromBody] Tonghopcapdien Request);
+        Task<bool> Delete(int id);
         Task<PagedResult<TonghopcapdienVm>> GetAllPaging(TonghopcapdienPagingRequest request);
     }
     public class TonghopcapdienService : ITonghopcapdienService
@@ -26,7 +26,7 @@ namespace WebApi.Services
         {
             _thietbiDb = thietbiDb;
         }
-        public async Task<bool> AddTonghopcapdien([FromBody] Tonghopcapdien Request)
+        public async Task<bool> Add([FromBody] Tonghopcapdien Request)
         {
             if (Request == null)
             {
@@ -55,7 +55,7 @@ namespace WebApi.Services
             return true;
         }
 
-        public async Task<bool> DeleteTonghopcapdien(int id)
+        public async Task<bool> Delete(int id)
         {
             var query = await _thietbiDb.Tonghopcapdiens.FindAsync(id);
             if (query == null)
@@ -157,12 +157,12 @@ namespace WebApi.Services
             }).ToListAsync();
         }
 
-        public Task<int> SumTonghopcapdien()
+        public Task<int> Sum()
         {
             throw new NotImplementedException();
         }
 
-        public async Task<bool> UpdateTonghopcapdien([FromBody] Tonghopcapdien Request)
+        public async Task<bool> Update([FromBody] Tonghopcapdien Request)
         {
             var entity = await _thietbiDb.Tonghopcapdiens.FindAsync(Request.Id);
             if (entity == null)
