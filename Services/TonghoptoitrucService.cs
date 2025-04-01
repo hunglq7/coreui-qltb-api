@@ -104,6 +104,7 @@ namespace WebApi.Services
                 Items = data,
                 PageIndex = request.PageIndex,
                 PageSize = request.PageSize
+                
             };
             return pagedResult;
         }

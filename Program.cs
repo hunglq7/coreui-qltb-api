@@ -81,10 +81,14 @@ builder.Services.AddTransient<ITonghopquatgioService, TonghopquatgioService>();
 builder.Services.AddTransient<INhatkyquatgioService, NhatkyquatgioService>();
 builder.Services.AddTransient<IDanhmucbomnuocService, DanhmucbomnuocService>();
 builder.Services.AddTransient<INhatkybomnuocService, NhatkybomnuocService>();
-builder.Services.AddTransient<IThongsobomnuocService,ThongsobomnuocService>();
+builder.Services.AddTransient<IThongsobomnuocService, ThongsobomnuocService>();
 builder.Services.AddTransient<ITonghopbomnuocService, TonghopbomnuocService>();
 builder.Services.AddTransient<ICapdienService, CapdienService>();
 builder.Services.AddTransient<ITonghopcapdienService, TonghopcapdienService>();
+builder.Services.AddTransient<IDanhmucBalangService, DanhmucBalangService>();
+builder.Services.AddTransient<ITonghopbalangService, TonghopbalangService>();
+builder.Services.AddTransient<IDanhmucKhoanService, DanhmucKhoanService>();
+builder.Services.AddTransient<ITonghopKhoanService, TonghopKhoanService>();
 
 builder.Services.Configure<FormOptions>(o =>
 {

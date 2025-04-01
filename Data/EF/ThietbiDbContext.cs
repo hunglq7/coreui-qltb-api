@@ -41,7 +41,7 @@ namespace WebApi.Data.EF
         public DbSet<Camera> Cameras { get; set; }
         public DbSet<TonghopCamera> TonghopCameras { get; set; }
         public DbSet<NhatkyMayxuc> NhatkyMayxucs { get; set; }
-        public DbSet<ThongsokythuatMayxuc> ThongsokythuatMayxucs { get; set; }   
+        public DbSet<ThongsokythuatMayxuc> ThongsokythuatMayxucs { get; set; }
         public DbSet<ToiTruc> ToiTrucs { get; set; }
         public DbSet<TongHopToiTruc> TongHopToiTrucs { get; set; }
         public DbSet<NhatkyTonghoptoitruc> NhatkyTonghoptoitrucs { get; set; }
@@ -51,12 +51,16 @@ namespace WebApi.Data.EF
         public DbSet<Tonghopcapdien> Tonghopcapdiens { get; set; }
         public DbSet<ThongsoQuatgio> ThongsoQuatgios { get; set; }
         public DbSet<DanhmucQuatgio> DanhmucQuatgios { get; set; }
-        public DbSet<TonghopQuatgio> TonghopQuatgio { get;set; }
+        public DbSet<TonghopQuatgio> TonghopQuatgio { get; set; }
         public DbSet<NhatKyQuatGio> NhatKyQuatGios { get; set; }
         public DbSet<DanhmucBomnuoc> DanhmucBomnuocs { get; set; }
         public DbSet<ThongSoBomNuoc> ThongSoBomNuocs { get; set; }
-        public DbSet<NhatKyBomNuoc> NhatKyBomNuocs { get; set;}
-        public DbSet<TongHopBomNuoc> TongHopBomNuocs{ get; set; }
+        public DbSet<NhatKyBomNuoc> NhatKyBomNuocs { get; set; }
+        public DbSet<TongHopBomNuoc> TongHopBomNuocs { get; set; }
+        public DbSet<DanhmucBaLang> DanhmucBaLangs { get; set; }
+        public DbSet<TonghopBalang> TonghopBalangs { get; set; }
+        public DbSet<DanhMucKhoan> DanhMucKhoans { get; set; }
+        public DbSet<TongHopKhoan> TongHopKhoans { get; set; }
 
     }
 }

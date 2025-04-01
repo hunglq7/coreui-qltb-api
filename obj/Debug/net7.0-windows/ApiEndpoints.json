@@ -168,6 +168,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApi.Controllers.DanhmucbalangController",
+    "Method": "GetAll",
+    "RelativePath": "api/Danhmucbalang",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.DanhmucbalangController",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/Danhmucbalang/DeleteMultipale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reponse",
+        "Type": "System.Collections.Generic.List\u00601[[WebApi.Data.Entites.DanhmucBaLang, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.DanhmucbalangController",
+    "Method": "UpdateMuliple",
+    "RelativePath": "api/Danhmucbalang/UpdateMultiple",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reponse",
+        "Type": "System.Collections.Generic.List\u00601[[WebApi.Data.Entites.DanhmucBaLang, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApi.Controllers.DanhmucbomnuocController",
     "Method": "GetAll",
     "RelativePath": "api/Danhmucbomnuoc",
@@ -1566,6 +1608,122 @@
         "Name": "PageSize",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopbalangController",
+    "Method": "Add",
+    "RelativePath": "api/Tonghopbalang",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Data.Entites.TonghopBalang",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopbalangController",
+    "Method": "GetById",
+    "RelativePath": "api/Tonghopbalang/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopbalangController",
+    "Method": "Delete",
+    "RelativePath": "api/Tonghopbalang/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopbalangController",
+    "Method": "GetDetailById",
+    "RelativePath": "api/Tonghopbalang/DetailById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopbalangController",
+    "Method": "Get",
+    "RelativePath": "api/Tonghopbalang/paging",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "thietbiId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "donviId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopbalangController",
+    "Method": "Update",
+    "RelativePath": "api/Tonghopbalang/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Data.Entites.TonghopBalang",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
