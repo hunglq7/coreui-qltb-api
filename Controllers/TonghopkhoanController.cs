@@ -85,5 +85,11 @@ namespace WebApi.Controllers
             var query = await _tonghopKhoanService.GetAllPaging(request);
             return Ok(query);
         }
+        [HttpGet("sum")]
+        public async Task<ActionResult> Sum()
+        {
+            var query = await _tonghopKhoanService.Sum();
+            return Ok(query);
+        }
     }
 }

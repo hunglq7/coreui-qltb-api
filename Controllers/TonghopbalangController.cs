@@ -71,5 +71,11 @@ namespace WebApi.Controllers
             return Ok(query);
 
         }
+        [HttpGet("sum")]
+        public async Task<ActionResult> Sum()
+        {
+            var query = await _tonghopbalangService.Sum();
+            return Ok(query);
+        }
     }
 }

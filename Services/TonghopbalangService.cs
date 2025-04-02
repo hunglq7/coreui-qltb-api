@@ -35,15 +35,15 @@ namespace WebApi.Services
             }
             var items = new TonghopBalang()
             {
-                Id=Request.Id,
-                BaLangId=Request.BaLangId,
-                DonViId=Request.DonViId,
-                ViTriLapDat=Request.ViTriLapDat,
-                NgayLap=Request.NgayLap,
-                DonViTinh=Request.DonViTinh,
-                SoLuong=Request.SoLuong,
-                TinhTrangKyThuat=Request.TinhTrangKyThuat,
-                GhiChu=Request.GhiChu
+                Id = Request.Id,
+                BaLangId = Request.BaLangId,
+                DonViId = Request.DonViId,
+                ViTriLapDat = Request.ViTriLapDat,
+                NgayLap = Request.NgayLap,
+                DonViTinh = Request.DonViTinh,
+                SoLuong = Request.SoLuong,
+                TinhTrangKyThuat = Request.TinhTrangKyThuat,
+                GhiChu = Request.GhiChu
 
             };
             await _thietbiDbContext.TonghopBalangs.AddAsync(items);
@@ -87,15 +87,15 @@ namespace WebApi.Services
                 .Take(request.PageSize)
                 .Select(x => new TonghopBalangVm()
                 {
-                    Id = x.Id,                    
+                    Id = x.Id,
                     TenThietBi = x.DanhmucBaLang.TenThietBi,
                     TenDonVi = x.PhongBan.TenPhong,
-                    ViTriLapDat=x.ViTriLapDat,
-                   NgayLap=x.NgayLap,
-                   DonViTinh=x.DonViTinh,
-                   SoLuong=x.SoLuong,
-                   TinhTrangKyThuat=x.TinhTrangKyThuat,
-                   GhiChu=x.GhiChu                   
+                    ViTriLapDat = x.ViTriLapDat,
+                    NgayLap = x.NgayLap,
+                    DonViTinh = x.DonViTinh,
+                    SoLuong = x.SoLuong,
+                    TinhTrangKyThuat = x.TinhTrangKyThuat,
+                    GhiChu = x.GhiChu
 
                 }).ToListAsync();
             var pagedResult = new PagedResult<TonghopBalangVm>()
@@ -104,7 +104,7 @@ namespace WebApi.Services
                 Items = data,
                 PageIndex = request.PageIndex,
                 PageSize = request.PageSize,
-                SumRecords=SumRecords,
+                SumRecords = SumRecords,
             };
             return pagedResult;
         }
@@ -137,7 +137,7 @@ namespace WebApi.Services
                         select new { t, p, m };
             return await Query.Select(x => new TonghopBalangVm
             {
-                Id = x.t.Id,               
+                Id = x.t.Id,
                 TenThietBi = x.m.TenThietBi,
                 TenDonVi = x.p.TenPhong,
                 NgayLap = x.t.NgayLap,
@@ -145,13 +145,16 @@ namespace WebApi.Services
                 SoLuong = x.t.SoLuong,
                 ViTriLapDat = x.t.ViTriLapDat,
                 TinhTrangKyThuat = x.t.TinhTrangKyThuat,
-                GhiChu= x.t.GhiChu,               
+                GhiChu = x.t.GhiChu,
             }).ToListAsync();
         }
 
-        public Task<int> Sum()
+        public async Task<int> Sum()
         {
-            throw new NotImplementedException();
+            var query = from s in _thietbiDbContext.TonghopBalangs
+                        select s;
+            var sum = await query.SumAsync(x => x.SoLuong);
+            return sum;
         }
 
         public async Task<bool> Update([FromBody] TonghopBalang Request)
@@ -162,7 +165,6 @@ namespace WebApi.Services
                 return false;
             }
 
-            entity.Id = Request.Id;
             entity.BaLangId = Request.BaLangId;
             entity.DonViId = Request.DonViId;
             entity.NgayLap = Request.NgayLap;
@@ -171,7 +173,7 @@ namespace WebApi.Services
             entity.TinhTrangKyThuat = Request.TinhTrangKyThuat;
             entity.ViTriLapDat = Request.ViTriLapDat;
             entity.GhiChu = Request.GhiChu;
-           
+
             _thietbiDbContext.Update(entity);
             await _thietbiDbContext.SaveChangesAsync();
             return true;

@@ -89,6 +89,10 @@ builder.Services.AddTransient<IDanhmucBalangService, DanhmucBalangService>();
 builder.Services.AddTransient<ITonghopbalangService, TonghopbalangService>();
 builder.Services.AddTransient<IDanhmucKhoanService, DanhmucKhoanService>();
 builder.Services.AddTransient<ITonghopKhoanService, TonghopKhoanService>();
+builder.Services.AddTransient<IDanhmucMayCaoService,DanhmucMayCaoService>();
+builder.Services.AddTransient<INhatkyMayCaoService, NhatkyMayCaoService>();
+builder.Services.AddTransient<IThongsokythuatmaycaoService, ThongsokythuatmaycaoService>();
+builder.Services.AddTransient<ITonghopmaycaoService,TonghopmaycaoService>();
 
 builder.Services.Configure<FormOptions>(o =>
 {
