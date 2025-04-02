@@ -4,8 +4,8 @@ namespace WebApi.Models.MayCao.Tonghopmaycao
     {
         public int Id { get; set; }
         public string? MaQuanLy { get; set; }
-        public int MayCaoId { get; set; }
-        public int DonViId { get; set; }
+        public string? TenThietBi { get; set; }
+        public string? TenDonVi { get; set; }
         public string? ViTriLapDat { get; set; }
         public DateTime NgayLap { get; set; }
         public int SoLuong { get; set; }
