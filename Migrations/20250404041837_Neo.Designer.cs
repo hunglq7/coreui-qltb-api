@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebApi.Data.EF;
 
@@ -11,9 +12,11 @@ using WebApi.Data.EF;
 namespace WebApi.Migrations
 {
     [DbContext(typeof(ThietbiDbContext))]
-    partial class ThietbiDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250404041837_Neo")]
+    partial class Neo
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -304,7 +307,7 @@ namespace WebApi.Migrations
                         {
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d47a6dc1-fc23-462c-a404-4a89ff76ffbd",
+                            ConcurrencyStamp = "ca520e21-97d6-49c8-ac99-85fb99580c95",
                             Dob = new DateTime(1979, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "hunglq7@gmail.com",
                             EmailConfirmed = true,
@@ -314,7 +317,7 @@ namespace WebApi.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "hunglq7@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDi7muup+awNRnetruygZZauI1MW9eNlxNV7QVUEJmUcbnmJd409cOrJK9Spl16VKQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEy2HmXDrhYQAjLXwNsJlG/7eqUMs//twnVah/ODpj0AX0mF/nDZ6Nnuk5M3VQRBWA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1215,36 +1218,6 @@ namespace WebApi.Migrations
                     b.HasIndex("NhatKyMayCaoId");
 
                     b.ToTable("ThongSoKyThuatMayCao");
-                });
-
-            modelBuilder.Entity("WebApi.Data.Entites.ThongsoNeo", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("DonViTinh")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("NeoId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("NoiDung")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ThongSo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("NeoId");
-
-                    b.ToTable("ThongSoNeo");
                 });
 
             modelBuilder.Entity("WebApi.Data.Entites.ThongsoQuatgio", b =>
@@ -2174,17 +2147,6 @@ namespace WebApi.Migrations
                     b.Navigation("DanhmucMayCao");
                 });
 
-            modelBuilder.Entity("WebApi.Data.Entites.ThongsoNeo", b =>
-                {
-                    b.HasOne("WebApi.Data.Entites.DanhmucNeo", "DanhmucNeo")
-                        .WithMany("ThongSoNeos")
-                        .HasForeignKey("NeoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("DanhmucNeo");
-                });
-
             modelBuilder.Entity("WebApi.Data.Entites.ThongsoQuatgio", b =>
                 {
                     b.HasOne("WebApi.Data.Entites.DanhmucQuatgio", "DanhmucQuatgio")
@@ -2483,11 +2445,6 @@ namespace WebApi.Migrations
                     b.Navigation("ThongSoKyThuatMayCaos");
 
                     b.Navigation("TongHopMayCaos");
-                });
-
-            modelBuilder.Entity("WebApi.Data.Entites.DanhmucNeo", b =>
-                {
-                    b.Navigation("ThongSoNeos");
                 });
 
             modelBuilder.Entity("WebApi.Data.Entites.DanhmucQuatgio", b =>

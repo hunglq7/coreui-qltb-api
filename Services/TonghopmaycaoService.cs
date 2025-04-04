@@ -85,7 +85,6 @@ namespace WebApi.Services
             entity.SoLuongCauMang = request.SoLuongCauMang;
             entity.TinhTrangThietBi = request.TinhTrangThietBi;
             entity.GhiChu = request.GhiChu;
-
             _thietbiDbContext.Update(entity);
             await _thietbiDbContext.SaveChangesAsync();
             return true;
@@ -120,7 +119,7 @@ namespace WebApi.Services
             }
 
             int totalRecords = await query.CountAsync();
-
+            int sumRecodes = await query.SumAsync(x => x.SoLuong);
             var data = await query.Skip((request.PageIndex - 1) * request.PageSize)
                                   .Take(request.PageSize)
                                   .Select(x => new TonghopmaycaoVm
@@ -144,7 +143,8 @@ namespace WebApi.Services
                 TotalRecords = totalRecords,
                 Items = data,
                 PageIndex = request.PageIndex,
-                PageSize = request.PageSize
+                PageSize = request.PageSize,
+                SumRecords = sumRecodes,
             };
         }
     }
