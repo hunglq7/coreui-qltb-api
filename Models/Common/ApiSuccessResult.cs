@@ -7,6 +7,7 @@
             IsSuccessed = true;
             ResultObj = resultObj;
             Count = resultObj;
+            Message = "Đăng nhập thành công";
         }
 
         public ApiSuccessResult()
