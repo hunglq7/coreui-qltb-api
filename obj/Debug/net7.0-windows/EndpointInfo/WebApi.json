@@ -614,6 +614,282 @@
         }
       }
     },
+    "/api/DanhmucKhoan": {
+      "get": {
+        "tags": [
+          "DanhmucKhoan"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhmucKhoan/UpdateMultiple": {
+      "put": {
+        "tags": [
+          "DanhmucKhoan"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucKhoan"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucKhoan"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucKhoan"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhmucKhoan/DeleteMultiple": {
+      "post": {
+        "tags": [
+          "DanhmucKhoan"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucKhoan"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucKhoan"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucKhoan"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Danhmucmaycao": {
+      "get": {
+        "tags": [
+          "Danhmucmaycao"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Danhmucmaycao/UpdateMultiple": {
+      "put": {
+        "tags": [
+          "Danhmucmaycao"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucMayCao"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucMayCao"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucMayCao"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Danhmucmaycao/DeleteMultipale": {
+      "post": {
+        "tags": [
+          "Danhmucmaycao"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucMayCao"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucMayCao"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucMayCao"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Danhmucneo": {
+      "get": {
+        "tags": [
+          "Danhmucneo"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Danhmucneo/UpdateMultiple": {
+      "put": {
+        "tags": [
+          "Danhmucneo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucNeo"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucNeo"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucNeo"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Danhmucneo/DeleteMultipale": {
+      "post": {
+        "tags": [
+          "Danhmucneo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucNeo"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucNeo"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucNeo"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Danhmucquatgio": {
       "get": {
         "tags": [
@@ -1442,6 +1718,122 @@
         }
       }
     },
+    "/api/Nhatkymaycao": {
+      "get": {
+        "tags": [
+          "Nhatkymaycao"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhatkymaycao/DatailById/{Id}": {
+      "get": {
+        "tags": [
+          "Nhatkymaycao"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhatkymaycao/UpdateMultiple": {
+      "put": {
+        "tags": [
+          "Nhatkymaycao"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyMayCao"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyMayCao"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyMayCao"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhatkymaycao/DeleteMultipale": {
+      "post": {
+        "tags": [
+          "Nhatkymaycao"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyMayCao"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyMayCao"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyMayCao"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Nhatkymayxuc": {
       "get": {
         "tags": [
@@ -2246,6 +2638,216 @@
         }
       }
     },
+    "/api/Thongsokythuatmaycao": {
+      "get": {
+        "tags": [
+          "Thongsokythuatmaycao"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Thongsokythuatmaycao"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatMayCao"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatMayCao"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatMayCao"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsokythuatmaycao/paging": {
+      "get": {
+        "tags": [
+          "Thongsokythuatmaycao"
+        ],
+        "parameters": [
+          {
+            "name": "thietbiId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageIndex",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "TotalRecords",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "SumRecords",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageCount",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsokythuatmaycao/{Id}": {
+      "get": {
+        "tags": [
+          "Thongsokythuatmaycao"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Thongsokythuatmaycao"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsokythuatmaycao/DetailById/{Id}": {
+      "get": {
+        "tags": [
+          "Thongsokythuatmaycao"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsokythuatmaycao/update": {
+      "put": {
+        "tags": [
+          "Thongsokythuatmaycao"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatMayCao"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatMayCao"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatMayCao"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Thongsokythuatmayxuc": {
       "get": {
         "tags": [
@@ -2655,6 +3257,206 @@
             "application/*+json": {
               "schema": {
                 "$ref": "#/components/schemas/ThongsokythuattoitrucEdit"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsoneo/paging": {
+      "get": {
+        "tags": [
+          "Thongsoneo"
+        ],
+        "parameters": [
+          {
+            "name": "thietbiId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageIndex",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "TotalRecords",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "SumRecords",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageCount",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsoneo": {
+      "post": {
+        "tags": [
+          "Thongsoneo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongsoNeo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongsoNeo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongsoNeo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsoneo/{Id}": {
+      "get": {
+        "tags": [
+          "Thongsoneo"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Thongsoneo"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsoneo/DetailById/{Id}": {
+      "get": {
+        "tags": [
+          "Thongsoneo"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsoneo/update": {
+      "put": {
+        "tags": [
+          "Thongsoneo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongsoNeo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongsoNeo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongsoNeo"
               }
             }
           }
@@ -3197,6 +3999,18 @@
         }
       }
     },
+    "/api/Tonghopbalang/sum": {
+      "get": {
+        "tags": [
+          "Tonghopbalang"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Tonghopbomnuoc": {
       "post": {
         "tags": [
@@ -3718,6 +4532,429 @@
         }
       }
     },
+    "/api/TonghopKhoan": {
+      "post": {
+        "tags": [
+          "TonghopKhoan"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopKhoan"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopKhoan"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopKhoan"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/TonghopKhoan/{Id}": {
+      "get": {
+        "tags": [
+          "TonghopKhoan"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "TonghopKhoan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/TonghopKhoan/DetailById/{Id}": {
+      "get": {
+        "tags": [
+          "TonghopKhoan"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/TonghopKhoan/update": {
+      "put": {
+        "tags": [
+          "TonghopKhoan"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopKhoan"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopKhoan"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopKhoan"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/TonghopKhoan/paging": {
+      "get": {
+        "tags": [
+          "TonghopKhoan"
+        ],
+        "parameters": [
+          {
+            "name": "Keyword",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ThietBiId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "DonViId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageIndex",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/TonghopKhoan/sum": {
+      "get": {
+        "tags": [
+          "TonghopKhoan"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopmaycao": {
+      "post": {
+        "tags": [
+          "Tonghopmaycao"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopMayCao"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopMayCao"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopMayCao"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopmaycao/{Id}": {
+      "get": {
+        "tags": [
+          "Tonghopmaycao"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Tonghopmaycao"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopmaycao/DetailById/{Id}": {
+      "get": {
+        "tags": [
+          "Tonghopmaycao"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopmaycao/sum": {
+      "get": {
+        "tags": [
+          "Tonghopmaycao"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopmaycao/update": {
+      "put": {
+        "tags": [
+          "Tonghopmaycao"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopMayCao"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopMayCao"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopMayCao"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopmaycao/paging": {
+      "get": {
+        "tags": [
+          "Tonghopmaycao"
+        ],
+        "parameters": [
+          {
+            "name": "thietbiId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "donviId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageIndex",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "TotalRecords",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "SumRecords",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageCount",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Tonghopmayxuc": {
       "get": {
         "tags": [
@@ -3926,6 +5163,356 @@
         "responses": {
           "200": {
             "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopneo/paging": {
+      "get": {
+        "tags": [
+          "Tonghopneo"
+        ],
+        "parameters": [
+          {
+            "name": "thietbiId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "donviId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageIndex",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "TotalRecords",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "SumRecords",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageCount",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TongHopNeoVmPagedResult"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TongHopNeoVmPagedResult"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TongHopNeoVmPagedResult"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tonghopneo/{id}": {
+      "get": {
+        "tags": [
+          "Tonghopneo"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TongHopNeo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TongHopNeo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TongHopNeo"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Tonghopneo"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tonghopneo/detail/{id}": {
+      "get": {
+        "tags": [
+          "Tonghopneo"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TongHopNeoVm"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TongHopNeoVm"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TongHopNeoVm"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tonghopneo/sum": {
+      "get": {
+        "tags": [
+          "Tonghopneo"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tonghopneo": {
+      "post": {
+        "tags": [
+          "Tonghopneo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopNeo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopNeo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopNeo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Tonghopneo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopNeo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopNeo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopNeo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
           }
         }
       }
@@ -5293,6 +6880,42 @@
         },
         "additionalProperties": false
       },
+      "DanhMucKhoan": {
+        "required": [
+          "loaiThietBi",
+          "tenThietBi"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenThietBi": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "loaiThietBi": {
+            "maxLength": 200,
+            "minLength": 1,
+            "type": "string"
+          },
+          "ghiChu": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "tongHopKhoans": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TongHopKhoan"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "DanhmucBaLang": {
         "required": [
           "tenThietBi"
@@ -5357,6 +6980,83 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/TongHopBomNuoc"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DanhmucMayCao": {
+        "required": [
+          "tenThietBi"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenThietBi": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "loaiThietBi": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "thongSoKyThuatMayCaos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ThongSoKyThuatMayCao"
+            },
+            "nullable": true
+          },
+          "tongHopMayCaos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TongHopMayCao"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DanhmucNeo": {
+        "required": [
+          "tenThietBi"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenThietBi": {
+            "maxLength": 500,
+            "minLength": 1,
+            "type": "string"
+          },
+          "loaiThietBi": {
+            "maxLength": 200,
+            "type": "string",
+            "nullable": true
+          },
+          "thongSoNeos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ThongsoNeo"
+            },
+            "nullable": true
+          },
+          "tongHopNeos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TongHopNeo"
             },
             "nullable": true
           }
@@ -5962,6 +7662,54 @@
         },
         "additionalProperties": false
       },
+      "NhatKyMayCao": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tongHopMayCaoId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ngayThang": {
+            "type": "string",
+            "nullable": true
+          },
+          "donVi": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "viTri": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "trangThai": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "tongHopMayCao": {
+            "$ref": "#/components/schemas/TongHopMayCao"
+          },
+          "thongSoKyThuatMayCaos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ThongSoKyThuatMayCao"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "NhatKyQuatGio": {
         "type": "object",
         "properties": {
@@ -6290,6 +8038,27 @@
               "$ref": "#/components/schemas/TonghopBalang"
             },
             "nullable": true
+          },
+          "tongHopKhoans": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TongHopKhoan"
+            },
+            "nullable": true
+          },
+          "tongHopMayCaos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TongHopMayCao"
+            },
+            "nullable": true
+          },
+          "tongHopNeos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TongHopNeo"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -6610,6 +8379,64 @@
           },
           "danhmucBomnuoc": {
             "$ref": "#/components/schemas/DanhmucBomnuoc"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ThongSoKyThuatMayCao": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mayCaoId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "donViTinh": {
+            "type": "string",
+            "nullable": true
+          },
+          "thongSo": {
+            "type": "string",
+            "nullable": true
+          },
+          "danhmucMayCao": {
+            "$ref": "#/components/schemas/DanhmucMayCao"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ThongsoNeo": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "neoId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "donViTinh": {
+            "type": "string",
+            "nullable": true
+          },
+          "thongSo": {
+            "type": "string",
+            "nullable": true
+          },
+          "danhmucNeo": {
+            "$ref": "#/components/schemas/DanhmucNeo"
           }
         },
         "additionalProperties": false
@@ -6993,6 +8820,136 @@
         },
         "additionalProperties": false
       },
+      "TongHopKhoan": {
+        "required": [
+          "donViId",
+          "donViTinh",
+          "khoanId",
+          "ngayLap",
+          "soLuong"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khoanId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donViId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donViTinh": {
+            "maxLength": 200,
+            "minLength": 1,
+            "type": "string"
+          },
+          "soLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ngayLap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "viTriLapDat": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "tinhTrangKyThuat": {
+            "maxLength": 200,
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "danhMucKhoan": {
+            "$ref": "#/components/schemas/DanhMucKhoan"
+          },
+          "phongBan": {
+            "$ref": "#/components/schemas/PhongBan"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TongHopMayCao": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maQuanLy": {
+            "maxLength": 20,
+            "type": "string",
+            "nullable": true
+          },
+          "mayCaoId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donViId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "viTriLapDat": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "ngayLap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "soLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "chieuDaiMay": {
+            "type": "number",
+            "format": "double"
+          },
+          "soLuongXich": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "soLuongCauMang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tinhTrangThietBi": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "danhmucMayCao": {
+            "$ref": "#/components/schemas/DanhmucMayCao"
+          },
+          "phongBan": {
+            "$ref": "#/components/schemas/PhongBan"
+          },
+          "nhatKyMayCaos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NhatKyMayCao"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "TongHopMayXuc": {
         "type": "object",
         "properties": {
@@ -7053,6 +9010,130 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/NhatkyMayxuc"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TongHopNeo": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "neoId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donViId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donViTinh": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "soLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ngayLap": {
+            "type": "string",
+            "nullable": true
+          },
+          "viTriLapDat": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "tinhTrangKyThuat": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "danhmucNeo": {
+            "$ref": "#/components/schemas/DanhmucNeo"
+          },
+          "phongBan": {
+            "$ref": "#/components/schemas/PhongBan"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TongHopNeoVm": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenThietBi": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenDonVi": {
+            "type": "string",
+            "nullable": true
+          },
+          "donViTinh": {
+            "type": "string",
+            "nullable": true
+          },
+          "soLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ngayLap": {
+            "type": "string",
+            "nullable": true
+          },
+          "tinhTrangKyThuat": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TongHopNeoVmPagedResult": {
+        "type": "object",
+        "properties": {
+          "pageIndex": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalRecords": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sumRecords": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageCount": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TongHopNeoVm"
             },
             "nullable": true
           }

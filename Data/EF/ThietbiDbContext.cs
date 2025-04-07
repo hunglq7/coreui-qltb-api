@@ -67,6 +67,7 @@ namespace WebApi.Data.EF
         public DbSet<TongHopMayCao> TongHopMayCaos { get; set; }
         public DbSet<DanhmucNeo> DanhmucNeos { get; set; }
         public DbSet<ThongsoNeo> ThongsoNeos { get; set; }
+        public DbSet<TongHopNeo> TongHopNeos { get; set; }
 
     }
 }
