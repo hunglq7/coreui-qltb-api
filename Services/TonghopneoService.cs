@@ -124,6 +124,7 @@ namespace WebApi.Services
                                       DonViTinh = x.DonViTinh,
                                       SoLuong = x.SoLuong,
                                       NgayLap = x.NgayLap,
+                                      ViTriLapDat = x.ViTriLapDat,
                                       TinhTrangKyThuat = x.TinhTrangKyThuat,
                                       GhiChu = x.GhiChu
                                   }).ToListAsync();

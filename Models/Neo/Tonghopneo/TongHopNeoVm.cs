@@ -8,6 +8,7 @@ namespace WebApi.Models.Neo.TongHopNeo
         public string DonViTinh { get; set; } = string.Empty;
         public int SoLuong { get; set; }
         public string NgayLap { get; set; } = string.Empty;
+        public string ViTriLapDat { get; set; } = string.Empty;
         public string TinhTrangKyThuat { get; set; } = string.Empty;
         public string GhiChu { get; set; } = string.Empty;
     }
