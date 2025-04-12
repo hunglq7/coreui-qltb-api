@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Data.Entites;
 using WebApi.Models.Tonghoptoitruc;
@@ -41,6 +42,7 @@ namespace WebApi.Controllers
 
         }
         [HttpGet("paging")]
+
         public async Task<IActionResult> Get([FromQuery] GetManagerTonghoptoitrucPagingRequest request)
         {
             var query = await _service.GetAllPaging(request);
