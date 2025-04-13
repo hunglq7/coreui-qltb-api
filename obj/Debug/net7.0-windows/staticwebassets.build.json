@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Eg2TYZpqZEQoOBJtl2kpwXTJzh2pESMFbXUaBylLnpc=",
+  "Hash": "gBkbPXEs9xuDyNYahxfLT7TLtjmHVmQjy+eai5jkb0g=",
   "Source": "WebApi",
   "BasePath": "_content/WebApi",
   "Mode": "Default",
@@ -5372,6 +5372,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\871.jpg"
     },
     {
+      "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\9983.jpg",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "Images/ThietBi/9983#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5sws96mc9r",
+      "Integrity": "C4qZQ+1Cw6agUCggRQgWx2FekaCAkM496TEr5yBYL2M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\9983.jpg"
+    },
+    {
       "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\camera.jpg",
       "SourceId": "WebApi",
       "SourceType": "Discovered",
@@ -5750,27 +5771,6 @@
       "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\HP P2015.jpg"
     },
     {
-      "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP Pro 400.jpg",
-      "SourceId": "WebApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\",
-      "BasePath": "_content/WebApi",
-      "RelativePath": "Images/ThietBi/HP Pro 400#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "g28tacjz78",
-      "Integrity": "GLhsLGzpJPJpS3mNVzuyro+BHoBFMHliMJ0nz6AIoHk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\HP Pro 400.jpg"
-    },
-    {
       "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP Pro 400(1).jpg",
       "SourceId": "WebApi",
       "SourceType": "Discovered",
@@ -5790,6 +5790,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\HP Pro 400(1).jpg"
+    },
+    {
+      "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP Pro 400.jpg",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "Images/ThietBi/HP Pro 400#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g28tacjz78",
+      "Integrity": "GLhsLGzpJPJpS3mNVzuyro+BHoBFMHliMJ0nz6AIoHk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\HP Pro 400.jpg"
     },
     {
       "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP T1200.jpg",
@@ -5834,48 +5855,6 @@
       "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\HP T2600s.jpg"
     },
     {
-      "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP-401D.jpg",
-      "SourceId": "WebApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\",
-      "BasePath": "_content/WebApi",
-      "RelativePath": "Images/ThietBi/HP-401D#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "zhhl1ced92",
-      "Integrity": "KUOq6kTHcxavF06MGuRVXw9/jFm0WJa+XSLJbrhAVRk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\HP-401D.jpg"
-    },
-    {
-      "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP-PRO-400.jpg",
-      "SourceId": "WebApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\",
-      "BasePath": "_content/WebApi",
-      "RelativePath": "Images/ThietBi/HP-PRO-400#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "jswbamj5ra",
-      "Integrity": "PbO0ZIpny+bSfhdmld0TZsEswPQszJ2m7DfIsyMYSEk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\HP-PRO-400.jpg"
-    },
-    {
       "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\hp1006.jpg",
       "SourceId": "WebApi",
       "SourceType": "Discovered",
@@ -5916,6 +5895,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\hp1020.jpg"
+    },
+    {
+      "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP-401D.jpg",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "Images/ThietBi/HP-401D#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zhhl1ced92",
+      "Integrity": "KUOq6kTHcxavF06MGuRVXw9/jFm0WJa+XSLJbrhAVRk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\HP-401D.jpg"
     },
     {
       "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\hp501.jpg",
@@ -6044,6 +6044,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\Hp776.jpg"
     },
     {
+      "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP-PRO-400.jpg",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "Images/ThietBi/HP-PRO-400#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jswbamj5ra",
+      "Integrity": "PbO0ZIpny+bSfhdmld0TZsEswPQszJ2m7DfIsyMYSEk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\HP-PRO-400.jpg"
+    },
+    {
       "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\Koala.jpg",
       "SourceId": "WebApi",
       "SourceType": "Discovered",
@@ -6065,27 +6086,6 @@
       "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\Koala.jpg"
     },
     {
-      "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\Kyocera TASKalfa 3212i.jpg",
-      "SourceId": "WebApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\",
-      "BasePath": "_content/WebApi",
-      "RelativePath": "Images/ThietBi/Kyocera TASKalfa 3212i#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "65prldqho6",
-      "Integrity": "CiGig10YckcxXfQqbiEII43P9ulkbHrABZmr08LQyRI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\Kyocera TASKalfa 3212i.jpg"
-    },
-    {
       "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\Kyocera TASKalfa 3212i(1).jpg",
       "SourceId": "WebApi",
       "SourceType": "Discovered",
@@ -6105,6 +6105,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\Kyocera TASKalfa 3212i(1).jpg"
+    },
+    {
+      "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\Kyocera TASKalfa 3212i.jpg",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "Images/ThietBi/Kyocera TASKalfa 3212i#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "65prldqho6",
+      "Integrity": "CiGig10YckcxXfQqbiEII43P9ulkbHrABZmr08LQyRI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\Kyocera TASKalfa 3212i.jpg"
     },
     {
       "Identity": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\Laptop HP Envy 13T.jpg",
@@ -27544,6 +27565,88 @@
       ]
     },
     {
+      "Route": "Images/ThietBi/9983.5sws96mc9r.jpg",
+      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\9983.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214244"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C4qZQ+1Cw6agUCggRQgWx2FekaCAkM496TEr5yBYL2M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 14:55:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5sws96mc9r"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ThietBi/9983.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C4qZQ+1Cw6agUCggRQgWx2FekaCAkM496TEr5yBYL2M="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ThietBi/9983.jpg",
+      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\9983.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214244"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C4qZQ+1Cw6agUCggRQgWx2FekaCAkM496TEr5yBYL2M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 14:55:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C4qZQ+1Cw6agUCggRQgWx2FekaCAkM496TEr5yBYL2M="
+        }
+      ]
+    },
+    {
       "Route": "Images/ThietBi/camera.jpg",
       "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\camera.jpg",
       "Selectors": [],
@@ -29020,88 +29123,6 @@
       ]
     },
     {
-      "Route": "Images/ThietBi/HP Pro 400.g28tacjz78.jpg",
-      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP Pro 400.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3440"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GLhsLGzpJPJpS3mNVzuyro+BHoBFMHliMJ0nz6AIoHk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "g28tacjz78"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/ThietBi/HP Pro 400.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-GLhsLGzpJPJpS3mNVzuyro+BHoBFMHliMJ0nz6AIoHk="
-        }
-      ]
-    },
-    {
-      "Route": "Images/ThietBi/HP Pro 400.jpg",
-      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP Pro 400.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3440"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GLhsLGzpJPJpS3mNVzuyro+BHoBFMHliMJ0nz6AIoHk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-GLhsLGzpJPJpS3mNVzuyro+BHoBFMHliMJ0nz6AIoHk="
-        }
-      ]
-    },
-    {
       "Route": "Images/ThietBi/HP Pro 400(1).g28tacjz78.jpg",
       "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP Pro 400(1).jpg",
       "Selectors": [],
@@ -29149,6 +29170,88 @@
     {
       "Route": "Images/ThietBi/HP Pro 400(1).jpg",
       "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP Pro 400(1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GLhsLGzpJPJpS3mNVzuyro+BHoBFMHliMJ0nz6AIoHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GLhsLGzpJPJpS3mNVzuyro+BHoBFMHliMJ0nz6AIoHk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ThietBi/HP Pro 400.g28tacjz78.jpg",
+      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP Pro 400.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GLhsLGzpJPJpS3mNVzuyro+BHoBFMHliMJ0nz6AIoHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g28tacjz78"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ThietBi/HP Pro 400.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GLhsLGzpJPJpS3mNVzuyro+BHoBFMHliMJ0nz6AIoHk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ThietBi/HP Pro 400.jpg",
+      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP Pro 400.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -29348,170 +29451,6 @@
       ]
     },
     {
-      "Route": "Images/ThietBi/HP-401D.jpg",
-      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP-401D.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5307"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KUOq6kTHcxavF06MGuRVXw9/jFm0WJa+XSLJbrhAVRk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KUOq6kTHcxavF06MGuRVXw9/jFm0WJa+XSLJbrhAVRk="
-        }
-      ]
-    },
-    {
-      "Route": "Images/ThietBi/HP-401D.zhhl1ced92.jpg",
-      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP-401D.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5307"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KUOq6kTHcxavF06MGuRVXw9/jFm0WJa+XSLJbrhAVRk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zhhl1ced92"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/ThietBi/HP-401D.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KUOq6kTHcxavF06MGuRVXw9/jFm0WJa+XSLJbrhAVRk="
-        }
-      ]
-    },
-    {
-      "Route": "Images/ThietBi/HP-PRO-400.jpg",
-      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP-PRO-400.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5379"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PbO0ZIpny+bSfhdmld0TZsEswPQszJ2m7DfIsyMYSEk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PbO0ZIpny+bSfhdmld0TZsEswPQszJ2m7DfIsyMYSEk="
-        }
-      ]
-    },
-    {
-      "Route": "Images/ThietBi/HP-PRO-400.jswbamj5ra.jpg",
-      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP-PRO-400.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5379"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PbO0ZIpny+bSfhdmld0TZsEswPQszJ2m7DfIsyMYSEk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jswbamj5ra"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/ThietBi/HP-PRO-400.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PbO0ZIpny+bSfhdmld0TZsEswPQszJ2m7DfIsyMYSEk="
-        }
-      ]
-    },
-    {
       "Route": "Images/ThietBi/hp1006.jpg",
       "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\hp1006.jpg",
       "Selectors": [],
@@ -29672,6 +29611,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-qIYzWDMa5Wzojl2AiXH8HEAc5W7nO7M6hscHgmOQXoY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ThietBi/HP-401D.jpg",
+      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP-401D.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5307"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KUOq6kTHcxavF06MGuRVXw9/jFm0WJa+XSLJbrhAVRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KUOq6kTHcxavF06MGuRVXw9/jFm0WJa+XSLJbrhAVRk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ThietBi/HP-401D.zhhl1ced92.jpg",
+      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP-401D.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5307"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KUOq6kTHcxavF06MGuRVXw9/jFm0WJa+XSLJbrhAVRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zhhl1ced92"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ThietBi/HP-401D.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KUOq6kTHcxavF06MGuRVXw9/jFm0WJa+XSLJbrhAVRk="
         }
       ]
     },
@@ -30168,6 +30189,88 @@
       ]
     },
     {
+      "Route": "Images/ThietBi/HP-PRO-400.jpg",
+      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP-PRO-400.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PbO0ZIpny+bSfhdmld0TZsEswPQszJ2m7DfIsyMYSEk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PbO0ZIpny+bSfhdmld0TZsEswPQszJ2m7DfIsyMYSEk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ThietBi/HP-PRO-400.jswbamj5ra.jpg",
+      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\HP-PRO-400.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PbO0ZIpny+bSfhdmld0TZsEswPQszJ2m7DfIsyMYSEk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jswbamj5ra"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ThietBi/HP-PRO-400.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PbO0ZIpny+bSfhdmld0TZsEswPQszJ2m7DfIsyMYSEk="
+        }
+      ]
+    },
+    {
       "Route": "Images/ThietBi/Koala.jpg",
       "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\Koala.jpg",
       "Selectors": [],
@@ -30250,88 +30353,6 @@
       ]
     },
     {
-      "Route": "Images/ThietBi/Kyocera TASKalfa 3212i.65prldqho6.jpg",
-      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\Kyocera TASKalfa 3212i.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4024"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CiGig10YckcxXfQqbiEII43P9ulkbHrABZmr08LQyRI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "65prldqho6"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/ThietBi/Kyocera TASKalfa 3212i.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CiGig10YckcxXfQqbiEII43P9ulkbHrABZmr08LQyRI="
-        }
-      ]
-    },
-    {
-      "Route": "Images/ThietBi/Kyocera TASKalfa 3212i.jpg",
-      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\Kyocera TASKalfa 3212i.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4024"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CiGig10YckcxXfQqbiEII43P9ulkbHrABZmr08LQyRI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CiGig10YckcxXfQqbiEII43P9ulkbHrABZmr08LQyRI="
-        }
-      ]
-    },
-    {
       "Route": "Images/ThietBi/Kyocera TASKalfa 3212i(1).jpg",
       "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\Kyocera TASKalfa 3212i(1).jpg",
       "Selectors": [],
@@ -30410,6 +30431,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-FYFQ1pM0Yr25pLgjB3rIUTlI2YfbRV5U4elpo4KLJMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ThietBi/Kyocera TASKalfa 3212i.65prldqho6.jpg",
+      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\Kyocera TASKalfa 3212i.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CiGig10YckcxXfQqbiEII43P9ulkbHrABZmr08LQyRI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "65prldqho6"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ThietBi/Kyocera TASKalfa 3212i.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CiGig10YckcxXfQqbiEII43P9ulkbHrABZmr08LQyRI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ThietBi/Kyocera TASKalfa 3212i.jpg",
+      "AssetFile": "D:\\DU AN WEB\\coreui-qltb-api\\wwwroot\\Images\\ThietBi\\Kyocera TASKalfa 3212i.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CiGig10YckcxXfQqbiEII43P9ulkbHrABZmr08LQyRI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 12:39:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CiGig10YckcxXfQqbiEII43P9ulkbHrABZmr08LQyRI="
         }
       ]
     },

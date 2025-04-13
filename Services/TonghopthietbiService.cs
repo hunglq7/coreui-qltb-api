@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
+using WebApi.Models.Common;
 using WebApi.Models.Tonghopthietbi;
 
 namespace WebApi.Services
@@ -9,6 +10,7 @@ namespace WebApi.Services
     public interface ITonghopthietbiService
     {
         Task<List<TonghopthietbiVm>> GetTonghopthietbi();
+        Task<PagedResult<TonghopthietbiVm>> GetAllPaging(TonghopthietbiPagingRequest request);
         Task<bool> AddTonghopthietbi([FromBody] ThietbiCreateRequest tongHopThietBi);
         Task<TongHopThietBi> GetById(int id);
         Task<bool> UpdateTonghopthietbi([FromBody] ThietbiUpdateRequest tongHopThietBi);
@@ -110,6 +112,58 @@ namespace WebApi.Services
                 TongMT = TongTb,
                 TongMI = TongMi
             }).ToListAsync();
+        }
+
+        public async Task<PagedResult<TonghopthietbiVm>> GetAllPaging(TonghopthietbiPagingRequest request)
+        {
+            var query = from t in _thietbiDbContext.TongHopThietBis
+                        .Include(x => x.PhongBan)
+                        .Include(x => x.NhanVien)
+                        .Include(x => x.DonViTinh)
+                        .Include(x => x.LoaiThietBi)
+                        .Where(x => x.TrangThai == true)
+                        select t;
+
+            if (request.nhanVienId > 0 && request.donviId > 0)
+            {
+                query = query.Where(x => x.NhanVienId == request.nhanVienId && x.PhongBanId == request.donviId);
+            }
+            else if (request.nhanVienId > 0 && (request.donviId == 0 || request.donviId == null))
+            {
+                query = query.Where(x => x.NhanVienId == request.nhanVienId);
+            }
+            else if ((request.nhanVienId == 0 || request.nhanVienId == null) && request.donviId > 0)
+            {
+                query = query.Where(x => x.PhongBanId == request.donviId);
+            }
+
+            var totalRow = await query.CountAsync();
+
+            var data = await query.Skip((request.PageIndex - 1) * request.PageSize)
+                .Take(request.PageSize)
+                .Select(x => new TonghopthietbiVm()
+                {
+                    Id = x.Id,
+                    MaThietBi = x.MaThietBi,
+                    HinhAnh = x.HinhAnh,
+                    TenThietBi = x.TenThietBi,
+                    TenDonViTinh = x.DonViTinh!.TenDonViTinh,
+                    TenLoai = x.LoaiThietBi!.TenLoai,
+                    SoLuong = x.SoLuong,
+                    NgaySuDung = x.NgaySuDung,
+                    TenPhong = x.PhongBan!.TenPhong,
+                    TenNhanvien = x.NhanVien!.TenNhanVien
+                }).ToListAsync();
+
+            var pagedResult = new PagedResult<TonghopthietbiVm>()
+            {
+                TotalRecords = totalRow,
+                PageIndex = request.PageIndex,
+                PageSize = request.PageSize,
+                Items = data
+            };
+
+            return pagedResult;
         }
 
         public async Task<bool> UpdateTonghopthietbi([FromBody] ThietbiUpdateRequest tongHopThietBi)

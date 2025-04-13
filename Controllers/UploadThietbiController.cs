@@ -16,7 +16,7 @@ namespace WebApi.Controllers
             {
                 var formCollection = await Request.ReadFormAsync();
                 var file = formCollection.Files.First();
-                var folderName = Path.Combine("wwwroot","Images", "ThietBi");
+                var folderName = Path.Combine("wwwroot", "Images", "ThietBi");
                 var pathToSave = Path.Combine(Directory.GetCurrentDirectory(), folderName);
                 if (file.Length > 0)
                 {

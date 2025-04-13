@@ -5779,6 +5779,83 @@
         }
       }
     },
+    "/api/Tonghopthietbi/paging": {
+      "get": {
+        "tags": [
+          "Tonghopthietbi"
+        ],
+        "parameters": [
+          {
+            "name": "nhanVienId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "donviId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageIndex",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "TotalRecords",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "SumRecords",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageCount",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Tonghopthietbi/{Id}": {
       "get": {
         "tags": [
@@ -9092,6 +9169,10 @@
             "format": "int32"
           },
           "ngayLap": {
+            "type": "string",
+            "nullable": true
+          },
+          "viTriLapDat": {
             "type": "string",
             "nullable": true
           },
