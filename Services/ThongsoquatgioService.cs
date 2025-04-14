@@ -67,7 +67,7 @@ namespace WebApi.Services
             return await query.Select(x => new ThongsoQuatgioVm()
             {
                 Id = x.Id,
-                TenThietBi=x.DanhmucQuatgio.TenQuat,
+                TenThietBi=x.DanhmucQuatgio!.TenThietBi,
                 NoiDung = x.NoiDung,
                 DonViTinh = x.DonViTinh,
                 ThongSo = x.ThongSo,
@@ -91,7 +91,7 @@ namespace WebApi.Services
                 .Select(x => new ThongsoQuatgioVm()
                 {
                     Id = x.Id,
-                    TenThietBi = x.DanhmucQuatgio.TenQuat,
+                    TenThietBi = x.DanhmucQuatgio!.TenThietBi,
                     NoiDung = x.NoiDung,
                     DonViTinh = x.DonViTinh,
                     ThongSo = x.ThongSo,
@@ -136,7 +136,7 @@ namespace WebApi.Services
             return await Query.Select(x => new ThongsoQuatgioVm
             {
                 Id = x.t.Id,
-               TenThietBi = x.m.TenQuat,
+               TenThietBi = x.m.TenThietBi,
                 NoiDung = x.t.NoiDung,
                 DonViTinh = x.t.DonViTinh,
                 ThongSo = x.t.ThongSo,

@@ -158,8 +158,8 @@ namespace WebApi.Services
                 {
                     Id = x.Id,
                     MaQuanLy = x.MaQuanLy,
-                    TenMayXuc = x.MayXuc.TenThietBi,
-                    TenPhongBan = x.PhongBan.TenPhong,
+                    TenMayXuc = x.MayXuc!.TenThietBi,
+                    TenPhongBan = x.PhongBan!.TenPhong,
                     LoaiThietBi = x.LoaiThietBi.TenLoai,
                     ViTriLapDat = x.ViTriLapDat,
                     NgayLap = x.NgayLap,

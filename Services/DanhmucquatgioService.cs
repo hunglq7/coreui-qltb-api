@@ -49,7 +49,7 @@ namespace WebApi.Services
             return await query.Select(x => new DanhmucquatgioVm()
             {
                 Id = x.Id,
-                TenQuat=x.TenQuat,
+                TenThietBi=x.TenThietBi,
                 Loaithietbi=x.LoaiThietBi
 
             }).ToListAsync();

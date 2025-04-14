@@ -90,8 +90,8 @@ namespace WebApi.Services
                 {
                     Id = x.Id,
                     MaQuanLy = x.MaQuanLy,
-                    TenThietBi = x.DanhmucQuatgio.TenQuat,
-                    TenDonVi = x.PhongBan.TenPhong,
+                    TenThietBi = x.DanhmucQuatgio!.TenThietBi,
+                    TenDonVi = x.PhongBan!.TenPhong,
                     ViTriLapDat = x.ViTriLapDat,
                     NgayLap = x.NgayLap,
                     SoLuong = x.SoLuong,
@@ -140,7 +140,7 @@ namespace WebApi.Services
             {
                 Id = x.t.Id,
                 MaQuanLy = x.t.MaQuanLy,
-                TenThietBi = x.m.TenQuat,
+                TenThietBi = x.m.TenThietBi,
                 TenDonVi = x.p.TenPhong,              
                 ViTriLapDat = x.t.ViTriLapDat,
                 TinhTrangThietBi = x.t.TinhTrangThietBi,

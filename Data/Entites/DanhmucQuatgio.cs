@@ -10,7 +10,7 @@ namespace WebApi.Data.Entites
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [MaxLength(500)]
-        public string? TenQuat { get; set; }
+        public string? TenThietBi { get; set; }
         [MaxLength(500)]
         public string? LoaiThietBi { get; set; }       
        public virtual IEnumerable<ThongsoQuatgio>? ThongsoQuatgios { get; set; }
