@@ -11,7 +11,7 @@ namespace WebApi.Services
     public interface IThongsokythuatmayxucService
     {
         Task<List<ThongsokythuatmayxucVm>> GetAll();
-        Task<PagedResult<ThongsokythuatmayxucVm>> GetAllPaging( ThongsomayxucPagingRequest request);
+        Task<PagedResult<ThongsokythuatmayxucVm>> GetAllPaging(ThongsomayxucPagingRequest request);
         Task<ThongsokythuatMayxuc> GetById(int id);
         Task<List<ThongsokythuatMayxucDetailByIdVm>> getDatailById(int id);
         Task<bool> Add([FromBody] ThongsokythuatEdit Request);
@@ -21,7 +21,7 @@ namespace WebApi.Services
     public class ThongsokythuatmayxucService : IThongsokythuatmayxucService
     {
         private readonly ThietbiDbContext _thietbiDbContext;
-        public ThongsokythuatmayxucService( ThietbiDbContext thietbiDbContext)
+        public ThongsokythuatmayxucService(ThietbiDbContext thietbiDbContext)
         {
             _thietbiDbContext = thietbiDbContext;
         }
@@ -36,9 +36,9 @@ namespace WebApi.Services
             {
                 Id = Request.Id,
                 MayXucId = Request.MayXucId,
-                NoiDung= Request.NoiDung,
+                NoiDung = Request.NoiDung,
                 DonViTinh = Request.DonViTinh,
-                ThongSo = Request.ThongSo,                
+                ThongSo = Request.ThongSo,
 
             };
             await _thietbiDbContext.ThongsokythuatMayxucs.AddAsync(newItems);
@@ -65,10 +65,10 @@ namespace WebApi.Services
             return await query.Select(x => new ThongsokythuatmayxucVm()
             {
                 Id = x.Id,
-                TenMayXuc = x.MayXuc.TenThietBi,
+                TenThietBi = x.MayXuc.TenThietBi,
                 NoiDung = x.NoiDung,
                 DonViTinh = x.DonViTinh,
-                ThongSo=x.ThongSo,
+                ThongSo = x.ThongSo,
             }).ToListAsync();
         }
 
@@ -89,7 +89,7 @@ namespace WebApi.Services
                 .Select(x => new ThongsokythuatmayxucVm()
                 {
                     Id = x.Id,
-                    TenMayXuc = x.MayXuc.TenThietBi,
+                    TenThietBi = x.MayXuc.TenThietBi,
                     NoiDung = x.NoiDung,
                     DonViTinh = x.DonViTinh,
                     ThongSo = x.ThongSo,
@@ -113,7 +113,7 @@ namespace WebApi.Services
                 items = new ThongsokythuatMayxuc()
                 {
                     Id = 0,
-                    MayXucId=1,
+                    MayXucId = 1,
                     NoiDung = "",
                     DonViTinh = "",
                     ThongSo = ""
@@ -126,18 +126,18 @@ namespace WebApi.Services
 
         public async Task<List<ThongsokythuatMayxucDetailByIdVm>> getDatailById(int id)
         {
-            var Query = from t in _thietbiDbContext.ThongsokythuatMayxucs.Where(x => x.MayXucId == id)                       
+            var Query = from t in _thietbiDbContext.ThongsokythuatMayxucs.Where(x => x.MayXucId == id)
                         join m in _thietbiDbContext.MayXucs on t.MayXucId equals m.Id
-                       
+
 
                         select new { t, m };
             return await Query.Select(x => new ThongsokythuatMayxucDetailByIdVm
             {
                 Id = x.t.Id,
-                TenMayXuc=x.m.TenThietBi,
-                NoiDung=x.t.NoiDung,
-                DonViTinh=x.t.DonViTinh,
-                ThongSo=x.t.ThongSo,
+                TenThietBi = x.m.TenThietBi,
+                NoiDung = x.t.NoiDung,
+                DonViTinh = x.t.DonViTinh,
+                ThongSo = x.t.ThongSo,
             }).ToListAsync();
         }
 
@@ -149,10 +149,10 @@ namespace WebApi.Services
                 return false;
             }
             items.Id = Request.Id;
-           items.MayXucId = Request.MayXucId;
-           items.NoiDung = Request.NoiDung;
-           items.DonViTinh = Request.DonViTinh;
-            items.ThongSo = Request.ThongSo;            
+            items.MayXucId = Request.MayXucId;
+            items.NoiDung = Request.NoiDung;
+            items.DonViTinh = Request.DonViTinh;
+            items.ThongSo = Request.ThongSo;
             _thietbiDbContext.Update(items);
             await _thietbiDbContext.SaveChangesAsync();
             return true;
