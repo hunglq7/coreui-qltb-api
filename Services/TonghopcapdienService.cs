@@ -36,17 +36,17 @@ namespace WebApi.Services
             var items = new Tonghopcapdien()
             {
                 Id = Request.Id,
-               Maquanly = Request.Maquanly,
+                Maquanly = Request.Maquanly,
                 CapdienId = Request.CapdienId,
-                DonviId=Request.DonviId,
+                DonviId = Request.DonviId,
                 Ngaythang = Request.Ngaythang,
                 Donvitinh = Request.Donvitinh,
                 Tondauthang = Request.Tondauthang,
                 Nhaptrongky = Request.Nhaptrongky,
                 Xuattrongky = Request.Xuattrongky,
-                Toncuoithang=Request.Toncuoithang,
-                Dangsudung=Request.Dangsudung,
-                Duphong=Request.Duphong,
+                Toncuoithang = Request.Toncuoithang,
+                Dangsudung = Request.Dangsudung,
+                Duphong = Request.Duphong,
                 Ghichu = Request.Ghichu,
 
             };
@@ -85,7 +85,7 @@ namespace WebApi.Services
             }
 
 
-            int totalRow = await query.CountAsync();         
+            int totalRow = await query.CountAsync();
             var data = await query.Skip((request.PageIndex - 1) * request.PageSize)
                 .Take(request.PageSize)
                 .Select(x => new TonghopcapdienVm()
@@ -94,19 +94,19 @@ namespace WebApi.Services
                     Maquanly = x.Maquanly,
                     TenThietBi = x.Capdien.Tenthietbi,
                     TenDonVi = x.PhongBan.TenPhong,
-                   Ngaythang=x.Ngaythang,
-                   Donvitinh=x.Donvitinh,
-                   Tondauthang=x.Tondauthang,
-                   Nhaptrongky=x.Nhaptrongky,
-                   Xuattrongky=x.Xuattrongky,
-                   Toncuoithang=x.Toncuoithang,
-                   Dangsudung=x.Dangsudung,
-                   Duphong=x.Duphong
+                    Ngaythang = x.Ngaythang,
+                    Donvitinh = x.Donvitinh,
+                    Tondauthang = x.Tondauthang,
+                    Nhaptrongky = x.Nhaptrongky,
+                    Xuattrongky = x.Xuattrongky,
+                    Toncuoithang = x.Toncuoithang,
+                    Dangsudung = x.Dangsudung,
+                    Duphong = x.Duphong
 
                 }).ToListAsync();
             var pagedResult = new PagedResult<TonghopcapdienVm>()
             {
-                TotalRecords = totalRow,              
+                TotalRecords = totalRow,
                 Items = data,
                 PageIndex = request.PageIndex,
                 PageSize = request.PageSize
@@ -124,7 +124,7 @@ namespace WebApi.Services
                     Id = 0,
                     CapdienId = 0,
                     Ngaythang = DateTime.Now,
-                  
+
                 }
                      ;
             }
@@ -159,7 +159,7 @@ namespace WebApi.Services
 
         public Task<int> Sum()
         {
-            throw new NotImplementedException();
+            return _thietbiDb.Tonghopcapdiens.CountAsync();
         }
 
         public async Task<bool> Update([FromBody] Tonghopcapdien Request)
@@ -182,7 +182,7 @@ namespace WebApi.Services
             entity.Toncuoithang = Request.Toncuoithang;
             entity.Dangsudung = Request.Dangsudung;
             entity.Duphong = Request.Duphong;
-            entity.Ghichu = Request.Ghichu;           
+            entity.Ghichu = Request.Ghichu;
             _thietbiDb.Update(entity);
             await _thietbiDb.SaveChangesAsync();
             return true;

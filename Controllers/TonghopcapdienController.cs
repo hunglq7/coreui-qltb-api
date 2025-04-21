@@ -40,7 +40,7 @@ namespace WebApi.Controllers
             var entity = await _tonghopcapdienService.getDatailById(Id);
             return Ok(entity);
         }
-       
+
 
         [HttpPut("update")]
         public async Task<ActionResult> Update([FromBody] Tonghopcapdien request)
@@ -70,6 +70,12 @@ namespace WebApi.Controllers
             var query = await _tonghopcapdienService.GetAllPaging(request);
             return Ok(query);
 
+        }
+        [HttpGet("sum")]
+        public async Task<ActionResult> Sum()
+        {
+            var query = await _tonghopcapdienService.Sum();
+            return Ok(query);
         }
 
     }
