@@ -92,7 +92,7 @@ namespace Api.Services
                 .Select(x => new ThongsokythuattoitrucVm()
                 {
                     Id = x.Id,
-                    TenToiTruc = x.Danhmuctoitruc.TenThietBi,
+                    TenToiTruc = x.Danhmuctoitruc!.TenThietBi,
                     NoiDung = x.NoiDung,
                     DonViTinh = x.DonViTinh,
                     ThongSo = x.ThongSo,

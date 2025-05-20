@@ -90,7 +90,7 @@ namespace WebApi.Services
                 .Select(x => new ThongsoBomnuocVm()
                 {
                     Id = x.Id,                    
-                    TenThietBi = x.DanhmucBomnuoc.TenThietBi,
+                    TenThietBi = x.DanhmucBomnuoc!.TenThietBi,
                     NoiDung = x.NoiDung,
                     DonViTinh = x.DonViTinh,
                     ThongSo = x.ThongSo,
