@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\services\\nhatkybangtaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\nhatkybangtaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\controllers\\danhmucbangtaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\danhmucbangtaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\models\\danhmucbangtai\\nhatkybangtaivm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\danhmucbangtai\\nhatkybangtaivm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\controllers\\danhmucmaycaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\danhmucmaycaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\controllers\\nhatkybangtaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\nhatkybangtaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\services\\danhmucbangtaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\danhmucbangtaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NhatkybangtaiVM.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Models\\Danhmucbangtai\\NhatkybangtaiVM.cs",
-              "RelativeDocumentMoniker": "Models\\Danhmucbangtai\\NhatkybangtaiVM.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Models\\Danhmucbangtai\\NhatkybangtaiVM.cs",
-              "RelativeToolTip": "Models\\Danhmucbangtai\\NhatkybangtaiVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "DanhmucmaycaoController.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\DanhmucmaycaoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DanhmucmaycaoController.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\DanhmucmaycaoController.cs",
+              "RelativeToolTip": "Controllers\\DanhmucmaycaoController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T08:21:20.513Z",
+              "WhenOpened": "2025-05-21T04:20:47.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NhatkybangtaiService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\NhatkybangtaiService.cs",
-              "RelativeDocumentMoniker": "Services\\NhatkybangtaiService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\NhatkybangtaiService.cs",
-              "RelativeToolTip": "Services\\NhatkybangtaiService.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAAADQAAAAgAAAA",
+              "Title": "DanhmucbangtaiController.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\DanhmucbangtaiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DanhmucbangtaiController.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\DanhmucbangtaiController.cs",
+              "RelativeToolTip": "Controllers\\DanhmucbangtaiController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAABsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T08:21:02.674Z",
+              "WhenOpened": "2025-05-21T04:16:52.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "NhatkybangtaiController.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\NhatkybangtaiController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NhatkybangtaiController.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\NhatkybangtaiController.cs",
-              "RelativeToolTip": "Controllers\\NhatkybangtaiController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "DanhmucbangtaiService.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\DanhmucbangtaiService.cs",
+              "RelativeDocumentMoniker": "Services\\DanhmucbangtaiService.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\DanhmucbangtaiService.cs",
+              "RelativeToolTip": "Services\\DanhmucbangtaiService.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAmwDMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T08:20:42.162Z",
+              "WhenOpened": "2025-05-21T04:13:31.462Z",
               "EditorCaption": ""
             }
           ]

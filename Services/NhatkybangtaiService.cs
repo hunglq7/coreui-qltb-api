@@ -48,8 +48,8 @@ namespace WebApi.Services
             return await query.Select(x => new NhatkybangtaiVM()
             {
                 Id = x.Id,
-                BangTaiId= x.TongHopBangTaiId,
-              NgaySuDung= x.Ngaythang,
+                TongHopBangTaiId = x.TongHopBangTaiId,
+                 Ngaythang = x.Ngaythang,
                 DonVi = x.DonVi,
                 ViTri = x.ViTri,
                 TrangThai = x.TrangThai,

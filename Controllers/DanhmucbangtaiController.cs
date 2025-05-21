@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using WebApi.Data.Entites;
 using WebApi.Models.Common;
 using WebApi.Models.Danhmucbangtai;
@@ -24,17 +24,25 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("UpdateMultiple")]
-        public async Task<ActionResult<ApiResult<int>>> UpdateMultiple([FromBody] List<DanhMucBangTai> response)
+        public async Task<IActionResult> UpdateMultiple([FromBody] List<DanhMucBangTai> response)
         {
             var result = await _danhmucbangtaiService.UpdateMultiple(response);
-            return Ok(result);
+            if(result.Count == 0)
+            {
+                return BadRequest(ModelState);
+            }
+            return Ok(result.Count);
         }
 
         [HttpPost("DeleteMutiple")]
-        public async Task<ActionResult<ApiResult<int>>> DeleteMutiple([FromBody] List<DanhMucBangTai> response)
+        public async Task<IActionResult> DeleteMutiple([FromBody] List<DanhMucBangTai> response)
         {
             var result = await _danhmucbangtaiService.DeleteMutiple(response);
-            return Ok(result);
+            if(result.Count == 0)
+            {
+                return NotFound("Không xóa được bản ghi nào");
+            }
+            return Ok(result.Count);
         }
     }
 }
