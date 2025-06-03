@@ -18,7 +18,7 @@ namespace WebApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<ThongsokythuatbangtaiVM>>> GetAll()
+        public async Task<IActionResult> GetAll()
         {
             var result = await _thongsokythuatbangtaiService.GetAll();
             if (result == null)

@@ -19,6 +19,7 @@ namespace WebApi.Models.Tonghoptoitruc
         public int SoLuong { get; set; }
 
         public string? TinhTrangThietBi { get; set; }
+        public bool DuPhong { get; set; }
    
         public string? GhiChu { get; set; }
     

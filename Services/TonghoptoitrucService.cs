@@ -42,6 +42,7 @@ namespace WebApi.Services
                 MucDichSuDung = request.MucDichSuDung,
                 SoLuong = request.SoLuong,
                 TinhTrangThietBi = request.TinhTrangThietBi,
+                DuPhong = request.DuPhong,
                 GhiChu = request.GhiChu
 
             };
@@ -95,6 +96,7 @@ namespace WebApi.Services
                     MucDichSuDung = x.MucDichSuDung,
                     SoLuong = x.SoLuong,
                     TinhTrangThietBi = x.TinhTrangThietBi,
+                    DuPhong = x.DuPhong,
 
                 }).ToListAsync();
             var pagedResult = new PagedResult<TonghoptoitrucVm>()
@@ -150,6 +152,7 @@ namespace WebApi.Services
             query.MucDichSuDung = request.MucDichSuDung;
             query.SoLuong = request.SoLuong;
             query.TinhTrangThietBi = request.TinhTrangThietBi;
+            query.DuPhong = request.DuPhong;
             query.GhiChu = request.GhiChu;
             return await _thietbiDbContext.SaveChangesAsync();
         }

@@ -15,6 +15,7 @@
         public int SoLuong { get; set; }
 
         public string? TinhTrangThietBi { get; set; }
+        public bool DuPhong { get; set; }
 
        
     }

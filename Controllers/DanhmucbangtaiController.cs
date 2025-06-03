@@ -34,7 +34,7 @@ namespace WebApi.Controllers
             return Ok(result.Count);
         }
 
-        [HttpPost("DeleteMutiple")]
+        [HttpPost("DeleteMultipale")]
         public async Task<IActionResult> DeleteMutiple([FromBody] List<DanhMucBangTai> response)
         {
             var result = await _danhmucbangtaiService.DeleteMutiple(response);
