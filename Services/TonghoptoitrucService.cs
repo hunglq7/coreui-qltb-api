@@ -68,7 +68,11 @@ namespace WebApi.Services
             var query = from t in _thietbiDbContext.TongHopToiTrucs.Include(x => x.Danhmuctoitruc).Include(x => x.PhongBan)
                         select t;
 
-            if (request.thietbiId > 0 && request.donviId > 0)
+           if(request.duPhong != null && request.duPhong == true)
+            {
+                query = query.Where(x => x.DuPhong == request.duPhong);
+            }
+           else if (request.thietbiId > 0 && request.donviId > 0)
             {
                 query = query.Where(x => x.ThietbiId == request.thietbiId && x.DonViSuDungId == request.donviId);
             }
