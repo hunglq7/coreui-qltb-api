@@ -18,6 +18,7 @@ namespace WebApi.Models.Tonghopmayxuc
         public string TinhTrang { get; set; } = string.Empty;
         public int SoLuong { get; set; }    
         public string GhiChu { get; set; } = string.Empty;
+        public bool DuPhong { get; set; }
         public int TongTB{get;set;}
     }
 }

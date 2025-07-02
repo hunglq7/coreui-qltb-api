@@ -6,79 +6,83 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace WebApi.Migrations
 {
     /// <inheritdoc />
-    public partial class BaLang : Migration
+    public partial class Role : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+
             migrationBuilder.CreateTable(
-                name: "DanhmucBalang",
+                name: "DanhMucRole",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    TenThietBi = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    TenThietBi = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     LoaiThietBi = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
                     GhiChu = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_DanhmucBalang", x => x.Id);
+                    table.PrimaryKey("PK_DanhMucRole", x => x.Id);
                 });
 
+
             migrationBuilder.CreateTable(
-                name: "TonghopBalang",
+                name: "TongHopRole",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    BaLangId = table.Column<int>(type: "int", nullable: false),
-                    DonViId = table.Column<int>(type: "int", nullable: false),
-                    ViTriLapDat = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    RoleId = table.Column<int>(type: "int", nullable: false),
+                    PhongBanId = table.Column<int>(type: "int", nullable: false),
+                    ViTriLapDat = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
                     NgayLap = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    TinhTrangKyThuat = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    GhiChu = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    SoLuong = table.Column<int>(type: "int", nullable: false),
+                    TinhTrangThietBi = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
+                    DuPhong = table.Column<bool>(type: "bit", nullable: false),
+                    LamViec = table.Column<bool>(type: "bit", nullable: false),
+                    GhiChu = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_TonghopBalang", x => x.Id);
+                    table.PrimaryKey("PK_TongHopRole", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_TonghopBalang_DanhmucBalang_BaLangId",
-                        column: x => x.BaLangId,
-                        principalTable: "DanhmucBalang",
+                        name: "FK_TongHopRole_DanhMucRole_RoleId",
+                        column: x => x.RoleId,
+                        principalTable: "DanhMucRole",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_TonghopBalang_PhongBan_DonViId",
-                        column: x => x.DonViId,
+                        name: "FK_TongHopRole_PhongBan_PhongBanId",
+                        column: x => x.PhongBanId,
                         principalTable: "PhongBan",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
-         
+            migrationBuilder.CreateIndex(
+                name: "IX_TongHopRole_PhongBanId",
+                table: "TongHopRole",
+                column: "PhongBanId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_TonghopBalang_BaLangId",
-                table: "TonghopBalang",
-                column: "BaLangId");
+                name: "IX_TongHopRole_RoleId",
+                table: "TongHopRole",
+                column: "RoleId");
 
-            migrationBuilder.CreateIndex(
-                name: "IX_TonghopBalang_DonViId",
-                table: "TonghopBalang",
-                column: "DonViId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "TonghopBalang");
 
             migrationBuilder.DropTable(
-                name: "DanhmucBalang");
+                name: "TongHopRole");
+            migrationBuilder.DropTable(
+            name: "DanhMucRole");
 
-           
+
         }
     }
 }

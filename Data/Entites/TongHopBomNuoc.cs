@@ -20,6 +20,7 @@ namespace WebApi.Data.Entites
         [MaxLength(500)]
         public string? TinhTrangThietBi { get; set; }
         [MaxLength(500)]
+        public Boolean DuPhong { get; set; }
         public string? GhiChu { get; set; }
         [ForeignKey("BomNuocId")]
         public virtual DanhmucBomnuoc? DanhmucBomnuoc { get; set; }

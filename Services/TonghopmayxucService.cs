@@ -48,6 +48,7 @@ namespace WebApi.Services
                 SoLuong = Request.SoLuong,
                 TinhTrang = Request.TinhTrang,
                 GhiChu = Request.GhiChu,
+                DuPhong = Request.DuPhong
 
             };
             await _thietbiDbContext.TongHopMayXucs.AddAsync(newmayxuc);
@@ -74,6 +75,7 @@ namespace WebApi.Services
                 TinhTrang = x.t.TinhTrang,
                 NgayLapDat = x.t.NgayLap,
                 SoLuong = x.t.SoLuong,
+                DuPhong = x.t.DuPhong,
                 GhiChu = x.t.GhiChu
             }).ToListAsync();
         }
@@ -126,6 +128,7 @@ namespace WebApi.Services
                 NgayLap = x.NgayLap,
                 SoLuong = x.SoLuong,
                 TinhTrang = x.TinhTrang,
+                DuPhong= x.DuPhong,
                 GhiChu = x.GhiChu,
                 TongTB = TongTB
             }).ToListAsync();
@@ -135,20 +138,25 @@ namespace WebApi.Services
         public async Task<PagedResult<TonghopmayxucVM>> GetAllPaging(GetManagerTonghopMayxucPagingRequest request)
         {
             var query = from t in _thietbiDbContext.TongHopMayXucs.Include(x => x.MayXuc).Include(x => x.PhongBan)
-                        select t;
-            if (request.thietbiId>0 && request.donviId>0)
+                        select t;        
+
+            if (request.duPhong != null && request.duPhong == true)
             {
-                query = query.Where(x => x.MayXucId==request.thietbiId && x.PhongBanId==request.donviId);
+                query = query.Where(x => x.DuPhong == request.duPhong);
             }
-            else if (request.thietbiId > 0 && (request.donviId==0||request.donviId==null))
+            else if (request.thietbiId > 0 && request.donviId > 0)
+            {
+                query = query.Where(x => x.MayXucId == request.thietbiId && x.PhongBanId== request.donviId);
+            }
+            else if (request.thietbiId > 0 && (request.donviId == 0 || request.donviId == null))
             {
                 query = query.Where(x => x.MayXucId == request.thietbiId);
             }
-            else if ((request.thietbiId ==0||request.thietbiId==null) && request.donviId >0)
+            else if ((request.thietbiId == 0 || request.thietbiId == null) && request.donviId > 0)
             {
-                query = query.Where(x => x.PhongBanId==request.donviId);
+                query = query.Where(x => x.PhongBanId == request.donviId);
             }
-         
+
 
             int totalRow = await query.CountAsync();
             int sumSoluong = await query.SumAsync(x => x.SoLuong);
@@ -165,6 +173,7 @@ namespace WebApi.Services
                     NgayLap = x.NgayLap,
                     SoLuong = x.SoLuong,
                     TinhTrang = x.TinhTrang,
+                    DuPhong = x.DuPhong,
                     GhiChu = x.GhiChu
 
                 }).ToListAsync();
@@ -195,6 +204,7 @@ namespace WebApi.Services
             mayxuc.NgayLap = Request.NgayLap;
             mayxuc.SoLuong = Request.SoLuong;
             mayxuc.TinhTrang = Request.TinhTrang;
+            mayxuc.DuPhong = Request.DuPhong;
             mayxuc.GhiChu = Request.GhiChu;
             _thietbiDbContext.Update(mayxuc);
             await _thietbiDbContext.SaveChangesAsync();

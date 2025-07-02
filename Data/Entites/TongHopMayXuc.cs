@@ -20,6 +20,7 @@ namespace WebApi.Data.Entites
         public DateTime NgayLap { get; set; }
         public int SoLuong { get; set; }
         [MaxLength(500)]
+        public Boolean DuPhong { get; set; }
         public string GhiChu { get; set; } = string.Empty;
         [ForeignKey("MayXucId")]
         public virtual MayXuc? MayXuc { get; set; }

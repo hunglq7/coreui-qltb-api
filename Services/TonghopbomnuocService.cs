@@ -43,6 +43,7 @@ namespace WebApi.Services
                 NgayLap = Request.NgayLap,
                 SoLuong = Request.SoLuong,
                 TinhTrangThietBi = Request.TinhTrangThietBi,
+                DuPhong = Request.DuPhong,
                 GhiChu = Request.GhiChu,
 
             };
@@ -66,8 +67,13 @@ namespace WebApi.Services
         public async Task<PagedResult<TonghopBomnuocVm>> GetAllPaging(TonghopbomnuocPagingRequest request)
         {
             var query = from t in _thietbiDbContext.TongHopBomNuocs.Include(x => x.DanhmucBomnuoc).Include(x => x.PhongBan)
-                        select t;
-            if (request.thietbiId > 0 && request.donviId > 0)
+                        select t;           
+
+            if (request.duPhong != null && request.duPhong == true)
+            {
+                query = query.Where(x => x.DuPhong == request.duPhong);
+            }
+            else if (request.thietbiId > 0 && request.donviId > 0)
             {
                 query = query.Where(x => x.BomNuocId == request.thietbiId && x.DonViId == request.donviId);
             }
@@ -79,7 +85,6 @@ namespace WebApi.Services
             {
                 query = query.Where(x => x.DonViId == request.donviId);
             }
-
 
             int totalRow = await query.CountAsync();
 
@@ -95,6 +100,7 @@ namespace WebApi.Services
                     NgayLap = x.NgayLap,
                     SoLuong = x.SoLuong,
                     TinhTrangThietBi = x.TinhTrangThietBi,
+                    DuPhong= x.DuPhong,
                     GhiChu = x.GhiChu
 
                 }).ToListAsync();
@@ -144,6 +150,7 @@ namespace WebApi.Services
                 TinhTrangThietBi = x.t.TinhTrangThietBi,
                 NgayLap = x.t.NgayLap,
                 SoLuong = x.t.SoLuong,
+                DuPhong=x.t.DuPhong,
                 GhiChu = x.t.GhiChu
             }).ToListAsync();
         }
@@ -171,6 +178,7 @@ namespace WebApi.Services
             entity.NgayLap = Request.NgayLap;
             entity.SoLuong = Request.SoLuong;
             entity.TinhTrangThietBi = Request.TinhTrangThietBi;
+            entity.DuPhong = Request.DuPhong;
             entity.GhiChu = Request.GhiChu;
             _thietbiDbContext.Update(entity);
             await _thietbiDbContext.SaveChangesAsync();

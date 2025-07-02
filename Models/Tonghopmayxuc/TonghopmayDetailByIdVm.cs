@@ -20,6 +20,7 @@ namespace WebApi.Models.Tonghopmayxuc
         public int SoLuong { get; set; }
      
         public string GhiChu { get; set; } = string.Empty;
+        public bool DuPhong { get; set; } 
 
     }
 }

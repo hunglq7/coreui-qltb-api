@@ -14,5 +14,6 @@
         public int SoLuong { get; set; }
         public string TinhTrang { get; set; } = string.Empty;
         public string GhiChu { get; set; } = string.Empty;
+        public bool DuPhong { get; set; } 
     }
 }

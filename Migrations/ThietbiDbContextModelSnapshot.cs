@@ -304,7 +304,7 @@ namespace WebApi.Migrations
                         {
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "6ac3255a-4a55-45d7-8612-0b9d32cc4c10",
+                            ConcurrencyStamp = "9b2d83db-aea0-45ca-97f9-c6aa5c053081",
                             Dob = new DateTime(1979, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "hunglq7@gmail.com",
                             EmailConfirmed = true,
@@ -314,7 +314,7 @@ namespace WebApi.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "hunglq7@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAIAAYagAAAAEL9T7jaX1819xPkPvQ2neygcKBRY2t0IhAHTc3UX8A5IcYcEZUQNTzHINj63oexG/A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECGWTD6Mf+ZNanYw3R4+1nlOrOSDdAvswAJ2r5QUbCh27VbKvvcTrBHQVT6iLuppZw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -510,6 +510,29 @@ namespace WebApi.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("DanhMucKhoan");
+                });
+
+            modelBuilder.Entity("WebApi.Data.Entites.DanhMucRole", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("GhiChu")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LoaiThietBi")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("TenThietBi")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DanhMucRole");
                 });
 
             modelBuilder.Entity("WebApi.Data.Entites.DanhmucBaLang", b =>
@@ -1572,9 +1595,12 @@ namespace WebApi.Migrations
                     b.Property<int>("DonViId")
                         .HasColumnType("int");
 
-                    b.Property<string>("GhiChu")
+                    b.Property<bool>("DuPhong")
                         .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
+                        .HasColumnType("bit");
+
+                    b.Property<string>("GhiChu")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("MaQuanLy")
                         .HasMaxLength(20)
@@ -1714,10 +1740,13 @@ namespace WebApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<bool>("DuPhong")
+                        .HasMaxLength(500)
+                        .HasColumnType("bit");
+
                     b.Property<string>("GhiChu")
                         .IsRequired()
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("LoaiThietBiId")
                         .HasMaxLength(200)
@@ -1808,6 +1837,53 @@ namespace WebApi.Migrations
                     b.HasIndex("NeoId");
 
                     b.ToTable("TongHopNeo");
+                });
+
+            modelBuilder.Entity("WebApi.Data.Entites.TongHopRole", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("DuPhong")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("GhiChu")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<bool>("LamViec")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("NgayLap")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("PhongBanId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SoLuong")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TinhTrangThietBi")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("ViTriLapDat")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PhongBanId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("TongHopRole");
                 });
 
             modelBuilder.Entity("WebApi.Data.Entites.TongHopThietBi", b =>
@@ -2553,6 +2629,25 @@ namespace WebApi.Migrations
                     b.Navigation("PhongBan");
                 });
 
+            modelBuilder.Entity("WebApi.Data.Entites.TongHopRole", b =>
+                {
+                    b.HasOne("WebApi.Data.Entites.PhongBan", "PhongBan")
+                        .WithMany("TongHopRoles")
+                        .HasForeignKey("PhongBanId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebApi.Data.Entites.DanhMucRole", "DanhmucRole")
+                        .WithMany("TongHopRoles")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DanhmucRole");
+
+                    b.Navigation("PhongBan");
+                });
+
             modelBuilder.Entity("WebApi.Data.Entites.TongHopThietBi", b =>
                 {
                     b.HasOne("WebApi.Data.Entites.DonViTinh", "DonViTinh")
@@ -2735,6 +2830,11 @@ namespace WebApi.Migrations
                     b.Navigation("TongHopKhoans");
                 });
 
+            modelBuilder.Entity("WebApi.Data.Entites.DanhMucRole", b =>
+                {
+                    b.Navigation("TongHopRoles");
+                });
+
             modelBuilder.Entity("WebApi.Data.Entites.DanhmucBaLang", b =>
                 {
                     b.Navigation("TonghopBalangs");
@@ -2838,6 +2938,8 @@ namespace WebApi.Migrations
                     b.Navigation("TongHopMayXucs");
 
                     b.Navigation("TongHopNeos");
+
+                    b.Navigation("TongHopRoles");
 
                     b.Navigation("TongHopThietBis");
 
