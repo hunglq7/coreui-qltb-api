@@ -135,9 +135,51 @@ namespace WebApi.Services
             return true;
         }
 
-        public Task<PagedResult<TonghopRoleVm>> GetAllPaging(TonghopRolePagingRequest request)
+        public async Task<PagedResult<TonghopRoleVm>> GetAllPaging(TonghopRolePagingRequest request)
         {
-            throw new NotImplementedException();
+            var query = from t in _thietbiDb.TongHopRoles.Include(x => x.PhongBan).Include(x => x.DanhmucRole)
+                        select t;
+            if ((request.donviId == 0 || request.donviId==null) && request.duPhong ==false)
+            {
+                query = query.Where(x => x.DuPhong==false );
+            }
+            else if (request.donviId > 0 && request.duPhong==true)
+            {
+                query = query.Where(x => x.PhongBanId==request.donviId &&x.DuPhong==request.duPhong);
+            }
+            else if (request.donviId>0 && request.duPhong==false)
+            {
+                query = query.Where(x => x.PhongBanId == request.donviId);
+            }
+            else if ((request.donviId == 0 || request.donviId == null) && request.duPhong == true)
+            {
+                query = query.Where(x => x.DuPhong == request.duPhong);
+            }
+            int totalRow = await query.CountAsync();
+            var data = await query.Skip((request.PageIndex - 1) * request.PageSize)
+                .Take(request.PageSize)
+                .Select(x => new TonghopRoleVm()
+                {
+                    Id = x.Id,
+                    TenThietBi = x.DanhmucRole.TenThietBi,
+                    TenPhong= x.PhongBan.TenPhong,
+                    ViTriLapDat = x.ViTriLapDat,
+                    NgayLap = x.NgayLap,
+                    SoLuong = x.SoLuong,
+                    TinhTrangThietBi = x.TinhTrangThietBi,
+                    DuPhong = x.DuPhong,
+                    LamViec = x.LamViec,
+                    GhiChu = x.GhiChu
+
+                }).ToListAsync();
+            var pagedResult = new PagedResult<TonghopRoleVm>()
+            {
+                TotalRecords = totalRow,
+                Items = data,
+                PageIndex = request.PageIndex,
+                PageSize = request.PageSize
+            };
+            return pagedResult;
         }
     }
     
