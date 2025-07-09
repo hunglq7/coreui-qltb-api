@@ -59,6 +59,7 @@ namespace WebApi.Data.EF
         public DbSet<TongHopBomNuoc> TongHopBomNuocs { get; set; }
         public DbSet<DanhmucBaLang> DanhmucBaLangs { get; set; }
         public DbSet<TonghopBalang> TonghopBalangs { get; set; }
+        public DbSet<DanhmucBienap> DanhmucBienaps { get; set; }
         public DbSet<DanhMucKhoan> DanhMucKhoans { get; set; }
         public DbSet<TongHopKhoan> TongHopKhoans { get; set; }
         public DbSet<DanhmucMayCao> DanhmucMayCaos { get; set; }
@@ -68,8 +69,9 @@ namespace WebApi.Data.EF
         public DbSet<DanhmucNeo> DanhmucNeos { get; set; }
         public DbSet<ThongsoNeo> ThongsoNeos { get; set; }
         public DbSet<TongHopNeo> TongHopNeos { get; set; }
-        public DbSet<DanhMucBangTai> DanhMucBangTais { get; set; }        
+        public DbSet<DanhMucBangTai> DanhMucBangTais { get; set; }
         public DbSet<ThongSoKyThuatBangTai> ThongSoKyThuatBangTais { get; set; }
+        public DbSet<ThongSoKyThuatBienAp> ThongSoKyThuatBienAps { get; set; }
         public DbSet<NhatKyBangTai> NhatKyBangTais { get; set; }
         public DbSet<TongHopBangTai> TongHopBangTais { get; set; }
         public DbSet<DanhMucRole> DanhMucRoles { get; set; }

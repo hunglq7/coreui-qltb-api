@@ -139,19 +139,19 @@ namespace WebApi.Services
         {
             var query = from t in _thietbiDb.TongHopRoles.Include(x => x.PhongBan).Include(x => x.DanhmucRole)
                         select t;
-            if ((request.donviId == 0 || request.donviId==null) && request.duPhong ==false)
+            if ((request.donViId == 0 || request.donViId==null) && request.duPhong ==false)
             {
                 query = query.Where(x => x.DuPhong==false );
             }
-            else if (request.donviId > 0 && request.duPhong==true)
+            else if (request.donViId > 0 && request.duPhong==true)
             {
-                query = query.Where(x => x.PhongBanId==request.donviId &&x.DuPhong==request.duPhong);
+                query = query.Where(x => x.PhongBanId==request.donViId &&x.DuPhong==request.duPhong);
             }
-            else if (request.donviId>0 && request.duPhong==false)
+            else if (request.donViId>0 && request.duPhong==false)
             {
-                query = query.Where(x => x.PhongBanId == request.donviId);
+                query = query.Where(x => x.PhongBanId == request.donViId);
             }
-            else if ((request.donviId == 0 || request.donviId == null) && request.duPhong == true)
+            else if ((request.donViId == 0 || request.donViId == null) && request.duPhong == true)
             {
                 query = query.Where(x => x.DuPhong == request.duPhong);
             }

@@ -96,12 +96,14 @@ builder.Services.AddTransient<ITonghopmaycaoService, TonghopmaycaoService>();
 builder.Services.AddTransient<IDanhmucNeoService, DanhmucNeoService>();
 builder.Services.AddTransient<IThongsoNeoService, ThongsoNeoService>();
 builder.Services.AddTransient<ITonghopneoService, TonghopneoService>();
-builder.Services.AddTransient<IDanhmucbangtaiService,DanhmucbangtaiService>();
+builder.Services.AddTransient<IDanhmucbangtaiService, DanhmucbangtaiService>();
 builder.Services.AddTransient<INhatkybangtaiService, NhatkybangtaiService>();
 builder.Services.AddTransient<IThongsokythuatbangtaiService, ThongsokythuatbangtaiService>();
 builder.Services.AddTransient<ITonghopbangtaiService, TonghopbangtaiService>();
 builder.Services.AddTransient<IDanhmucRoleService, DanhmucRoleService>();
 builder.Services.AddTransient<ITonghopRoleService, TonghopRoleService>();
+builder.Services.AddTransient<IDanhmucBienApService, DanhmucBienApService>();
+builder.Services.AddTransient<IThongsobienapService, ThongsobienapService>();
 builder.Services.Configure<FormOptions>(o =>
 {
     o.ValueLengthLimit = int.MaxValue;
