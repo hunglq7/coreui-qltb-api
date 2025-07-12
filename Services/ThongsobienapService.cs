@@ -33,7 +33,7 @@ namespace WebApi.Services
             var newItems = new ThongSoKyThuatBienAp()
             {
                 Id = Request.Id,
-                BienapId = Request.BienapId,
+                BienApId = Request.BienApId,
                 NoiDung = Request.NoiDung,
                 DonViTinh = Request.DonViTinh,
                 ThongSo = Request.ThongSo,
@@ -72,7 +72,7 @@ namespace WebApi.Services
                         select t;
             if (request.thietbiId > 0)
             {
-                query = query.Where(x => x.BienapId == request.thietbiId);
+                query = query.Where(x => x.BienApId == request.thietbiId);
             }
             int totalRow = await query.CountAsync();
             var data = await query.Skip((request.PageIndex - 1) * request.PageSize)
@@ -102,7 +102,7 @@ namespace WebApi.Services
                 items = new ThongSoKyThuatBienAp()
                 {
                     Id = 0,
-                    BienapId = 1,
+                    BienApId = 1,
                     NoiDung = string.Empty,
                     DonViTinh = string.Empty,
                     ThongSo = string.Empty
@@ -112,8 +112,8 @@ namespace WebApi.Services
         }
         public async Task<List<ThongsoBienapVm>> getDatailById(int id)
         {
-            var Query = from t in _thietbiDbContext.ThongSoKyThuatBienAps.Where(x => x.BienapId == id)
-                        join m in _thietbiDbContext.DanhmucBienaps on t.BienapId equals m.Id
+            var Query = from t in _thietbiDbContext.ThongSoKyThuatBienAps.Where(x => x.BienApId == id)
+                        join m in _thietbiDbContext.DanhmucBienaps on t.BienApId equals m.Id
                         select new { t, m };
             return await Query.Select(x => new ThongsoBienapVm
             {
@@ -132,7 +132,7 @@ namespace WebApi.Services
                 return false;
             }
             items.Id = Request.Id;
-            items.BienapId = Request.BienapId;
+            items.BienApId = Request.BienApId;
             items.NoiDung = Request.NoiDung;
             items.DonViTinh = Request.DonViTinh;
             items.ThongSo = Request.ThongSo;
