@@ -77,6 +77,8 @@ namespace WebApi.Data.EF
         public DbSet<DanhMucRole> DanhMucRoles { get; set; }
         public DbSet<TongHopRole> TongHopRoles { get; set; }
         public DbSet<DanhmucAptomatKhoidongtu> DanhmucAptomatKhoidongtus { get; set; }
+        public DbSet<Danhmucgiacotthuyluc> Danhmucgiacotthuylucs { get; set; }
+        public DbSet<Tonghopgiacotthuyluc> Tonghopgiacotthuylucs { get; set; }
 
     }
 }

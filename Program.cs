@@ -105,6 +105,8 @@ builder.Services.AddTransient<ITonghopRoleService, TonghopRoleService>();
 builder.Services.AddTransient<IDanhmucBienApService, DanhmucBienApService>();
 builder.Services.AddTransient<IThongsobienapService, ThongsobienapService>();
 builder.Services.AddTransient<IDanhmucAptomatKhoidongtuService, DanhmucAptomatKhoidongtuService>();
+builder.Services.AddTransient<IDanhmucgiacotthuylucService, DanhmucgiacotthuylucService>();
+builder.Services.AddTransient<ITonghopgiacotthuylucService, TonghopgiacotthuylucService>();
 builder.Services.Configure<FormOptions>(o =>
 {
     o.ValueLengthLimit = int.MaxValue;
@@ -170,7 +172,7 @@ app.UseDirectoryBrowser(new DirectoryBrowserOptions()
 });
 
 app.UseRouting();
-app.UseCors(options => options.WithOrigins("http://localhost:5252").AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
+app.UseCors(options => options.WithOrigins("http://localhost:5005").AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
 app.UseAuthentication();
 app.UseAuthorization();
 if (app.Environment.IsDevelopment())
