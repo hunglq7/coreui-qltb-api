@@ -9,7 +9,7 @@ namespace WebApi.Data.Entites
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public int AptomatKhoidongtuId { get; set; }
+        public int DanhmucaptomatKhoidongtuId { get; set; }
         [Required]
         [MaxLength(2000)]
         public string NoiDung { get; set; } = string.Empty;
@@ -17,7 +17,7 @@ namespace WebApi.Data.Entites
         public string DonViTinh { get; set; } = string.Empty;
         [MaxLength(100)]
         public string ThongSo { get; set; } = string.Empty;
-        [ForeignKey("AptomatKhoidongtuId")]
+        [ForeignKey("DanhmucaptomatKhoidongtuId")]
         public virtual DanhmucAptomatKhoidongtu? DanhmucAptomatKhoidongtu { get; set; }
     }
 }

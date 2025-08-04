@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\migrations\\20250802024851_thongsoaptomatkhoidongtu-update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:migrations\\20250802024851_thongsoaptomatkhoidongtu-update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\services\\thongsoaptomatkhoidongtuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\thongsoaptomatkhoidongtuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\data\\entites\\thongsoaptomatkhoidongtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:data\\entites\\thongsoaptomatkhoidongtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +23,12 @@
       "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\aptomatkhoidongtu\\thongsoaptomatkhoidongtu\\thongsoaptomatkhoidongtuvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\services\\thongsoaptomatkhoidongtuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\thongsoaptomatkhoidongtuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\services\\thongsokythuattoitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\thongsokythuattoitrucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\controllers\\thongsoaptomatkhoidongtucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\thongsoaptomatkhoidongtucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -51,19 +63,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20250802024851_Thongsoaptomatkhoidongtu-update.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Migrations\\20250802024851_Thongsoaptomatkhoidongtu-update.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250802024851_Thongsoaptomatkhoidongtu-update.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Migrations\\20250802024851_Thongsoaptomatkhoidongtu-update.cs",
+              "RelativeToolTip": "Migrations\\20250802024851_Thongsoaptomatkhoidongtu-update.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T02:48:52.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ThongsokythuattoitrucService.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\ThongsokythuattoitrucService.cs",
+              "RelativeDocumentMoniker": "Services\\ThongsokythuattoitrucService.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\ThongsokythuattoitrucService.cs",
+              "RelativeToolTip": "Services\\ThongsokythuattoitrucService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA3wCgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T02:34:38.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ThongsoAptomatKhoidongtuController.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\ThongsoAptomatKhoidongtuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ThongsoAptomatKhoidongtuController.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\ThongsoAptomatKhoidongtuController.cs",
+              "RelativeToolTip": "Controllers\\ThongsoAptomatKhoidongtuController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowEAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T01:56:48.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ThongsoAptomatKhoidongtu.cs",
               "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Data\\Entites\\ThongsoAptomatKhoidongtu.cs",
               "RelativeDocumentMoniker": "Data\\Entites\\ThongsoAptomatKhoidongtu.cs",
               "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Data\\Entites\\ThongsoAptomatKhoidongtu.cs",
               "RelativeToolTip": "Data\\Entites\\ThongsoAptomatKhoidongtu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T03:25:27.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T03:25:27.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DanhmucAptomatKhoidongtu.cs",
               "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Data\\Entites\\DanhmucAptomatKhoidongtu.cs",
               "RelativeDocumentMoniker": "Data\\Entites\\DanhmucAptomatKhoidongtu.cs",
@@ -71,12 +119,11 @@
               "RelativeToolTip": "Data\\Entites\\DanhmucAptomatKhoidongtu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T03:25:24.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T03:25:24.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ThongsoAptomatKhoidongtuVm.cs",
               "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Models\\AptomatKhoidongtu\\ThongsoAptomatKhoidongtu\\ThongsoAptomatKhoidongtuVm.cs",
               "RelativeDocumentMoniker": "Models\\AptomatKhoidongtu\\ThongsoAptomatKhoidongtu\\ThongsoAptomatKhoidongtuVm.cs",
@@ -84,25 +131,23 @@
               "RelativeToolTip": "Models\\AptomatKhoidongtu\\ThongsoAptomatKhoidongtu\\ThongsoAptomatKhoidongtuVm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T03:25:11.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T03:25:11.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ThongsoAptomatKhoidongtuService.cs",
               "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\ThongsoAptomatKhoidongtuService.cs",
               "RelativeDocumentMoniker": "Services\\ThongsoAptomatKhoidongtuService.cs",
               "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\ThongsoAptomatKhoidongtuService.cs",
               "RelativeToolTip": "Services\\ThongsoAptomatKhoidongtuService.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAADwv4UAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T03:24:02.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T03:24:02.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "20250728021408_ThongsoAptomatkhoidongtu.cs",
               "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Migrations\\20250728021408_ThongsoAptomatkhoidongtu.cs",
               "RelativeDocumentMoniker": "Migrations\\20250728021408_ThongsoAptomatkhoidongtu.cs",
@@ -114,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -126,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AppSettings.config",
               "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\AppSettings.config",
               "RelativeDocumentMoniker": "AppSettings.config",
@@ -138,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -146,12 +191,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-28T01:37:21.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T01:37:21.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",

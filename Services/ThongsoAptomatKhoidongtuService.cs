@@ -37,7 +37,7 @@ namespace Api.Services
             var newItems = new ThongsoAptomatKhoidongtu()
             {
                 Id = Request.Id,
-                AptomatKhoidongtuId = Request.DanhmucaptomatkhoidongtuId,
+                DanhmucaptomatKhoidongtuId = Request.DanhmucaptomatkhoidongtuId,
                 NoiDung = Request.NoiDung,
                 DonViTinh = Request.DonViTinh,
                 ThongSo = Request.ThongSo,
@@ -79,7 +79,7 @@ namespace Api.Services
                         select t;
             if (request.thietbiId > 0)
             {
-                query = query.Where(x => x.AptomatKhoidongtuId == request.thietbiId);
+                query = query.Where(x => x.DanhmucaptomatKhoidongtuId == request.thietbiId);
             }
 
             int totalRow = await query.CountAsync();
@@ -112,7 +112,7 @@ namespace Api.Services
                 items = new ThongsoAptomatKhoidongtu()
                 {
                     Id = 0,
-                    AptomatKhoidongtuId = 1,
+                    DanhmucaptomatKhoidongtuId = 1,
                     NoiDung = "",
                     DonViTinh = "",
                     ThongSo = ""
@@ -124,8 +124,8 @@ namespace Api.Services
 
         public async Task<List<ThongsoAptomatKhoidongtuVm>> GetDetailById(int id)
         {
-            var Query = from t in _thietbiDbContext.ThongsoAptomatKhoidongtus.Where(x => x.AptomatKhoidongtuId == id)
-                        join m in _thietbiDbContext.DanhmucAptomatKhoidongtus on t.AptomatKhoidongtuId equals m.Id
+            var Query = from t in _thietbiDbContext.ThongsoAptomatKhoidongtus.Where(x => x.DanhmucaptomatKhoidongtuId == id)
+                        join m in _thietbiDbContext.DanhmucAptomatKhoidongtus on t.DanhmucaptomatKhoidongtuId equals m.Id
                         select new { t, m };
             return await Query.Select(x => new ThongsoAptomatKhoidongtuVm
             {
@@ -145,7 +145,7 @@ namespace Api.Services
                 return false;
             }
             items.Id = Request.Id;
-            items.AptomatKhoidongtuId = Request.DanhmucaptomatkhoidongtuId;
+            items.DanhmucaptomatKhoidongtuId = Request.DanhmucaptomatkhoidongtuId;
             items.NoiDung = Request.NoiDung;
             items.DonViTinh = Request.DonViTinh;
             items.ThongSo = Request.ThongSo;
