@@ -15,5 +15,6 @@ namespace WebApi.Data.Entites
         public string? LoaiThietBi { get; set; }
         public string? GhiChu { get; set; }
         public virtual IEnumerable<ThongsoAptomatKhoidongtu>? ThongsoAptomatKhoidongtus { get; set; }
+        public virtual IEnumerable<TongHopAptomatKhoidongtu>? TongHopAptomatKhoidongtus { get; set; }
     }
 }
