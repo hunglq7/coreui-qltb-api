@@ -19,5 +19,6 @@ namespace WebApi.Data.Entites
         public string ThongSo { get; set; } = string.Empty;
         [ForeignKey("DanhmucaptomatKhoidongtuId")]
         public virtual DanhmucAptomatKhoidongtu? DanhmucAptomatKhoidongtu { get; set; }
+        public virtual IEnumerable<NhatkyAptomatKhoidongtu>? NhatkyAptomatKhoidongtu { get; set; }
     }
 }
