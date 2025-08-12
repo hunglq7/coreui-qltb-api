@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\data\\entites\\tonghopaptomatkhoidongtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:data\\entites\\tonghopaptomatkhoidongtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\controllers\\tonghopaptomatkhoidongtucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\tonghopaptomatkhoidongtucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\data\\entites\\thongsoaptomatkhoidongtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:data\\entites\\thongsoaptomatkhoidongtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\services\\nhatkyaptomatkhoidongtuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\nhatkyaptomatkhoidongtuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\data\\entites\\nhatkyaptomatkhoidongtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:data\\entites\\nhatkyaptomatkhoidongtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\migrations\\20250808022639_nhatkyaptomatkhoidongtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:migrations\\20250808022639_nhatkyaptomatkhoidongtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\controllers\\nhatkyaptomatkhoidongtucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\nhatkyaptomatkhoidongtucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\data\\ef\\thietbidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:data\\ef\\thietbidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\services\\tonghopaptomatkhoidongtuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\tonghopaptomatkhoidongtuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\migrations\\20250805070208_tonghopaptomatkhoidongtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:migrations\\20250805070208_tonghopaptomatkhoidongtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,54 +43,89 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TongHopAptomatKhoidongtu.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Data\\Entites\\TongHopAptomatKhoidongtu.cs",
-              "RelativeDocumentMoniker": "Data\\Entites\\TongHopAptomatKhoidongtu.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Data\\Entites\\TongHopAptomatKhoidongtu.cs",
-              "RelativeToolTip": "Data\\Entites\\TongHopAptomatKhoidongtu.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAA3AAAA",
+              "Title": "TonghopaptomatkhoidongtuController.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\TonghopaptomatkhoidongtuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TonghopaptomatkhoidongtuController.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\TonghopaptomatkhoidongtuController.cs",
+              "RelativeToolTip": "Controllers\\TonghopaptomatkhoidongtuController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAkwB8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T07:52:58.682Z",
+              "WhenOpened": "2025-08-12T07:55:01.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ThietbiDbContext.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Data\\EF\\ThietbiDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\EF\\ThietbiDbContext.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Data\\EF\\ThietbiDbContext.cs",
-              "RelativeToolTip": "Data\\EF\\ThietbiDbContext.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAADwv1MAAAAAAAAA",
+              "Title": "ThongsoAptomatKhoidongtu.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Data\\Entites\\ThongsoAptomatKhoidongtu.cs",
+              "RelativeDocumentMoniker": "Data\\Entites\\ThongsoAptomatKhoidongtu.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Data\\Entites\\ThongsoAptomatKhoidongtu.cs",
+              "RelativeToolTip": "Data\\Entites\\ThongsoAptomatKhoidongtu.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAgwBcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T07:42:41.477Z",
+              "WhenOpened": "2025-08-12T03:17:25.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TonghopaptomatkhoidongtuService.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\TonghopaptomatkhoidongtuService.cs",
-              "RelativeDocumentMoniker": "Services\\TonghopaptomatkhoidongtuService.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\TonghopaptomatkhoidongtuService.cs",
-              "RelativeToolTip": "Services\\TonghopaptomatkhoidongtuService.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAuwDAAAAAYAAAA",
+              "Title": "NhatkyaptomatkhoidongtuService.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\NhatkyaptomatkhoidongtuService.cs",
+              "RelativeDocumentMoniker": "Services\\NhatkyaptomatkhoidongtuService.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\NhatkyaptomatkhoidongtuService.cs",
+              "RelativeToolTip": "Services\\NhatkyaptomatkhoidongtuService.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAgwIAAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T07:40:31.091Z",
+              "WhenOpened": "2025-08-12T03:13:30.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20250805070208_Tonghopaptomatkhoidongtu.cs",
-              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Migrations\\20250805070208_Tonghopaptomatkhoidongtu.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250805070208_Tonghopaptomatkhoidongtu.cs",
-              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Migrations\\20250805070208_Tonghopaptomatkhoidongtu.cs",
-              "RelativeToolTip": "Migrations\\20250805070208_Tonghopaptomatkhoidongtu.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAgwD4AAAALAAAA",
+              "Title": "NhatkyAptomatKhoidongtu.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Data\\Entites\\NhatkyAptomatKhoidongtu.cs",
+              "RelativeDocumentMoniker": "Data\\Entites\\NhatkyAptomatKhoidongtu.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Data\\Entites\\NhatkyAptomatKhoidongtu.cs",
+              "RelativeToolTip": "Data\\Entites\\NhatkyAptomatKhoidongtu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T07:02:08.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T03:11:29.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ThietbiDbContext.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Data\\EF\\ThietbiDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\EF\\ThietbiDbContext.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Data\\EF\\ThietbiDbContext.cs",
+              "RelativeToolTip": "Data\\EF\\ThietbiDbContext.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAqwFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T03:11:12.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NhatkyaptomatkhoidongtuController.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\NhatkyaptomatkhoidongtuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhatkyaptomatkhoidongtuController.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\NhatkyaptomatkhoidongtuController.cs",
+              "RelativeToolTip": "Controllers\\NhatkyaptomatkhoidongtuController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwC4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T03:10:06.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250808022639_Nhatkyaptomatkhoidongtu.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Migrations\\20250808022639_Nhatkyaptomatkhoidongtu.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250808022639_Nhatkyaptomatkhoidongtu.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Migrations\\20250808022639_Nhatkyaptomatkhoidongtu.cs",
+              "RelativeToolTip": "Migrations\\20250808022639_Nhatkyaptomatkhoidongtu.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwD4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T02:26:39.913Z"
             }
           ]
         }

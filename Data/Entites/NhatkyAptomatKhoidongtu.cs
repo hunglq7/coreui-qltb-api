@@ -3,13 +3,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace WebApi.Data.Entites
 {
-    [Table("NhatkyAptomatKhoidongtu")]
-    public class NhatkyAptomatKhoidongtu
+    [Table("Nhatkyaptomatkhoidongtu")]
+    public class Nhatkyaptomatkhoidongtu
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public int ThietBiId { get; set; }
+        public int TonghopaptomatkhoidongtuId { get; set; }
         public string NgayThang { get; set; } = string.Empty;
         [MaxLength(100)]
         public string DonVi { get; set; } = string.Empty;
@@ -19,7 +19,7 @@ namespace WebApi.Data.Entites
         public string TrangThai { get; set; } = string.Empty;
         [MaxLength(500)]
         public string GhiChu { get; set; } = string.Empty;
-        [ForeignKey("ThietBiId")]
+        [ForeignKey("TonghopaptomatkhoidongtuId")]
         public virtual TongHopAptomatKhoidongtu? TongHopAptomatKhoidongtu { get; set; }
     }
 }
