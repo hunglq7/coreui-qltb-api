@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebApi.Data.EF;
 
@@ -11,9 +12,11 @@ using WebApi.Data.EF;
 namespace WebApi.Migrations
 {
     [DbContext(typeof(ThietbiDbContext))]
-    partial class ThietbiDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250813020747_Tonghopaptomatkhoidongtu-update")]
+    partial class Tonghopaptomatkhoidongtuupdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -304,7 +307,7 @@ namespace WebApi.Migrations
                         {
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a11e6fff-d553-4626-b556-a835c1c370ac",
+                            ConcurrencyStamp = "aa9320f5-f531-4356-bc63-b6959c92602e",
                             Dob = new DateTime(1979, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "hunglq7@gmail.com",
                             EmailConfirmed = true,
@@ -314,7 +317,7 @@ namespace WebApi.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "hunglq7@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAIAAYagAAAAEM/rRnk2qJBhOR7u44HCiqJfFNGIEYQovQmuEzub5nQYDxC+qA8Xl5UNnjt+cvkp2Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGYU7Ist3Iq8QnadccGulnF9pGv0gMISgvRJNeUXgGgOKnvjB7f7tLYhBnVrRDvhbQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1731,6 +1734,9 @@ namespace WebApi.Migrations
                     b.Property<int>("SoLuong")
                         .HasColumnType("int");
 
+                    b.Property<int?>("ThietBiId")
+                        .HasColumnType("int");
+
                     b.Property<string>("TinhTrangThietBi")
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
@@ -1746,7 +1752,7 @@ namespace WebApi.Migrations
 
                     b.HasIndex("DonViId");
 
-                    b.HasIndex("aptomatkhoidongtuId");
+                    b.HasIndex("ThietBiId");
 
                     b.ToTable("TongHopAptomatKhoidongtu");
                 });
@@ -2818,9 +2824,7 @@ namespace WebApi.Migrations
 
                     b.HasOne("WebApi.Data.Entites.DanhmucAptomatKhoidongtu", "DanhmucAptomatKhoidongtu")
                         .WithMany("TongHopAptomatKhoidongtus")
-                        .HasForeignKey("aptomatkhoidongtuId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ThietBiId");
 
                     b.Navigation("DanhmucAptomatKhoidongtu");
 

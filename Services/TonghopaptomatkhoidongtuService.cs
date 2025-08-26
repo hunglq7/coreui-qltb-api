@@ -36,12 +36,15 @@ namespace WebApi.Services
             var items = new TongHopAptomatKhoidongtu()
             {
                 Id = Request.Id,
-                ThietBiId = Request.ThietBiId,
+                MaQuanLy=Request.MaQuanLy,
+                aptomatkhoidongtuId = Request.aptomatkhoidongtuId,
                 DonViId = Request.DonViId,
                 ViTriLapDat = Request.ViTriLapDat,
                 NgayKiemDinh = Request.NgayKiemDinh,
                 NgayLap = Request.NgayLap,
-                TinhTrang = Request.TinhTrang,
+                SoLuong = Request.SoLuong,
+                TinhTrangThietBi = Request.TinhTrangThietBi,
+                DuPhong = Request.DuPhong,
                 GhiChu = Request.GhiChu
             };
             await _thietbiDbContext.TongHopAptomatKhoidongtus.AddAsync(items);
@@ -69,35 +72,39 @@ namespace WebApi.Services
             if (!string.IsNullOrEmpty(request.Keyword))
             {
                 query = query.Where(x => x.ViTriLapDat.Contains(request.Keyword) ||
-                                       x.TinhTrang.Contains(request.Keyword) ||
+                                       x.TinhTrangThietBi.Contains(request.Keyword) ||
                                        x.GhiChu.Contains(request.Keyword));
             }
 
-            if (request.ThietBiId > 0 && request.DonViId > 0)
+            if (request.aptomatkhoidongtuId > 0 && request.DonViId > 0)
             {
-                query = query.Where(x => x.ThietBiId == request.ThietBiId && x.DonViId == request.DonViId);
+                query = query.Where(x => x.aptomatkhoidongtuId == request.aptomatkhoidongtuId && x.DonViId == request.DonViId);
             }
-            else if (request.ThietBiId > 0 && (request.DonViId == 0 || request.DonViId == null))
+            else if (request.aptomatkhoidongtuId > 0 && (request.DonViId == 0 || request.DonViId == null))
             {
-                query = query.Where(x => x.ThietBiId == request.ThietBiId);
+                query = query.Where(x => x.aptomatkhoidongtuId == request.aptomatkhoidongtuId);
             }
-            else if ((request.ThietBiId == 0 || request.ThietBiId == null) && request.DonViId > 0)
+            else if ((request.aptomatkhoidongtuId == 0 || request.aptomatkhoidongtuId == null) && request.DonViId > 0)
             {
                 query = query.Where(x => x.DonViId == request.DonViId);
             }
 
             int totalRow = await query.CountAsync();
+            int SumRecodes= await query.SumAsync(x => x.SoLuong);
             var data = await query.Skip((request.PageIndex - 1) * request.PageSize)
                 .Take(request.PageSize)
                 .Select(x => new TonghopaptomatkhoidongtuVm()
                 {
                     Id = x.Id,
+                    MaQuanLy = x.MaQuanLy ?? string.Empty,
                     TenThietBi = x.DanhmucAptomatKhoidongtu.TenThietBi,
                     PhongBan = x.PhongBan.TenPhong,
                     ViTriLapDat = x.ViTriLapDat,
                     NgayKiemDinh = x.NgayKiemDinh,
                     NgayLap = x.NgayLap,
-                    TinhTrang = x.TinhTrang,
+                    SoLuong = x.SoLuong,
+                    DuPhong = x.DuPhong,
+                    TinhTrangThietBi = x.TinhTrangThietBi,
                     GhiChu = x.GhiChu
                 }).ToListAsync();
 
@@ -106,7 +113,8 @@ namespace WebApi.Services
                 TotalRecords = totalRow,
                 Items = data,
                 PageIndex = request.PageIndex,
-                PageSize = request.PageSize
+                PageSize = request.PageSize,
+                SumRecords=SumRecodes
             };
             return pagedResult;
         }
@@ -119,7 +127,7 @@ namespace WebApi.Services
                 query = new TongHopAptomatKhoidongtu()
                 {
                     Id = 0,
-                    ThietBiId = 0,
+                    aptomatkhoidongtuId = 0,
                     DonViId = 0,
                     NgayLap = DateTime.Now
                 };
@@ -131,18 +139,20 @@ namespace WebApi.Services
         {
             var Query = from t in _thietbiDbContext.TongHopAptomatKhoidongtus.Where(x => x.Id == id)
                         join p in _thietbiDbContext.PhongBans on t.DonViId equals p.Id
-                        join m in _thietbiDbContext.DanhmucAptomatKhoidongtus on t.ThietBiId equals m.Id
+                        join m in _thietbiDbContext.DanhmucAptomatKhoidongtus on t.aptomatkhoidongtuId equals m.Id
                         select new { t, p, m };
 
             return await Query.Select(x => new TonghopaptomatkhoidongtuVm
             {
                 Id = x.t.Id,
+                MaQuanLy = x.t.MaQuanLy ?? string.Empty,
                 TenThietBi = x.m.TenThietBi,
                 PhongBan = x.p.TenPhong,
                 ViTriLapDat = x.t.ViTriLapDat,
                 NgayKiemDinh = x.t.NgayKiemDinh,
                 NgayLap = x.t.NgayLap,
-                TinhTrang = x.t.TinhTrang,
+                TinhTrangThietBi = x.t.TinhTrangThietBi,
+                DuPhong = x.t.DuPhong,
                 GhiChu = x.t.GhiChu
             }).ToListAsync();
         }
@@ -162,15 +172,15 @@ namespace WebApi.Services
             {
                 return false;
             }
-
-            entity.ThietBiId = Request.ThietBiId;
+            entity.MaQuanLy = Request.MaQuanLy;
+            entity.aptomatkhoidongtuId= Request.aptomatkhoidongtuId;
             entity.DonViId = Request.DonViId;
             entity.ViTriLapDat = Request.ViTriLapDat;
             entity.NgayKiemDinh = Request.NgayKiemDinh;
             entity.NgayLap = Request.NgayLap;
-            entity.TinhTrang = Request.TinhTrang;
+            entity.TinhTrangThietBi = Request.TinhTrangThietBi;
+            entity.SoLuong = Request.SoLuong;
             entity.GhiChu = Request.GhiChu;
-
             _thietbiDbContext.Update(entity);
             await _thietbiDbContext.SaveChangesAsync();
             return true;

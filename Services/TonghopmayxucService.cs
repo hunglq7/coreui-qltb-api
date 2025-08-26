@@ -58,25 +58,25 @@ namespace WebApi.Services
 
         public async Task<List<TonghopmayDetailByIdVm>> getDatailById(int id)
         {
-            var Query = from t in _thietbiDbContext.TongHopMayXucs.Where(x => x.Id == id)
-                        join p in _thietbiDbContext.PhongBans on t.PhongBanId equals p.Id
-                        join m in _thietbiDbContext.MayXucs on t.MayXucId equals m.Id
-                        join l in _thietbiDbContext.LoaiThietBis on t.LoaiThietBiId equals l.Id
+            var query = _thietbiDbContext.TongHopMayXucs
+                .Where(t => t.Id == id)
+                .Include(t => t.MayXuc)
+                .Include(t => t.PhongBan)
+                .Include(t => t.LoaiThietBi);
 
-                        select new { t, p, m, l };
-            return await Query.Select(x => new TonghopmayDetailByIdVm
+            return await query.Select(t => new TonghopmayDetailByIdVm
             {
-                Id = x.t.Id,
-                MaQuanLy = x.t.MaQuanLy,
-                TenMay = x.m.TenThietBi,
-                TenPhong = x.p.TenPhong,
-                LoaiThietBi = x.l.TenLoai,
-                ViTriLapDat = x.t.ViTriLapDat,
-                TinhTrang = x.t.TinhTrang,
-                NgayLapDat = x.t.NgayLap,
-                SoLuong = x.t.SoLuong,
-                DuPhong = x.t.DuPhong,
-                GhiChu = x.t.GhiChu
+                Id = t.Id,
+                MaQuanLy = t.MaQuanLy ?? string.Empty,
+                TenMay = t.MayXuc != null ? (t.MayXuc.TenThietBi ?? string.Empty) : string.Empty,
+                TenPhong = t.PhongBan != null ? (t.PhongBan.TenPhong ?? string.Empty) : string.Empty,
+                LoaiThietBi = t.LoaiThietBi != null ? (t.LoaiThietBi.TenLoai ?? string.Empty) : string.Empty,
+                ViTriLapDat = t.ViTriLapDat ?? string.Empty,
+                TinhTrang = t.TinhTrang ?? string.Empty,
+                NgayLapDat = t.NgayLap,
+                SoLuong = t.SoLuong,
+                DuPhong = t.DuPhong,
+                GhiChu = t.GhiChu ?? string.Empty
             }).ToListAsync();
         }
 
@@ -94,42 +94,59 @@ namespace WebApi.Services
 
         public async Task<TongHopMayXuc> GetById(int id)
         {
-            var mayxuc = await _thietbiDbContext.TongHopMayXucs.FindAsync(id);
-            if (mayxuc == null)
+            var safeEntity = await _thietbiDbContext.TongHopMayXucs
+                .Where(x => x.Id == id)
+                .Select(x => new TongHopMayXuc
+                {
+                    Id = x.Id,
+                    MayXucId = x.MayXucId,
+                    PhongBanId = x.PhongBanId,
+                    LoaiThietBiId = x.LoaiThietBiId,
+                    MaQuanLy = EF.Property<string?>(x, "MaQuanLy") ?? string.Empty,
+                    ViTriLapDat = EF.Property<string?>(x, "ViTriLapDat") ?? string.Empty,
+                    TinhTrang = EF.Property<string?>(x, "TinhTrang") ?? string.Empty,
+                    NgayLap = EF.Property<DateTime?>(x, "NgayLap") ?? DateTime.Now,
+                    SoLuong = EF.Property<int?>(x, "SoLuong") ?? 0,
+                    DuPhong = EF.Property<bool?>(x, "DuPhong") ?? false,
+                    GhiChu = EF.Property<string?>(x, "GhiChu") ?? string.Empty
+                })
+                .AsNoTracking()
+                .FirstOrDefaultAsync();
+
+            if (safeEntity == null)
             {
-                mayxuc = new TongHopMayXuc()
+                return new TongHopMayXuc()
                 {
                     Id = 0,
                     LoaiThietBiId = 0,
                     NgayLap = DateTime.Now,
                     SoLuong = 1
-                }
-                     ;
+                };
             }
 
-            return mayxuc;
+            return safeEntity;
         }
 
 
 
         public async Task<List<TonghopmayxucVM>> GetTonghopmayxuc()
         {
-            var query = from t in _thietbiDbContext.TongHopMayXucs.Include(x => x.MayXuc)
+            var query = from t in _thietbiDbContext.TongHopMayXucs.Include(x => x.MayXuc).Include(x => x.PhongBan).Include(x => x.LoaiThietBi)
                         select t;
             var TongTB = query.Sum(x => x.SoLuong);
             return await query.Select(x => new TonghopmayxucVM()
             {
                 Id = x.Id,
-                MaQuanLy = x.MaQuanLy,
+                MaQuanLy = x.MaQuanLy ?? string.Empty,
                 TenMayXuc = x.MayXuc!.TenThietBi,
-                TenPhongBan = x.PhongBan!.TenPhong,
-                LoaiThietBi = x.LoaiThietBi.TenLoai,
-                ViTriLapDat = x.ViTriLapDat,
+                TenPhongBan = x.PhongBan != null ? (x.PhongBan.TenPhong ?? string.Empty) : string.Empty,
+                LoaiThietBi = x.LoaiThietBi != null ? (x.LoaiThietBi.TenLoai ?? string.Empty) : string.Empty,
+                ViTriLapDat = x.ViTriLapDat ?? string.Empty,
                 NgayLap = x.NgayLap,
                 SoLuong = x.SoLuong,
-                TinhTrang = x.TinhTrang,
+                TinhTrang = x.TinhTrang ?? string.Empty,
                 DuPhong= x.DuPhong,
-                GhiChu = x.GhiChu,
+                GhiChu = x.GhiChu ?? string.Empty,
                 TongTB = TongTB
             }).ToListAsync();
         }
@@ -137,26 +154,27 @@ namespace WebApi.Services
 
         public async Task<PagedResult<TonghopmayxucVM>> GetAllPaging(GetManagerTonghopMayxucPagingRequest request)
         {
-            var query = from t in _thietbiDbContext.TongHopMayXucs.Include(x => x.MayXuc).Include(x => x.PhongBan)
+            var query = from t in _thietbiDbContext.TongHopMayXucs
+                        .Include(x => x.MayXuc)
+                        .Include(x => x.PhongBan)
+                        .Include(x => x.LoaiThietBi)
                         select t;        
 
-            if (request.duPhong != null && request.duPhong == true)
+            // Lọc theo duPhong (nếu có)
+            if (request.duPhong.HasValue)
             {
-                query = query.Where(x => x.DuPhong == request.duPhong);
+                query = query.Where(x => x.DuPhong == request.duPhong.Value);
             }
-            else if (request.thietbiId > 0 && request.donviId > 0)
-            {
-                query = query.Where(x => x.MayXucId == request.thietbiId && x.PhongBanId== request.donviId);
-            }
-            else if (request.thietbiId > 0 && (request.donviId == 0 || request.donviId == null))
+            // Lọc theo thietbiId (nếu > 0)
+            if (request.thietbiId > 0)
             {
                 query = query.Where(x => x.MayXucId == request.thietbiId);
             }
-            else if ((request.thietbiId == 0 || request.thietbiId == null) && request.donviId > 0)
+            // Lọc theo donviId (nếu > 0)
+            if (request.donviId > 0)
             {
                 query = query.Where(x => x.PhongBanId == request.donviId);
             }
-
 
             int totalRow = await query.CountAsync();
             int sumSoluong = await query.SumAsync(x => x.SoLuong);
@@ -165,21 +183,21 @@ namespace WebApi.Services
                 .Select(x => new TonghopmayxucVM()
                 {
                     Id = x.Id,
-                    MaQuanLy = x.MaQuanLy,
+                    MaQuanLy = x.MaQuanLy ?? string.Empty,
                     TenMayXuc = x.MayXuc!.TenThietBi,
-                    TenPhongBan = x.PhongBan!.TenPhong,
-                    LoaiThietBi = x.LoaiThietBi.TenLoai,
-                    ViTriLapDat = x.ViTriLapDat,
+                    TenPhongBan = x.PhongBan != null ? (x.PhongBan.TenPhong ?? string.Empty) : string.Empty,
+                    LoaiThietBi = x.LoaiThietBi != null ? (x.LoaiThietBi.TenLoai ?? string.Empty) : string.Empty,
+                    ViTriLapDat = x.ViTriLapDat ?? string.Empty,
                     NgayLap = x.NgayLap,
                     SoLuong = x.SoLuong,
-                    TinhTrang = x.TinhTrang,
+                    TinhTrang = x.TinhTrang ?? string.Empty,
                     DuPhong = x.DuPhong,
-                    GhiChu = x.GhiChu
+                    GhiChu = x.GhiChu ?? string.Empty
 
                 }).ToListAsync();
             var pagedResult = new PagedResult<TonghopmayxucVM>()
             {
-                SumRecords=sumSoluong,
+                SumRecords = sumSoluong,
                 TotalRecords = totalRow,
                 Items = data,
                 PageIndex = request.PageIndex,

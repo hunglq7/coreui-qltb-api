@@ -17,7 +17,7 @@ namespace WebApi.Controllers
             _tonghopquatgioService = tonghopquatgioService;
         }
 
-        [HttpPost]
+        [HttpPost("create")]
         public async Task<ActionResult> Add([FromBody] TonghopQuatgio request)
         {
             if (request == null)

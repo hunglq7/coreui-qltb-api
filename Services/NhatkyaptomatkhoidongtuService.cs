@@ -101,46 +101,19 @@ namespace WebApi.Services
 
         public async Task<ApiResult<int>> UpdateMutiple(List<Nhatkyaptomatkhoidongtu> request)
         {
-            try
+            var ids = request.Select(x => x.Id).ToList();
+            if (ids.Count() == 0)
             {
-                var ids = request.Select(x => x.Id).ToList();
-                if (ids.Count == 0)
-                {
-                    return new ApiErrorResult<int>("Không tìm thấy bản ghi nào");
-                }
-
-                var existingEntities = await _thietbiDbContext.Nhatkyaptomatkhoidongtus
-                    .Where(x => ids.Contains(x.Id))
-                    .ToListAsync();
-
-                if (existingEntities.Count != ids.Count)
-                {
-                    return new ApiErrorResult<int>("Một số bản ghi không tồn tại");
-                }
-
-                // Update existing entities with new values
-                foreach (var entity in existingEntities)
-                {
-                    var updateRequest = request.FirstOrDefault(x => x.Id == entity.Id);
-                    if (updateRequest != null)
-                    {
-                        entity.TonghopaptomatkhoidongtuId = updateRequest.TonghopaptomatkhoidongtuId;
-                        entity.NgayThang = updateRequest.NgayThang;
-                        entity.DonVi = updateRequest.DonVi;
-                        entity.ViTri = updateRequest.ViTri;
-                        entity.TrangThai = updateRequest.TrangThai;
-                        entity.GhiChu = updateRequest.GhiChu;
-                    }
-                }
-
-                _thietbiDbContext.Nhatkyaptomatkhoidongtus.UpdateRange(existingEntities);
-                var count = await _thietbiDbContext.SaveChangesAsync();
-                return new ApiSuccessResult<int>(count);
+                return new ApiErrorResult<int>("Không tìm thấy bản ghi nào");
             }
-            catch (Exception ex)
+            var exitEntity = _thietbiDbContext.Nhatkyaptomatkhoidongtus.AsNoTracking().Where(x => ids.Contains(x.Id)).ToList();
+            if (!exitEntity.All(x => ids.Contains(x.Id)))
             {
-                return new ApiErrorResult<int>($"Lỗi khi cập nhật dữ liệu: {ex.Message}");
+                return new ApiErrorResult<int>("Cập nhật dữ liệu không hợp lệ");
             }
+            _thietbiDbContext.UpdateRange(request);
+            var count = await _thietbiDbContext.SaveChangesAsync();
+            return new ApiSuccessResult<int>(count);
         }
     }
 }
