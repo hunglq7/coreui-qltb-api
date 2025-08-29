@@ -208,25 +208,54 @@ namespace WebApi.Services
 
         public async Task<bool> UpdateTonghopmayxuc([FromBody] MayxucUpdateRequest Request)
         {
-            var mayxuc = await _thietbiDbContext.TongHopMayXucs.FindAsync(Request.Id);
-            if (mayxuc == null)
+            try
             {
+                if (Request == null)
+                {
+                    return false;
+                }
+
+                // Validate required fields
+                if (Request.Id <= 0 || Request.MayXucId <= 0 || Request.PhongBanId <= 0 || Request.LoaiThietBiId <= 0)
+                {
+                    return false;
+                }
+
+                // Kiểm tra hàm: lấy thông tin máy xúc theo Id từ database
+                var mayxuc = await _thietbiDbContext.TongHopMayXucs.FindAsync(Request.Id);
+                if (mayxuc == null)
+                {
+                    return false;
+                }
+
+                // Update only the properties that should be updated with null-safe assignments
+                mayxuc.MaQuanLy = Request.MaQuanLy ?? string.Empty;
+                mayxuc.MayXucId = Request.MayXucId;
+                mayxuc.PhongBanId = Request.PhongBanId;
+                mayxuc.LoaiThietBiId = Request.LoaiThietBiId;
+                mayxuc.ViTriLapDat = Request.ViTriLapDat ?? string.Empty;
+                mayxuc.NgayLap = Request.NgayLap != default(DateTime) ? Request.NgayLap : DateTime.Now;
+                mayxuc.SoLuong = Request.SoLuong > 0 ? Request.SoLuong : 1;
+                mayxuc.TinhTrang = Request.TinhTrang ?? string.Empty;
+                mayxuc.DuPhong = Request.DuPhong;
+                mayxuc.GhiChu = Request.GhiChu ?? string.Empty;
+
+                // Mark as modified and save
+                _thietbiDbContext.Entry(mayxuc).State = EntityState.Modified;
+                var result = await _thietbiDbContext.SaveChangesAsync();
+                
+                return result > 0;
+            }
+            catch (DbUpdateException dbEx)
+            {
+                // Handle database-specific errors
                 return false;
             }
-            mayxuc.Id = Request.Id;
-            mayxuc.MaQuanLy = Request.MaQuanLy;
-            mayxuc.MayXucId = Request.MayXucId;
-            mayxuc.PhongBanId = Request.PhongBanId;
-            mayxuc.LoaiThietBiId = Request.LoaiThietBiId;
-            mayxuc.ViTriLapDat = Request.ViTriLapDat;
-            mayxuc.NgayLap = Request.NgayLap;
-            mayxuc.SoLuong = Request.SoLuong;
-            mayxuc.TinhTrang = Request.TinhTrang;
-            mayxuc.DuPhong = Request.DuPhong;
-            mayxuc.GhiChu = Request.GhiChu;
-            _thietbiDbContext.Update(mayxuc);
-            await _thietbiDbContext.SaveChangesAsync();
-            return true;
+            catch (Exception ex)
+            {
+                // Handle other exceptions
+                return false;
+            }
         }
 
         public async Task<int> SumTonghopmayxuc()
