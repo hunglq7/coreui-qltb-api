@@ -16,8 +16,7 @@ namespace WebApi.Data.Entites
         public int SoLuong { get; set; }
         [MaxLength(100)]
         public string? TinhTrangThietBi { get; set; }
-        public Boolean DuPhong { get; set; }
-        public Boolean LamViec { get; set; }
+        public Boolean DuPhong { get; set; }      
         [MaxLength(500)]
         public string? GhiChu { get; set; }
         [ForeignKey("RoleId")]

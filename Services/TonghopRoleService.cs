@@ -45,8 +45,7 @@ namespace WebApi.Services
                NgayLap= Request.NgayLap,
                SoLuong= Request.SoLuong,
                TinhTrangThietBi= Request.TinhTrangThietBi,
-               DuPhong= Request.DuPhong,
-               LamViec= Request.LamViec,
+               DuPhong= Request.DuPhong,        
                GhiChu= Request.GhiChu               
             };
             await _thietbiDb.TongHopRoles.AddAsync(items);
@@ -95,8 +94,7 @@ namespace WebApi.Services
                NgayLap = x.t.NgayLap,
                SoLuong = x.t.SoLuong,
                TinhTrangThietBi = x.t.TinhTrangThietBi,
-               DuPhong = x.t.DuPhong,
-               LamViec = x.t.LamViec,
+               DuPhong = x.t.DuPhong,         
                GhiChu = x.t.GhiChu
             }).ToListAsync();
         }
@@ -115,8 +113,7 @@ namespace WebApi.Services
             entity.NgayLap = Request.NgayLap;
             entity.SoLuong = Request.SoLuong;
             entity.TinhTrangThietBi = Request.TinhTrangThietBi;
-            entity.DuPhong = Request.DuPhong;
-            entity.LamViec = Request.LamViec;
+            entity.DuPhong = Request.DuPhong;    
             entity.GhiChu = Request.GhiChu;
             _thietbiDb.Update(entity);
             await _thietbiDb.SaveChangesAsync();
@@ -139,42 +136,45 @@ namespace WebApi.Services
         {
             var query = from t in _thietbiDb.TongHopRoles.Include(x => x.PhongBan).Include(x => x.DanhmucRole)
                         select t;
-            if ((request.donViId == 0 || request.donViId==null) && request.duPhong ==false)
-            {
-                query = query.Where(x => x.DuPhong==false );
-            }
-            else if (request.donViId > 0 && request.duPhong==true)
-            {
-                query = query.Where(x => x.PhongBanId==request.donViId &&x.DuPhong==request.duPhong);
-            }
-            else if (request.donViId>0 && request.duPhong==false)
-            {
-                query = query.Where(x => x.PhongBanId == request.donViId);
-            }
-            else if ((request.donViId == 0 || request.donViId == null) && request.duPhong == true)
+
+            if (request.duPhong != null && request.duPhong == true)
             {
                 query = query.Where(x => x.DuPhong == request.duPhong);
             }
+            else if (request.roleId > 0 && request.donViId > 0)
+            {
+                query = query.Where(x => x.RoleId == request.roleId && x.PhongBanId == request.donViId);
+            }
+            else if (request.roleId > 0 && (request.donViId == 0 || request.donViId == null))
+            {
+                query = query.Where(x => x.RoleId == request.roleId);
+            }
+            else if ((request.roleId == 0 || request.roleId == null) && request.donViId > 0)
+            {
+                query = query.Where(x => x.PhongBanId == request.donViId);
+            }
+
             int totalRow = await query.CountAsync();
+            int sumSoluong = await query.SumAsync(x => x.SoLuong);
             var data = await query.Skip((request.PageIndex - 1) * request.PageSize)
                 .Take(request.PageSize)
                 .Select(x => new TonghopRoleVm()
                 {
                     Id = x.Id,
                     TenThietBi = x.DanhmucRole.TenThietBi,
-                    TenPhong= x.PhongBan.TenPhong,
+                    TenPhong = x.PhongBan.TenPhong,
                     ViTriLapDat = x.ViTriLapDat,
                     NgayLap = x.NgayLap,
                     SoLuong = x.SoLuong,
                     TinhTrangThietBi = x.TinhTrangThietBi,
                     DuPhong = x.DuPhong,
-                    LamViec = x.LamViec,
                     GhiChu = x.GhiChu
-
                 }).ToListAsync();
+
             var pagedResult = new PagedResult<TonghopRoleVm>()
             {
                 TotalRecords = totalRow,
+                SumRecords = sumSoluong,
                 Items = data,
                 PageIndex = request.PageIndex,
                 PageSize = request.PageSize

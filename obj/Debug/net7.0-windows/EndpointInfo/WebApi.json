@@ -362,6 +362,98 @@
         }
       }
     },
+    "/api/DanhmucAptomatKhoidongtu": {
+      "get": {
+        "tags": [
+          "DanhmucAptomatKhoidongtu"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhmucAptomatKhoidongtu/UpdateMultiple": {
+      "post": {
+        "tags": [
+          "DanhmucAptomatKhoidongtu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucAptomatKhoidongtu"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucAptomatKhoidongtu"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucAptomatKhoidongtu"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhmucAptomatKhoidongtu/DeleteMultiple": {
+      "post": {
+        "tags": [
+          "DanhmucAptomatKhoidongtu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucAptomatKhoidongtu"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucAptomatKhoidongtu"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucAptomatKhoidongtu"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Danhmucbalang": {
       "get": {
         "tags": [
@@ -442,6 +534,216 @@
                 "type": "array",
                 "items": {
                   "$ref": "#/components/schemas/DanhmucBaLang"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Danhmucbangtai": {
+      "get": {
+        "tags": [
+          "Danhmucbangtai"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DanhmucbangtaiVM"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DanhmucbangtaiVM"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DanhmucbangtaiVM"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Danhmucbangtai/UpdateMultiple": {
+      "post": {
+        "tags": [
+          "Danhmucbangtai"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucBangTai"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucBangTai"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucBangTai"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Danhmucbangtai/DeleteMultipale": {
+      "post": {
+        "tags": [
+          "Danhmucbangtai"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucBangTai"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucBangTai"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucBangTai"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhmucBienap": {
+      "get": {
+        "tags": [
+          "DanhmucBienap"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhmucBienap/UpdateMultiple": {
+      "put": {
+        "tags": [
+          "DanhmucBienap"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucBienap"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucBienap"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucBienap"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhmucBienap/DeleteMultiple": {
+      "post": {
+        "tags": [
+          "DanhmucBienap"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucBienap"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucBienap"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhmucBienap"
                 }
               }
             }
@@ -602,6 +904,98 @@
                 },
                 "FileName": {
                   "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Danhmucgiacotthuyluc": {
+      "get": {
+        "tags": [
+          "Danhmucgiacotthuyluc"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Danhmucgiacotthuyluc/UpdateMultiple": {
+      "put": {
+        "tags": [
+          "Danhmucgiacotthuyluc"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Danhmucgiacotthuyluc"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Danhmucgiacotthuyluc"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Danhmucgiacotthuyluc"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Danhmucgiacotthuyluc/DeleteMultiple": {
+      "post": {
+        "tags": [
+          "Danhmucgiacotthuyluc"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Danhmucgiacotthuyluc"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Danhmucgiacotthuyluc"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Danhmucgiacotthuyluc"
                 }
               }
             }
@@ -970,6 +1364,98 @@
                 "type": "array",
                 "items": {
                   "$ref": "#/components/schemas/DanhmucQuatgio"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhmucRole": {
+      "get": {
+        "tags": [
+          "DanhmucRole"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhmucRole/UpdateMultiple": {
+      "put": {
+        "tags": [
+          "DanhmucRole"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucRole"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucRole"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucRole"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhmucRole/DeleteMultipale": {
+      "post": {
+        "tags": [
+          "DanhmucRole"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucRole"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucRole"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DanhMucRole"
                 }
               }
             }
@@ -1598,6 +2084,298 @@
         "responses": {
           "200": {
             "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhatkyaptomatkhoidongtu": {
+      "get": {
+        "tags": [
+          "Nhatkyaptomatkhoidongtu"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhatkyaptomatkhoidongtu/DetailById/{Id}": {
+      "get": {
+        "tags": [
+          "Nhatkyaptomatkhoidongtu"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhatkyaptomatkhoidongtu/UpdateMultiple": {
+      "put": {
+        "tags": [
+          "Nhatkyaptomatkhoidongtu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Nhatkyaptomatkhoidongtu"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Nhatkyaptomatkhoidongtu"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Nhatkyaptomatkhoidongtu"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhatkyaptomatkhoidongtu/DeleteMultiple": {
+      "delete": {
+        "tags": [
+          "Nhatkyaptomatkhoidongtu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Nhatkyaptomatkhoidongtu"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Nhatkyaptomatkhoidongtu"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Nhatkyaptomatkhoidongtu"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhatkybangtai": {
+      "get": {
+        "tags": [
+          "Nhatkybangtai"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhatkybangtai/{id}": {
+      "get": {
+        "tags": [
+          "Nhatkybangtai"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/NhatkybangtaiDetailByIdVM"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/NhatkybangtaiDetailByIdVM"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/NhatkybangtaiDetailByIdVM"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Nhatkybangtai/UpdateMultiple": {
+      "post": {
+        "tags": [
+          "Nhatkybangtai"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyBangTai"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyBangTai"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyBangTai"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Int32ApiResult"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Int32ApiResult"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Int32ApiResult"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Nhatkybangtai/DeleteMutiple": {
+      "post": {
+        "tags": [
+          "Nhatkybangtai"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyBangTai"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyBangTai"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NhatKyBangTai"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Int32ApiResult"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Int32ApiResult"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Int32ApiResult"
+                }
+              }
+            }
           }
         }
       }
@@ -2455,6 +3233,399 @@
         }
       }
     },
+    "/api/ThongsoAptomatKhoidongtu": {
+      "get": {
+        "tags": [
+          "ThongsoAptomatKhoidongtu"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ThongsoAptomatKhoidongtu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongsoAptomatKhoidongtuEdit"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongsoAptomatKhoidongtuEdit"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongsoAptomatKhoidongtuEdit"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ThongsoAptomatKhoidongtu/paging": {
+      "get": {
+        "tags": [
+          "ThongsoAptomatKhoidongtu"
+        ],
+        "parameters": [
+          {
+            "name": "thietbiId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageIndex",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "TotalRecords",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "SumRecords",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageCount",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ThongsoAptomatKhoidongtu/{Id}": {
+      "get": {
+        "tags": [
+          "ThongsoAptomatKhoidongtu"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ThongsoAptomatKhoidongtu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ThongsoAptomatKhoidongtu/DetailById/{Id}": {
+      "get": {
+        "tags": [
+          "ThongsoAptomatKhoidongtu"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ThongsoAptomatKhoidongtu/update": {
+      "put": {
+        "tags": [
+          "ThongsoAptomatKhoidongtu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongsoAptomatKhoidongtuEdit"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongsoAptomatKhoidongtuEdit"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongsoAptomatKhoidongtuEdit"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsobienap": {
+      "get": {
+        "tags": [
+          "Thongsobienap"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Thongsobienap"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatBienAp"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatBienAp"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatBienAp"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsobienap/{id}": {
+      "get": {
+        "tags": [
+          "Thongsobienap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Thongsobienap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsobienap/paging": {
+      "get": {
+        "tags": [
+          "Thongsobienap"
+        ],
+        "parameters": [
+          {
+            "name": "thietbiId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageIndex",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsobienap/DetailById/{id}": {
+      "get": {
+        "tags": [
+          "Thongsobienap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsobienap/update": {
+      "put": {
+        "tags": [
+          "Thongsobienap"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatBienAp"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatBienAp"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatBienAp"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Thongsobomnuoc": {
       "get": {
         "tags": [
@@ -2631,6 +3802,234 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsokythuatbangtai": {
+      "get": {
+        "tags": [
+          "Thongsokythuatbangtai"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Thongsokythuatbangtai"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatBangTaiEdit"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatBangTaiEdit"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatBangTaiEdit"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsokythuatbangtai/{id}": {
+      "get": {
+        "tags": [
+          "Thongsokythuatbangtai"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ThongsokythuatbangtaiDetailByIdVM"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ThongsokythuatbangtaiDetailByIdVM"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ThongsokythuatbangtaiDetailByIdVM"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Thongsokythuatbangtai/paging": {
+      "get": {
+        "tags": [
+          "Thongsokythuatbangtai"
+        ],
+        "parameters": [
+          {
+            "name": "PageIndex",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "thietbiId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsokythuatbangtai/DetailById/{Id}": {
+      "get": {
+        "tags": [
+          "Thongsokythuatbangtai"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ThongsokythuatbangtaiDetailByIdVM"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ThongsokythuatbangtaiDetailByIdVM"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ThongsokythuatbangtaiDetailByIdVM"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Thongsokythuatbangtai/update": {
+      "put": {
+        "tags": [
+          "Thongsokythuatbangtai"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatBangTaiEdit"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatBangTaiEdit"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ThongSoKyThuatBangTaiEdit"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Thongsokythuatbangtai/{Id}": {
+      "delete": {
+        "tags": [
+          "Thongsokythuatbangtai"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "Success"
@@ -3809,6 +5208,208 @@
         }
       }
     },
+    "/api/Tonghopaptomatkhoidongtu/paging": {
+      "get": {
+        "tags": [
+          "Tonghopaptomatkhoidongtu"
+        ],
+        "parameters": [
+          {
+            "name": "Keyword",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "aptomatkhoidongtuId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "DonViId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageIndex",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopaptomatkhoidongtu": {
+      "post": {
+        "tags": [
+          "Tonghopaptomatkhoidongtu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopAptomatKhoidongtu"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopAptomatKhoidongtu"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopAptomatKhoidongtu"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopaptomatkhoidongtu/{Id}": {
+      "get": {
+        "tags": [
+          "Tonghopaptomatkhoidongtu"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Tonghopaptomatkhoidongtu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopaptomatkhoidongtu/DetailById/{Id}": {
+      "get": {
+        "tags": [
+          "Tonghopaptomatkhoidongtu"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopaptomatkhoidongtu/Sum": {
+      "get": {
+        "tags": [
+          "Tonghopaptomatkhoidongtu"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopaptomatkhoidongtu/update": {
+      "put": {
+        "tags": [
+          "Tonghopaptomatkhoidongtu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopAptomatKhoidongtu"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopAptomatKhoidongtu"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopAptomatKhoidongtu"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Tonghopbalang": {
       "post": {
         "tags": [
@@ -4011,6 +5612,373 @@
         }
       }
     },
+    "/api/Tonghopbangtai": {
+      "get": {
+        "tags": [
+          "Tonghopbangtai"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TonghopbangtaiVM"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TonghopbangtaiVM"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TonghopbangtaiVM"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Tonghopbangtai"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TonghopbangtaiCreateRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TonghopbangtaiCreateRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TonghopbangtaiCreateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Tonghopbangtai"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TonghopbangtaiUpdateRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TonghopbangtaiUpdateRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TonghopbangtaiUpdateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tonghopbangtai/{id}": {
+      "get": {
+        "tags": [
+          "Tonghopbangtai"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TongHopBangTai"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TongHopBangTai"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TongHopBangTai"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Tonghopbangtai"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tonghopbangtai/detail/{id}": {
+      "get": {
+        "tags": [
+          "Tonghopbangtai"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TonghopbangtaiDetailByIdVM"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TonghopbangtaiDetailByIdVM"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TonghopbangtaiDetailByIdVM"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tonghopbangtai/paging": {
+      "get": {
+        "tags": [
+          "Tonghopbangtai"
+        ],
+        "parameters": [
+          {
+            "name": "Keyword",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "BangTaiId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "DonViId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageIndex",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TonghopbangtaiVMPagedResult"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TonghopbangtaiVMPagedResult"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TonghopbangtaiVMPagedResult"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tonghopbangtai/sum": {
+      "get": {
+        "tags": [
+          "Tonghopbangtai"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Tonghopbomnuoc": {
       "post": {
         "tags": [
@@ -4177,6 +6145,14 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          },
+          {
+            "name": "duPhong",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "boolean"
             }
           },
           {
@@ -4499,6 +6475,177 @@
           },
           {
             "name": "donviId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageIndex",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopcapdien/sum": {
+      "get": {
+        "tags": [
+          "Tonghopcapdien"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopgiacotthuyluc": {
+      "post": {
+        "tags": [
+          "Tonghopgiacotthuyluc"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TonghopgiacotthuylucCreateRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TonghopgiacotthuylucCreateRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TonghopgiacotthuylucCreateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Tonghopgiacotthuyluc"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TonghopgiacotthuylucUpdateRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TonghopgiacotthuylucUpdateRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TonghopgiacotthuylucUpdateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopgiacotthuyluc/{id}": {
+      "delete": {
+        "tags": [
+          "Tonghopgiacotthuyluc"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Tonghopgiacotthuyluc"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopgiacotthuyluc/sum": {
+      "get": {
+        "tags": [
+          "Tonghopgiacotthuyluc"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopgiacotthuyluc/paging": {
+      "get": {
+        "tags": [
+          "Tonghopgiacotthuyluc"
+        ],
+        "parameters": [
+          {
+            "name": "DonViId",
             "in": "query",
             "style": "form",
             "schema": {
@@ -5142,6 +7289,14 @@
             }
           },
           {
+            "name": "duPhong",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
             "name": "PageIndex",
             "in": "query",
             "style": "form",
@@ -5517,7 +7672,7 @@
         }
       }
     },
-    "/api/Tonghopquatgio": {
+    "/api/Tonghopquatgio/create": {
       "post": {
         "tags": [
           "Tonghopquatgio"
@@ -5730,6 +7885,181 @@
               "format": "int32"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/TonghopRole": {
+      "post": {
+        "tags": [
+          "TonghopRole"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopRole"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopRole"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopRole"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/TonghopRole/{Id}": {
+      "get": {
+        "tags": [
+          "TonghopRole"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "TonghopRole"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/TonghopRole/DetailById/{Id}": {
+      "get": {
+        "tags": [
+          "TonghopRole"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/TonghopRole/update": {
+      "put": {
+        "tags": [
+          "TonghopRole"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopRole"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopRole"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TongHopRole"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/TonghopRole/paging": {
+      "get": {
+        "tags": [
+          "TonghopRole"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TonghopRolePagingRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TonghopRolePagingRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TonghopRolePagingRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/TonghopRole/sum": {
+      "get": {
+        "tags": [
+          "TonghopRole"
         ],
         "responses": {
           "200": {
@@ -6069,6 +8399,14 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          },
+          {
+            "name": "duPhong",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "boolean"
             }
           },
           {
@@ -6957,6 +9295,42 @@
         },
         "additionalProperties": false
       },
+      "DanhMucBangTai": {
+        "required": [
+          "tenBangTai"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenBangTai": {
+            "maxLength": 500,
+            "minLength": 1,
+            "type": "string"
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "thongSoKyThuatBangTais": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ThongSoKyThuatBangTai"
+            },
+            "nullable": true
+          },
+          "tongHopBangTais": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TongHopBangTai"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "DanhMucKhoan": {
         "required": [
           "loaiThietBi",
@@ -6993,6 +9367,76 @@
         },
         "additionalProperties": false
       },
+      "DanhMucRole": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenThietBi": {
+            "type": "string",
+            "nullable": true
+          },
+          "loaiThietBi": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "tongHopRoles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TongHopRole"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DanhmucAptomatKhoidongtu": {
+        "required": [
+          "tenThietBi"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenThietBi": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "loaiThietBi": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "thongsoAptomatKhoidongtus": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ThongsoAptomatKhoidongtu"
+            },
+            "nullable": true
+          },
+          "tongHopAptomatKhoidongtus": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TongHopAptomatKhoidongtu"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "DanhmucBaLang": {
         "required": [
           "tenThietBi"
@@ -7020,6 +9464,39 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/TonghopBalang"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DanhmucBienap": {
+        "required": [
+          "tenThietBi"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenThietBi": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "loaiThietBi": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "thongSoKyThuatBienAp": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ThongSoKyThuatBienAp"
             },
             "nullable": true
           }
@@ -7147,7 +9624,7 @@
             "type": "integer",
             "format": "int32"
           },
-          "tenQuat": {
+          "tenThietBi": {
             "maxLength": 500,
             "type": "string",
             "nullable": true
@@ -7168,6 +9645,57 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/TonghopQuatgio"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DanhmucbangtaiVM": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenBangTai": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Danhmucgiacotthuyluc": {
+        "required": [
+          "tenThietBi"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenThietBi": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "loaiThietBi": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "tonghopgiacotthuylucs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Tonghopgiacotthuyluc"
             },
             "nullable": true
           }
@@ -7267,6 +9795,27 @@
               "$ref": "#/components/schemas/TonghopCamera"
             },
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Int32ApiResult": {
+        "type": "object",
+        "properties": {
+          "isSuccessed": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "count": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "resultObj": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -7424,6 +9973,9 @@
           "ghiChu": {
             "type": "string",
             "nullable": true
+          },
+          "duPhong": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
@@ -7470,6 +10022,9 @@
           "ghiChu": {
             "type": "string",
             "nullable": true
+          },
+          "duPhong": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
@@ -7694,6 +10249,47 @@
           },
           "trangThai": {
             "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "NhatKyBangTai": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tongHopBangTaiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ngaythang": {
+            "type": "string",
+            "nullable": true
+          },
+          "donVi": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "viTri": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "trangThai": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "tongHopBangTai": {
+            "$ref": "#/components/schemas/TongHopBangTai"
           }
         },
         "additionalProperties": false
@@ -7957,6 +10553,77 @@
         },
         "additionalProperties": false
       },
+      "Nhatkyaptomatkhoidongtu": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tonghopaptomatkhoidongtuId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ngayThang": {
+            "type": "string",
+            "nullable": true
+          },
+          "donVi": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "viTri": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "trangThai": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "tongHopAptomatKhoidongtu": {
+            "$ref": "#/components/schemas/TongHopAptomatKhoidongtu"
+          }
+        },
+        "additionalProperties": false
+      },
+      "NhatkybangtaiDetailByIdVM": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bangTaiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenBangTai": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngay": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "PhieuNhap": {
         "required": [
           "maPhieuNhap"
@@ -8134,6 +10801,34 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/TongHopNeo"
+            },
+            "nullable": true
+          },
+          "tongHopBangTais": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TongHopBangTai"
+            },
+            "nullable": true
+          },
+          "tongHopRoles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TongHopRole"
+            },
+            "nullable": true
+          },
+          "tonghopgiacotthuylucs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Tonghopgiacotthuyluc"
+            },
+            "nullable": true
+          },
+          "tongHopAptomatKhoidongtus": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TongHopAptomatKhoidongtu"
             },
             "nullable": true
           }
@@ -8460,6 +11155,90 @@
         },
         "additionalProperties": false
       },
+      "ThongSoKyThuatBangTai": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bangTaiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "donViTinh": {
+            "type": "string",
+            "nullable": true
+          },
+          "thongSo": {
+            "type": "string",
+            "nullable": true
+          },
+          "danhMucBangTai": {
+            "$ref": "#/components/schemas/DanhMucBangTai"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ThongSoKyThuatBangTaiEdit": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bangTaiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "donViTinh": {
+            "type": "string",
+            "nullable": true
+          },
+          "thongSo": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ThongSoKyThuatBienAp": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bienApId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "donViTinh": {
+            "type": "string",
+            "nullable": true
+          },
+          "thongSo": {
+            "type": "string",
+            "nullable": true
+          },
+          "danhmucBienap": {
+            "$ref": "#/components/schemas/DanhmucBienap"
+          }
+        },
+        "additionalProperties": false
+      },
       "ThongSoKyThuatMayCao": {
         "type": "object",
         "properties": {
@@ -8485,6 +11264,74 @@
           },
           "danhmucMayCao": {
             "$ref": "#/components/schemas/DanhmucMayCao"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ThongsoAptomatKhoidongtu": {
+        "required": [
+          "noiDung"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "danhmucaptomatKhoidongtuId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "noiDung": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "donViTinh": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "thongSo": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "danhmucAptomatKhoidongtu": {
+            "$ref": "#/components/schemas/DanhmucAptomatKhoidongtu"
+          },
+          "nhatkyaptomatkhoidongtu": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Nhatkyaptomatkhoidongtu"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ThongsoAptomatKhoidongtuEdit": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "danhmucaptomatkhoidongtuId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "donViTinh": {
+            "type": "string",
+            "nullable": true
+          },
+          "thongSo": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -8636,6 +11483,40 @@
           },
           "danhmuctoitruc": {
             "$ref": "#/components/schemas/Danhmuctoitruc"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ThongsokythuatbangtaiDetailByIdVM": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bangTaiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenBangTai": {
+            "type": "string",
+            "nullable": true
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "donViTinh": {
+            "type": "string",
+            "nullable": true
+          },
+          "thongSo": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -8838,6 +11719,145 @@
         },
         "additionalProperties": false
       },
+      "TongHopAptomatKhoidongtu": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maQuanLy": {
+            "type": "string",
+            "nullable": true
+          },
+          "aptomatkhoidongtuId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donViId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "viTriLapDat": {
+            "maxLength": 200,
+            "type": "string",
+            "nullable": true
+          },
+          "ngayKiemDinh": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ngayLap": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "soLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tinhTrangThietBi": {
+            "maxLength": 200,
+            "type": "string",
+            "nullable": true
+          },
+          "duPhong": {
+            "type": "boolean"
+          },
+          "ghiChu": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "phongBan": {
+            "$ref": "#/components/schemas/PhongBan"
+          },
+          "danhmucAptomatKhoidongtu": {
+            "$ref": "#/components/schemas/DanhmucAptomatKhoidongtu"
+          },
+          "nhatkyaptomatkhoidongtus": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Nhatkyaptomatkhoidongtu"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TongHopBangTai": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maHieu": {
+            "type": "string",
+            "nullable": true
+          },
+          "bangTaiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donViId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "viTriLapDat": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayLap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "nmay": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lmay": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khungDau": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khungDuoi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khungBangRoi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dayBang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "conLan": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tinhTrangThietBi": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "danhMucBangTai": {
+            "$ref": "#/components/schemas/DanhMucBangTai"
+          },
+          "phongBan": {
+            "$ref": "#/components/schemas/PhongBan"
+          }
+        },
+        "additionalProperties": false
+      },
       "TongHopBomNuoc": {
         "type": "object",
         "properties": {
@@ -8876,8 +11896,11 @@
             "type": "string",
             "nullable": true
           },
-          "ghiChu": {
+          "duPhong": {
             "maxLength": 500,
+            "type": "boolean"
+          },
+          "ghiChu": {
             "type": "string",
             "nullable": true
           },
@@ -9069,8 +12092,11 @@
             "type": "integer",
             "format": "int32"
           },
-          "ghiChu": {
+          "duPhong": {
             "maxLength": 500,
+            "type": "boolean"
+          },
+          "ghiChu": {
             "type": "string",
             "nullable": true
           },
@@ -9221,6 +12247,56 @@
         },
         "additionalProperties": false
       },
+      "TongHopRole": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "roleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "phongBanId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "viTriLapDat": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "ngayLap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "soLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tinhTrangThietBi": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "duPhong": {
+            "type": "boolean"
+          },
+          "ghiChu": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "danhmucRole": {
+            "$ref": "#/components/schemas/DanhMucRole"
+          },
+          "phongBan": {
+            "$ref": "#/components/schemas/PhongBan"
+          }
+        },
+        "additionalProperties": false
+      },
       "TongHopThietBi": {
         "required": [
           "maThietBi"
@@ -9338,6 +12414,9 @@
             "maxLength": 500,
             "type": "string",
             "nullable": true
+          },
+          "duPhong": {
+            "type": "boolean"
           },
           "ghiChu": {
             "maxLength": 500,
@@ -9557,6 +12636,344 @@
         },
         "additionalProperties": false
       },
+      "TonghopRolePagingRequest": {
+        "type": "object",
+        "properties": {
+          "pageIndex": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalRecords": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sumRecords": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageCount": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "roleId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "donViId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "duPhong": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TonghopbangtaiCreateRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maHieu": {
+            "type": "string",
+            "nullable": true
+          },
+          "bangTaiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donViId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "viTriLapDat": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayLap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "nmay": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lmay": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khungDau": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khungDuoi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khungBangRoi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dayBang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "conLan": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tinhTrangThietBi": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TonghopbangtaiDetailByIdVM": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maHieu": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenBangTai": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenPhong": {
+            "type": "string",
+            "nullable": true
+          },
+          "viTriLapDat": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayLap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "nmay": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lmay": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khungDau": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khungDuoi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khungBangRoi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dayBang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "conLan": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tinhTrangThietBi": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TonghopbangtaiUpdateRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maHieu": {
+            "type": "string",
+            "nullable": true
+          },
+          "bangTaiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donViId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "viTriLapDat": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayLap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "nmay": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lmay": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khungDau": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khungDuoi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khungBangRoi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dayBang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "conLan": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tinhTrangThietBi": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TonghopbangtaiVM": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maHieu": {
+            "type": "string",
+            "nullable": true
+          },
+          "bangTaiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donViId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "viTriLapDat": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayLap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "nmay": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lmay": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khungDau": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khungDuoi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khungBangRoi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dayBang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "conLan": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tinhTrangThietBi": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TonghopbangtaiVMPagedResult": {
+        "type": "object",
+        "properties": {
+          "pageIndex": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalRecords": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sumRecords": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageCount": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TonghopbangtaiVM"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Tonghopcapdien": {
         "type": "object",
         "properties": {
@@ -9622,6 +13039,114 @@
         },
         "additionalProperties": false
       },
+      "Tonghopgiacotthuyluc": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "thietBiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donViId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "viTriLapDat": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayLap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "soLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "danhmucgiacotthuyluc": {
+            "$ref": "#/components/schemas/Danhmucgiacotthuyluc"
+          },
+          "phongBan": {
+            "$ref": "#/components/schemas/PhongBan"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TonghopgiacotthuylucCreateRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "thietBiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donViId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "viTriLapDat": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayLap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "soLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TonghopgiacotthuylucUpdateRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "thietBiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donViId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "viTriLapDat": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayLap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "soLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "TonghoptoitrucCreateRequest": {
         "type": "object",
         "properties": {
@@ -9660,6 +13185,9 @@
           "tinhTrangThietBi": {
             "type": "string",
             "nullable": true
+          },
+          "duPhong": {
+            "type": "boolean"
           },
           "ghiChu": {
             "type": "string",
@@ -9706,6 +13234,9 @@
           "tinhTrangThietBi": {
             "type": "string",
             "nullable": true
+          },
+          "duPhong": {
+            "type": "boolean"
           },
           "ghiChu": {
             "type": "string",

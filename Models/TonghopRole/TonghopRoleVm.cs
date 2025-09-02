@@ -12,7 +12,6 @@ namespace WebApi.Models.TonghopRole
         public int SoLuong { get; set; }
         public string? TinhTrangThietBi { get; set; }
         public Boolean DuPhong { get; set; }
-        public Boolean LamViec { get; set; }  
         public string? GhiChu { get; set; }
     }
 }
