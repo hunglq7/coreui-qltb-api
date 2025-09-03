@@ -8,7 +8,7 @@ namespace WebApi.Data.Entites
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-  
+        public string MaTaiSan { get; set; } = string.Empty;
         [Required]
         [MaxLength(100)]
         public string TenThietBi { get; set; } = string.Empty;

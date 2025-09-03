@@ -1,7 +1,6 @@
-﻿using Api.Models.Tonghopmayxuc;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Data.Entites;
-using WebApi.Models.Tonghopmayxuc;
 using WebApi.Models.Tonghopquatgio;
 using WebApi.Services;
 

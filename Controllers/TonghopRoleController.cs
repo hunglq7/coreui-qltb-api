@@ -58,7 +58,7 @@ namespace WebApi.Controllers
             return Ok();
         }
         [HttpGet("paging")]
-        public async Task<ActionResult> GetPaging(TonghopRolePagingRequest request)
+        public async Task<ActionResult> GetPaging([FromQuery] TonghopRolePagingRequest request)
         {
             var entities = await _tonghopRoleService.GetAllPaging(request);
             return Ok(entities);

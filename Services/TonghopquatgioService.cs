@@ -1,10 +1,8 @@
-﻿using Api.Models.Tonghopmayxuc;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.Common;
-using WebApi.Models.Tonghopmayxuc;
 using WebApi.Models.Tonghopquatgio;
 
 namespace WebApi.Services

@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.Common;
-using WebApi.Models.ThongsokythuatMayXuc;
 using WebApi.Models.ThongsoQuatgio;
 
 namespace WebApi.Services

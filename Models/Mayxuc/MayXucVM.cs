@@ -5,7 +5,7 @@ namespace WebApi.Models.Mayxuc
     public class MayXucVM
     {
         public int Id { get; set; }
-        public string MaQuanLy { get; set; } = string.Empty;
+        public string MaTaiSan { get; set; } = string.Empty;
         public string TenThietBi { get; set; } = string.Empty;
        
         public string LoaiThietBi { get; set; } = string.Empty;

@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Data.Entites;
 using WebApi.Models.TonghopBomnuc;
-using WebApi.Models.Tonghopquatgio;
 using WebApi.Services;
 
 namespace WebApi.Controllers
@@ -11,72 +11,158 @@ namespace WebApi.Controllers
     [ApiController]
     public class TonghopbomnuocController : ControllerBase
     {
-        public readonly ITonghopbomnuocService _tonghopbomnuocService;
-        public TonghopbomnuocController(ITonghopbomnuocService tonghopbomnuocService)
+        private readonly ITonghopbomnuocService _service;
+        public TonghopbomnuocController(ITonghopbomnuocService service)
         {
-            _tonghopbomnuocService = tonghopbomnuocService; 
+            _service = service;
         }
 
         [HttpPost]
-        public async Task<ActionResult> Add([FromBody] TongHopBomNuoc request)
+        public async Task<IActionResult> Create([FromBody] TongHopBomNuoc request)
         {
-            if (request == null)
+            try
             {
-                return BadRequest();
+                if (request == null)
+                {
+                    return BadRequest("Request body is required.");
+                }
+
+                var result = await _service.Add(request);
+                if (!result)
+                {
+                    return BadRequest("Create failed.");
+                }
+
+                return Ok(result);
             }
-            await _tonghopbomnuocService.Add(request);
-            return Ok();
-        }
-
-        [HttpGet("{Id}")]
-        public async Task<ActionResult> GetById(int Id)
-        {
-            var entity = await _tonghopbomnuocService.GetById(Id);
-            return Ok(entity);
-        }
-
-        [HttpGet("DetailById/{Id}")]
-        public async Task<ActionResult> GetDetailById(int Id)
-        {
-            var entity = await _tonghopbomnuocService.getDatailById(Id);
-            return Ok(entity);
-        }
-        [HttpGet("sum")]
-
-        public async Task<ActionResult> Sum()
-        {
-            var query = await _tonghopbomnuocService.Sum();
-            return Ok(query);
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
 
         [HttpPut("update")]
-        public async Task<ActionResult> Update([FromBody] TongHopBomNuoc request)
+        public async Task<IActionResult> Update([FromBody] TongHopBomNuoc request)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return BadRequest();
+                if (request == null || request.Id <= 0)
+                {
+                    return BadRequest("Invalid request.");
+                }
+
+                var result = await _service.Update(request);
+                if (!result)
+                {
+                    return NotFound("Item not found or update failed.");
+                }
+
+                return Ok(result);
             }
-            await _tonghopbomnuocService.Update(request);
-            return Ok();
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
 
-        [HttpDelete("{Id}")]
-        public async Task<ActionResult> Delete(int id)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
         {
-            if (id == 0)
+            try
             {
-                return BadRequest();
+                if (id <= 0)
+                {
+                    return BadRequest("Invalid id.");
+                }
+
+                var result = await _service.Delete(id);
+                if (!result)
+                {
+                    return NotFound("Item not found or delete failed.");
+                }
+
+                return Ok(result);
             }
-            await _tonghopbomnuocService.Delete(id);
-            return Ok();
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            try
+            {
+                if (id <= 0)
+                {
+                    return BadRequest("Invalid id.");
+                }
+
+                var result = await _service.GetById(id);
+                if (result == null || result.Id == 0)
+                {
+                    return NotFound();
+                }
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpGet("detail/{id}")]
+        public async Task<IActionResult> GetDetailById(int id)
+        {
+            try
+            {
+                if (id <= 0)
+                {
+                    return BadRequest("Invalid id.");
+                }
+
+                var result = await _service.getDatailById(id);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
 
         [HttpGet("paging")]
         public async Task<IActionResult> Get([FromQuery] TonghopbomnuocPagingRequest request)
         {
-            var query = await _tonghopbomnuocService.GetAllPaging(request);
-            return Ok(query);
+            try
+            {
+                if (request == null)
+                {
+                    return BadRequest("Query parameters are required.");
+                }
 
+                var result = await _service.GetAllPaging(request);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpGet("sumTonghopbomnuoc")]
+        public async Task<IActionResult> Sum()
+        {
+            try
+            {
+                var result = await _service.Sum();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
     }
-}
+} 

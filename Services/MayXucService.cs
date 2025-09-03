@@ -51,7 +51,8 @@ namespace WebApi.Services
                         select c;
             return await query.Select(x => new MayXucVM()
             {
-                Id = x.Id,            
+                Id = x.Id, 
+                MaTaiSan = x.MaTaiSan,
                 TenThietBi=x.TenThietBi,
                 LoaiThietBi=x.LoaiThietBi,               
                 TinhTrang=x.TinhTrang,
