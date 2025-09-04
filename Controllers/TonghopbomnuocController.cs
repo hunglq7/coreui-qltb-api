@@ -18,7 +18,7 @@ namespace WebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] TongHopBomNuoc request)
+        public async Task<IActionResult> Create([FromBody] TonghopbomnuocCreateRequest request)
         {
             try
             {
@@ -163,6 +163,12 @@ namespace WebApi.Controllers
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
+        }
+
+        [HttpGet("test")]
+        public IActionResult Test()
+        {
+            return Ok("TonghopbomnuocController is working!");
         }
     }
 } 
