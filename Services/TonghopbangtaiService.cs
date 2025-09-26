@@ -13,7 +13,7 @@ namespace WebApi.Services
         Task<bool> AddTonghopbangtai([FromBody] TonghopbangtaiCreateRequest Request);
         Task<TongHopBangTai> GetById(int id);
         Task<int> SumTonghopbangtai();
-        Task<List<TonghopbangtaiDetailByIdVM>> getDatailById(int id);
+        Task<List<TongHopBangTai>> getDatailById(int id);
         Task<bool> UpdateTonghopbangtai([FromBody] TonghopbangtaiUpdateRequest Request);
         Task<bool> DeleteTonghopbangtai(int id);
         Task<PagedResult<TonghopbangtaiVM>> GetAllPaging(GetManagerTonghopBangtaiPagingRequest request);
@@ -56,18 +56,18 @@ namespace WebApi.Services
             return true;
         }
 
-        public async Task<List<TonghopbangtaiDetailByIdVM>> getDatailById(int id)
+        public async Task<List<TongHopBangTai>> getDatailById(int id)
         {
             var Query = from t in _thietbiDbContext.TongHopBangTais.Where(x => x.Id == id)
                         join p in _thietbiDbContext.PhongBans on t.DonViId equals p.Id
                         join m in _thietbiDbContext.DanhMucBangTais on t.BangTaiId equals m.Id
                         select new { t, p, m };
-            return await Query.Select(x => new TonghopbangtaiDetailByIdVM
+            return await Query.Select(x => new TongHopBangTai()
             {
                 Id = x.t.Id,
-                MaHieu = x.t.MaHieu,
-                TenBangTai = x.m.TenBangTai,
-                TenPhong = x.p.TenPhong,
+                MaHieu = x.t.MaHieu,                
+                BangTaiId=x.t.BangTaiId,
+               DonViId=x.t.DonViId,
                 ViTriLapDat = x.t.ViTriLapDat,
                 NgayLap = x.t.NgayLap,
                 Nmay = x.t.Nmay,
@@ -169,7 +169,9 @@ namespace WebApi.Services
                     Id = x.Id,
                     MaHieu = x.MaHieu,
                     BangTaiId = x.BangTaiId,
+                    TenThietBi=x.DanhMucBangTai.TenThietBi,
                     DonViId = x.DonViId,
+                    TenPhong=x.PhongBan.TenPhong,
                     ViTriLapDat = x.ViTriLapDat,
                     NgayLap = x.NgayLap,
                     Nmay = x.Nmay,

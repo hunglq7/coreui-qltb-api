@@ -4,7 +4,7 @@ namespace WebApi.Models.Danhmucbangtai
     {
         public int Id { get; set; }
         public string? MaHieu { get; set; }
-        public string? TenBangTai { get; set; }
+        public string? TenThietBi { get; set; }
         public string? TenPhong { get; set; }
         public string? ViTriLapDat { get; set; }
         public DateTime NgayLap { get; set; }

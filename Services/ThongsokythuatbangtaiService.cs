@@ -127,7 +127,7 @@ namespace WebApi.Services
             return await Query.Select(x => new ThongsokythuatbangtaiDetailByIdVM
             {
                 Id = x.t.Id,
-                TenBangTai = x.m.TenBangTai,
+                TenThietBi = x.m.TenThietBi,
                 NoiDung = x.t.NoiDung,
                 DonViTinh = x.t.DonViTinh,
                 ThongSo = x.t.ThongSo,

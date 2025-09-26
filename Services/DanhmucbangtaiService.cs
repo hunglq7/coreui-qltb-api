@@ -44,7 +44,7 @@ namespace WebApi.Services
             return await query.Select(x => new DanhmucbangtaiVM()
             {
                 Id = x.Id,
-                TenBangTai = x.TenBangTai,
+                TenThietBi = x.TenThietBi,
                 GhiChu = x.GhiChu
             }).ToListAsync();
         }

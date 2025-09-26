@@ -5,7 +5,9 @@ namespace WebApi.Models.Danhmucbangtai
         public int Id { get; set; }
         public string? MaHieu { get; set; }
         public int BangTaiId { get; set; }
+        public string? TenThietBi { get; set; }
         public int DonViId { get; set; }
+        public string? TenPhong { get; set; }
         public string? ViTriLapDat { get; set; }
         public DateTime NgayLap { get; set; }
         public int Nmay { get; set; }
