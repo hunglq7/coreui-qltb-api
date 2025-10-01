@@ -87,6 +87,7 @@ namespace WebApi.Services
                 {
                     Id = x.Id,
                     BangTaiId = x.BangTaiId,
+                    TenThietBi = x.DanhMucBangTai.TenThietBi,
                     NoiDung = x.NoiDung,
                     DonViTinh = x.DonViTinh,
                     ThongSo = x.ThongSo,
