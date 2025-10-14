@@ -11,7 +11,8 @@ namespace WebApi.Models.Tonghopquatgio
         public string? ViTriLapDat { get; set; }
         public DateTime NgayLap { get; set; }
         public int SoLuong { get; set; }     
-        public string? TinhTrangThietBi { get; set; }   
+        public string? TinhTrangThietBi { get; set; }
+        public bool DuPhong { get; set; }
         public string? GhiChu { get; set; }
     }
 }

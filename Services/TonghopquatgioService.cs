@@ -42,6 +42,7 @@ namespace WebApi.Services
                 NgayLap = Request.NgayLap,
                 SoLuong = Request.SoLuong,
                 TinhTrangThietBi = Request.TinhTrangThietBi,
+                DuPhong=Request.DuPhong,
                 GhiChu = Request.GhiChu,
 
             };
@@ -94,6 +95,7 @@ namespace WebApi.Services
                     NgayLap = x.NgayLap,
                     SoLuong = x.SoLuong,
                     TinhTrangThietBi = x.TinhTrangThietBi,
+                    DuPhong = x.DuPhong,
                     GhiChu = x.GhiChu
 
                 }).ToListAsync();
@@ -144,6 +146,7 @@ namespace WebApi.Services
                 TinhTrangThietBi = x.t.TinhTrangThietBi,
                 NgayLap = x.t.NgayLap,
                 SoLuong = x.t.SoLuong,
+                DuPhong = x.t.DuPhong,
                 GhiChu = x.t.GhiChu
             }).ToListAsync();
         }
@@ -172,6 +175,7 @@ namespace WebApi.Services
             entity.NgayLap = Request.NgayLap;
             entity.SoLuong = Request.SoLuong;
             entity.TinhTrangThietBi = Request.TinhTrangThietBi;
+            entity.DuPhong = Request.DuPhong;
             entity.GhiChu = Request.GhiChu;
             _thietbiDbContext.Update(entity);
             await _thietbiDbContext.SaveChangesAsync();

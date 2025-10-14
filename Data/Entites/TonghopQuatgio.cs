@@ -18,6 +18,7 @@ namespace WebApi.Data.Entites
         public int SoLuong { get; set; }
         [MaxLength(500)]
         public string? TinhTrangThietBi { get; set; }
+        public bool DuPhong { get; set; }
         [MaxLength(500)]
         public string? GhiChu { get; set; }
         [ForeignKey("QuatGioId")]
