@@ -24,6 +24,7 @@ namespace WebApi.Data.Entites
         public int DayBang { get; set; }
         public int ConLan { get; set; }
         public string? TinhTrangThietBi { get; set; }
+        public Boolean duPhong { get; set; }
         public string? GhiChu { get; set; }
         [ForeignKey("BangTaiId")]
         public virtual DanhMucBangTai? DanhMucBangTai { get; set; }

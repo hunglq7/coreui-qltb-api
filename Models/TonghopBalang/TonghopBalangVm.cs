@@ -10,6 +10,7 @@
         public string? DonViTinh { get; set; }
         public int SoLuong { get; set; }
         public string? TinhTrangKyThuat { get; set; }
+        public Boolean duPhong { get; set; }
         public string? GhiChu { get; set; }
     }
 }

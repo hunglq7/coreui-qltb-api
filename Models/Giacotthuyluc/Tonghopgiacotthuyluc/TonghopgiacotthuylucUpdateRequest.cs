@@ -8,6 +8,7 @@ namespace WebApi.Models.Giacotthuyluc.Tonghopgiacotthuyluc
         public string? ViTriLapDat { get; set; }
         public DateTime NgayLap { get; set; }
         public int SoLuong { get; set; }
+        public Boolean duPhong { get; set; }
         public string? GhiChu { get; set; }
     }
 }

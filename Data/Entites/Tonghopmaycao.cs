@@ -32,6 +32,7 @@ namespace WebApi.Data.Entites
 
         [MaxLength(500)]
         public string? TinhTrangThietBi { get; set; }
+        public Boolean duPhong { get; set; }
 
         [MaxLength(500)]
         public string? GhiChu { get; set; }

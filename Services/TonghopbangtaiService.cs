@@ -49,6 +49,7 @@ namespace WebApi.Services
                 DayBang = Request.DayBang,
                 ConLan = Request.ConLan,
                 TinhTrangThietBi = Request.TinhTrangThietBi,
+                duPhong= Request.duPhong,
                 GhiChu = Request.GhiChu,
             };
             await _thietbiDbContext.TongHopBangTais.AddAsync(newBangTai);
@@ -78,6 +79,7 @@ namespace WebApi.Services
                 DayBang = x.t.DayBang,
                 ConLan = x.t.ConLan,
                 TinhTrangThietBi = x.t.TinhTrangThietBi,
+                duPhong= x.t.duPhong,
                 GhiChu = x.t.GhiChu
             }).ToListAsync();
         }
@@ -113,6 +115,7 @@ namespace WebApi.Services
                     DayBang = 0,
                     ConLan = 0,
                     TinhTrangThietBi = "",
+                    duPhong=false,
                     GhiChu = ""
                 };
             }
@@ -140,6 +143,7 @@ namespace WebApi.Services
                 DayBang = x.DayBang,
                 ConLan = x.ConLan,
                 TinhTrangThietBi = x.TinhTrangThietBi,
+                duPhong= x.duPhong,
                 GhiChu = x.GhiChu,
             }).ToListAsync();
         }
@@ -182,6 +186,7 @@ namespace WebApi.Services
                     DayBang = x.DayBang,
                     ConLan = x.ConLan,
                     TinhTrangThietBi = x.TinhTrangThietBi,
+                    duPhong= x.duPhong,
                     GhiChu = x.GhiChu,
                 }).ToListAsync();
             var pagedResult = new PagedResult<TonghopbangtaiVM>()
@@ -215,6 +220,7 @@ namespace WebApi.Services
             bangTai.DayBang = Request.DayBang;
             bangTai.ConLan = Request.ConLan;
             bangTai.TinhTrangThietBi = Request.TinhTrangThietBi;
+            bangTai.duPhong= Request.duPhong;
             bangTai.GhiChu = Request.GhiChu;
             _thietbiDbContext.Update(bangTai);
             await _thietbiDbContext.SaveChangesAsync();

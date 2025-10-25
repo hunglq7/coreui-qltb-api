@@ -65,6 +65,7 @@ namespace WebApi.Services
                 SoLuongXich = x.t.SoLuongXich,
                 SoLuongCauMang = x.t.SoLuongCauMang,
                 TinhTrangThietBi = x.t.TinhTrangThietBi,
+                duPhong= x.t.duPhong,
                 GhiChu = x.t.GhiChu
             }).ToListAsync();
         }
@@ -84,6 +85,7 @@ namespace WebApi.Services
             entity.SoLuongXich = request.SoLuongXich;
             entity.SoLuongCauMang = request.SoLuongCauMang;
             entity.TinhTrangThietBi = request.TinhTrangThietBi;
+            entity.duPhong = request.duPhong;
             entity.GhiChu = request.GhiChu;
             _thietbiDbContext.Update(entity);
             await _thietbiDbContext.SaveChangesAsync();
@@ -135,6 +137,7 @@ namespace WebApi.Services
                                       SoLuongXich = x.SoLuongXich,
                                       SoLuongCauMang = x.SoLuongCauMang,
                                       TinhTrangThietBi = x.TinhTrangThietBi,
+                                      duPhong= x.duPhong,
                                       GhiChu = x.GhiChu
                                   }).ToListAsync();
 

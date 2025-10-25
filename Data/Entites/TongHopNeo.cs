@@ -19,6 +19,7 @@ namespace WebApi.Data.Entites
         public string ViTriLapDat { get; set; } = string.Empty;
         [MaxLength(500)]
         public string TinhTrangKyThuat { get; set; } = string.Empty;
+        public Boolean duPhong { get; set; }
         [MaxLength(500)]
         public string GhiChu { get; set; } = string.Empty;
 

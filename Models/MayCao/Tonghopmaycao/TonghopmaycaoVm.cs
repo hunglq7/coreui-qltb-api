@@ -13,6 +13,7 @@ namespace WebApi.Models.MayCao.Tonghopmaycao
         public int SoLuongXich { get; set; }
         public int SoLuongCauMang { get; set; }
         public string? TinhTrangThietBi { get; set; }
+        public Boolean duPhong { get; set; }
         public string? GhiChu { get; set; }
     }
 }

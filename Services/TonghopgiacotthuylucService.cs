@@ -36,6 +36,7 @@ namespace WebApi.Services
                 ViTriLapDat=request.ViTriLapDat,
                 NgayLap = request.NgayLap,
                 SoLuong = request.SoLuong,
+                duPhong= request.duPhong,
                 GhiChu = request.GhiChu
             };
             await _thietbiDbContext.Tonghopgiacotthuylucs.AddAsync(items);
@@ -71,6 +72,7 @@ namespace WebApi.Services
                     ViTriLapDat = x.ViTriLapDat,
                     NgayLap = x.NgayLap,
                     SoLuong = x.SoLuong,
+                    duPhong= x.duPhong,
                     GhiChu = x.GhiChu
                 }).ToListAsync();
             var pagedResult = new PagedResult<TonghopgiacotthuylucVm>()
@@ -117,6 +119,7 @@ namespace WebApi.Services
             query.NgayLap = request.NgayLap;
             query.ViTriLapDat = request.ViTriLapDat;
             query.SoLuong = request.SoLuong;
+            query.duPhong = request.duPhong;
             query.GhiChu = request.GhiChu;
             return await _thietbiDbContext.SaveChangesAsync();
         }

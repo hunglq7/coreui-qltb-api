@@ -62,6 +62,7 @@ namespace WebApi.Services
                 SoLuong = x.t.SoLuong,
                 ViTriLapDat = x.t.ViTriLapDat,
                 TinhTrangKyThuat = x.t.TinhTrangKyThuat,
+                duPhong= x.t.duPhong,
                 GhiChu = x.t.GhiChu
             }).ToListAsync();
         }
@@ -78,6 +79,7 @@ namespace WebApi.Services
             entity.SoLuong = request.SoLuong;
             entity.ViTriLapDat = request.ViTriLapDat;
             entity.TinhTrangKyThuat = request.TinhTrangKyThuat;
+            entity.duPhong = request.duPhong;
             entity.GhiChu = request.GhiChu;
 
             _thietbiDbContext.Update(entity);
@@ -123,6 +125,7 @@ namespace WebApi.Services
                                       SoLuong = x.SoLuong,
                                       ViTriLapDat = x.ViTriLapDat,
                                       TinhTrangKyThuat = x.TinhTrangKyThuat,
+                                      duPhong= x.duPhong,
                                       GhiChu = x.GhiChu
                                   }).ToListAsync();
 
