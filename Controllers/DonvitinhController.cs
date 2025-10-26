@@ -21,6 +21,17 @@ namespace WebApi.Controllers
             var donvitinh = await _donvitinhService.GetDonvitinh();
             return Ok(donvitinh);
         }
+
+        [HttpPost]
+        public async Task<ActionResult> Add([FromForm] DonViTinh request)
+        {
+            if (request == null)
+            {
+                return BadRequest();
+            }
+            await _donvitinhService.Add(request);
+            return Ok();
+        }
         [HttpPut("UpdateMultiple")]
         public async Task<ActionResult> UpdateMuliple([FromBody] List<DonViTinh> donvitinh)
         {

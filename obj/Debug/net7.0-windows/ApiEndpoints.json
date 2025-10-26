@@ -734,6 +734,52 @@
   },
   {
     "ContainingType": "WebApi.Controllers.DonvitinhController",
+    "Method": "Add",
+    "RelativePath": "api/Donvitinh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TenDonViTinh",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TrangThai",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "ChiTietPhieuNhaps",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApi.Data.Entites.ChiTietPhieuNhap, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ChiTietPhieuXuats",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApi.Data.Entites.ChiTietPhieuXuat, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TongHopThietBis",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApi.Data.Entites.TongHopThietBi, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TonghopCameras",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApi.Data.Entites.TonghopCamera, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.DonvitinhController",
     "Method": "DeleteMultiple",
     "RelativePath": "api/Donvitinh/DeleteMultipale",
     "HttpMethod": "POST",
@@ -3267,7 +3313,7 @@
   },
   {
     "ContainingType": "WebApi.Controllers.TonghopbomnuocController",
-    "Method": "Add",
+    "Method": "Create",
     "RelativePath": "api/Tonghopbomnuoc",
     "HttpMethod": "POST",
     "IsController": true,
@@ -3275,23 +3321,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "WebApi.Data.Entites.TongHopBomNuoc",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApi.Controllers.TonghopbomnuocController",
-    "Method": "GetById",
-    "RelativePath": "api/Tonghopbomnuoc/{Id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Int32",
+        "Type": "WebApi.Models.TonghopBomnuc.TonghopbomnuocCreateRequest",
         "IsRequired": true
       }
     ],
@@ -3300,7 +3330,7 @@
   {
     "ContainingType": "WebApi.Controllers.TonghopbomnuocController",
     "Method": "Delete",
-    "RelativePath": "api/Tonghopbomnuoc/{Id}",
+    "RelativePath": "api/Tonghopbomnuoc/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -3315,14 +3345,30 @@
   },
   {
     "ContainingType": "WebApi.Controllers.TonghopbomnuocController",
-    "Method": "GetDetailById",
-    "RelativePath": "api/Tonghopbomnuoc/DetailById/{Id}",
+    "Method": "GetById",
+    "RelativePath": "api/Tonghopbomnuoc/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopbomnuocController",
+    "Method": "GetDetailById",
+    "RelativePath": "api/Tonghopbomnuoc/detail/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -3383,7 +3429,17 @@
   {
     "ContainingType": "WebApi.Controllers.TonghopbomnuocController",
     "Method": "Sum",
-    "RelativePath": "api/Tonghopbomnuoc/sum",
+    "RelativePath": "api/Tonghopbomnuoc/sumTonghopbomnuoc",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopbomnuocController",
+    "Method": "Test",
+    "RelativePath": "api/Tonghopbomnuoc/test",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -4519,9 +4575,44 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "WebApi.Models.TonghopRole.TonghopRolePagingRequest",
-        "IsRequired": true
+        "Name": "roleId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "donViId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "duPhong",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TotalRecords",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SumRecords",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageCount",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

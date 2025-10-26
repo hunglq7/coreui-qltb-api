@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.Common;
@@ -11,6 +12,7 @@ namespace WebApi.Services
         Task<List<DonvitinhVm>> GetDonvitinh();
         Task<ApiResult<int>> UpdateMultipleDonvitinh(List<DonViTinh> donvitinhs);
         Task<ApiResult<int>> DeleteMutipleDonvitinh(List<DonViTinh> donvitinhs);
+        Task<bool> Add([FromBody] DonViTinh Request);
     }
     public class DonvitinhService : IDonvitinhService
     {
@@ -54,6 +56,23 @@ namespace WebApi.Services
                 TrangThai = x.TrangThai,
 
             }).ToListAsync();
+        }
+        public async Task<bool> Add([FromBody] DonViTinh Request)
+        {
+            if (Request == null)
+            {
+                return false;
+            }
+            var newItems = new DonViTinh()
+            {
+                Id = Request.Id,
+                TenDonViTinh = Request.TenDonViTinh,
+                TrangThai = Request.TrangThai,
+             
+            };
+            await _thietbiDbContext.DonViTinhs.AddAsync(newItems);
+            await _thietbiDbContext.SaveChangesAsync();
+            return true;
         }
 
         public async Task<ApiResult<int>> UpdateMultipleDonvitinh(List<DonViTinh> donvitinhs)
