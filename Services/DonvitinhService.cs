@@ -13,6 +13,8 @@ namespace WebApi.Services
         Task<ApiResult<int>> UpdateMultipleDonvitinh(List<DonViTinh> donvitinhs);
         Task<ApiResult<int>> DeleteMutipleDonvitinh(List<DonViTinh> donvitinhs);
         Task<bool> Add([FromBody] DonViTinh Request);
+        Task<bool> Update([FromBody] DonViTinh Request);
+        Task<bool> Delete(int id);
     }
     public class DonvitinhService : IDonvitinhService
     {
@@ -93,6 +95,32 @@ namespace WebApi.Services
             var UpdateMuliple = _thietbiDbContext.DonViTinhs.Where(x => ids.Contains(x.Id)).ToList();
           
             return new ApiSuccessResult<int>(count);
+        }
+
+        public async Task<bool> Update([FromBody] DonViTinh Request)
+        {
+            var items = await _thietbiDbContext.DonViTinhs.FindAsync(Request.Id);
+            if (items == null)
+            {
+                return false;
+            }         
+            items.TenDonViTinh = Request.TenDonViTinh;
+            items.TrangThai = Request.TrangThai;         
+            _thietbiDbContext.Update(items);
+            await _thietbiDbContext.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<bool> Delete(int id)
+        {
+            var items = await _thietbiDbContext.DonViTinhs.FindAsync(id);
+            if (items == null)
+            {
+                return false;
+            }
+            _thietbiDbContext.DonViTinhs.Remove(items);
+            await _thietbiDbContext.SaveChangesAsync();
+            return true;
         }
     }
 }

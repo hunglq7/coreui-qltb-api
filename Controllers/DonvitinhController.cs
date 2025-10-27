@@ -23,7 +23,7 @@ namespace WebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Add([FromForm] DonViTinh request)
+        public async Task<ActionResult> Add([FromBody] DonViTinh request)
         {
             if (request == null)
             {
@@ -33,7 +33,7 @@ namespace WebApi.Controllers
             return Ok();
         }
         [HttpPut("UpdateMultiple")]
-        public async Task<ActionResult> UpdateMuliple([FromBody] List<DonViTinh> donvitinh)
+        public async Task<ActionResult> UpdateMuliple([FromForm] List<DonViTinh> donvitinh)
         {
             var donvitinhs = await _donvitinhService.UpdateMultipleDonvitinh(donvitinh);
             if (donvitinhs.Count==0)
@@ -54,6 +54,29 @@ namespace WebApi.Controllers
                 return BadRequest("Xóa bản ghi thất bại");
             }
             return Ok(donvitinhs.Count);
+        }
+
+
+        [HttpPut("update")]
+        public async Task<ActionResult> Update([FromBody] DonViTinh request)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            await _donvitinhService.Update(request);
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            if (id == 0)
+            {
+                return BadRequest();
+            }
+            await _donvitinhService.Delete(id);
+            return Ok();
         }
     }
 }
