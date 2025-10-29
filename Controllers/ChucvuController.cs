@@ -69,5 +69,16 @@ namespace WebApi.Controllers
             }
              
         }
+
+        [HttpPost]
+        public async Task<ActionResult> Add([FromBody] ChucVu request)
+        {
+            if (request == null)
+            {
+                return BadRequest();
+            }
+            await _chucvuService.Add(request);
+            return Ok();
+        }
     }
 }

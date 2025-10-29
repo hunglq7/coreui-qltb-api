@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.Chucvu;
@@ -10,6 +11,7 @@ namespace WebApi.Services
         Task<List<ChucvuVm>> GetChucvu();
         Task<ApiResult<int>> UpdateMultipleChucvu(List<ChucVu> chucvus);
         Task<ApiResult<int>> DeleteMutipleChucvu(List<ChucVu> chucvus);
+        Task<bool> Add([FromBody] ChucVu Request);
     }
     public class ChucvuService : IChucvuService
     {
@@ -74,6 +76,23 @@ namespace WebApi.Services
             var UpdateMuliple = _thietbiDbContext.ChucVus.Where(x => ids.Contains(x.Id)).ToList();
             
             return new ApiSuccessResult<int>(count);
+        }
+        public async Task<bool> Add([FromBody] ChucVu Request)
+        {
+            if (Request == null)
+            {
+                return false;
+            }
+            var newItems = new ChucVu()
+            {
+                Id = Request.Id,
+                TenChucVu = Request.TenChucVu,
+                TrangThai = Request.TrangThai,
+
+            };
+            await _thietbiDbContext.ChucVus.AddAsync(newItems);
+            await _thietbiDbContext.SaveChangesAsync();
+            return true;
         }
     }
 }
