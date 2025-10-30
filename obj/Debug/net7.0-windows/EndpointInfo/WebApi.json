@@ -223,6 +223,35 @@
             "description": "Success"
           }
         }
+      },
+      "post": {
+        "tags": [
+          "Chucvu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChucVu"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChucVu"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChucVu"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
       }
     },
     "/api/Chucvu/UpdateMultiple": {
@@ -358,6 +387,61 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/api/Chucvu/update": {
+      "put": {
+        "tags": [
+          "Chucvu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChucVu"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChucVu"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChucVu"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Chucvu/{id}": {
+      "delete": {
+        "tags": [
+          "Chucvu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
           }
         }
       }
@@ -1577,72 +1661,19 @@
         ],
         "requestBody": {
           "content": {
-            "multipart/form-data": {
+            "application/json": {
               "schema": {
-                "required": [
-                  "TenDonViTinh"
-                ],
-                "type": "object",
-                "properties": {
-                  "Id": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "TenDonViTinh": {
-                    "maxLength": 100,
-                    "type": "string"
-                  },
-                  "TrangThai": {
-                    "type": "boolean"
-                  },
-                  "ChiTietPhieuNhaps": {
-                    "type": "array",
-                    "items": {
-                      "$ref": "#/components/schemas/ChiTietPhieuNhap"
-                    }
-                  },
-                  "ChiTietPhieuXuats": {
-                    "type": "array",
-                    "items": {
-                      "$ref": "#/components/schemas/ChiTietPhieuXuat"
-                    }
-                  },
-                  "TongHopThietBis": {
-                    "type": "array",
-                    "items": {
-                      "$ref": "#/components/schemas/TongHopThietBi"
-                    }
-                  },
-                  "TonghopCameras": {
-                    "type": "array",
-                    "items": {
-                      "$ref": "#/components/schemas/TonghopCamera"
-                    }
-                  }
-                }
-              },
-              "encoding": {
-                "Id": {
-                  "style": "form"
-                },
-                "TenDonViTinh": {
-                  "style": "form"
-                },
-                "TrangThai": {
-                  "style": "form"
-                },
-                "ChiTietPhieuNhaps": {
-                  "style": "form"
-                },
-                "ChiTietPhieuXuats": {
-                  "style": "form"
-                },
-                "TongHopThietBis": {
-                  "style": "form"
-                },
-                "TonghopCameras": {
-                  "style": "form"
-                }
+                "$ref": "#/components/schemas/DonViTinh"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DonViTinh"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DonViTinh"
               }
             }
           }
@@ -1661,27 +1692,21 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/DonViTinh"
+                "type": "object",
+                "properties": {
+                  "donvitinh": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/DonViTinh"
+                    }
+                  }
                 }
-              }
-            },
-            "text/json": {
-              "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/DonViTinh"
-                }
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/DonViTinh"
+              },
+              "encoding": {
+                "donvitinh": {
+                  "style": "form"
                 }
               }
             }
@@ -1727,6 +1752,61 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Donvitinh/update": {
+      "put": {
+        "tags": [
+          "Donvitinh"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DonViTinh"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DonViTinh"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DonViTinh"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Donvitinh/{id}": {
+      "delete": {
+        "tags": [
+          "Donvitinh"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "Success"

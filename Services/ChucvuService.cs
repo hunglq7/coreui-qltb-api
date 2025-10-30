@@ -12,6 +12,8 @@ namespace WebApi.Services
         Task<ApiResult<int>> UpdateMultipleChucvu(List<ChucVu> chucvus);
         Task<ApiResult<int>> DeleteMutipleChucvu(List<ChucVu> chucvus);
         Task<bool> Add([FromBody] ChucVu Request);
+        Task<bool> Update([FromBody] ChucVu Request);
+        Task<bool> Delete(int id);
     }
     public class ChucvuService : IChucvuService
     {
@@ -91,6 +93,30 @@ namespace WebApi.Services
 
             };
             await _thietbiDbContext.ChucVus.AddAsync(newItems);
+            await _thietbiDbContext.SaveChangesAsync();
+            return true;
+        }
+        public async Task<bool> Update([FromBody] ChucVu Request)
+        {
+            var items = await _thietbiDbContext.ChucVus.FindAsync(Request.Id);
+            if (items == null)
+            {
+                return false;
+            }
+            items.TenChucVu = Request.TenChucVu;
+            items.TrangThai = Request.TrangThai;
+            _thietbiDbContext.Update(items);
+            await _thietbiDbContext.SaveChangesAsync();
+            return true;
+        }
+        public async Task<bool> Delete(int id)
+        {
+            var items = await _thietbiDbContext.ChucVus.FindAsync(id);
+            if (items == null)
+            {
+                return false;
+            }
+            _thietbiDbContext.ChucVus.Remove(items);
             await _thietbiDbContext.SaveChangesAsync();
             return true;
         }

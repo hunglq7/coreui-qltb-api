@@ -80,5 +80,29 @@ namespace WebApi.Controllers
             await _chucvuService.Add(request);
             return Ok();
         }
+
+        [HttpPut("update")]
+        public async Task<ActionResult> Update([FromBody] ChucVu request)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            await _chucvuService.Update(request);
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            if (id == 0)
+            {
+                return BadRequest();
+            }
+            await _chucvuService.Delete(id);
+            return Ok();
+        }
+
+
     }
 }
