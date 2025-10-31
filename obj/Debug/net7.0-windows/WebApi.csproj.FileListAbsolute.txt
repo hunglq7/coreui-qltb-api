@@ -1318,7 +1318,6 @@ D:\DU AN WEB\coreui-qltb-api\obj\Debug\net7.0-windows\WebApi.genruntimeconfig.ca
 D:\DU AN WEB\coreui-qltb-api\obj\Debug\net7.0-windows\ref\WebApi.dll
 D:\DU AN WEB\coreui-qltb-api\bin\Debug\net7.0-windows\ExcelDataReader.dll
 E:\DU AN WEB\Angular-QLTB\coreui-qltb-api\bin\Debug\net7.0-windows\ExcelDataReader.dll
-D:\DU AN WEB\coreui-qltb-api\obj\Debug\net7.0-windows\staticwebassets.upToDateCheck.txt
 F:\DU AN WEB\Angular-QLTB\coreui-qltb-api\bin\Debug\net7.0-windows\AppSettings.config
 F:\DU AN WEB\Angular-QLTB\coreui-qltb-api\bin\Debug\net7.0-windows\appsettings.Development.json
 F:\DU AN WEB\Angular-QLTB\coreui-qltb-api\bin\Debug\net7.0-windows\appsettings.json
@@ -1429,3 +1428,4 @@ F:\DU AN WEB\Angular-QLTB\coreui-qltb-api\obj\Debug\net7.0-windows\refint\WebApi
 F:\DU AN WEB\Angular-QLTB\coreui-qltb-api\obj\Debug\net7.0-windows\WebApi.pdb
 F:\DU AN WEB\Angular-QLTB\coreui-qltb-api\obj\Debug\net7.0-windows\WebApi.genruntimeconfig.cache
 F:\DU AN WEB\Angular-QLTB\coreui-qltb-api\obj\Debug\net7.0-windows\ref\WebApi.dll
+D:\DU AN WEB\coreui-qltb-api\obj\Debug\net7.0-windows\staticwebassets.upToDateCheck.txt

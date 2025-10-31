@@ -111,6 +111,38 @@
   },
   {
     "ContainingType": "WebApi.Controllers.ChucvuController",
+    "Method": "Add",
+    "RelativePath": "api/Chucvu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Data.Entites.ChucVu",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ChucvuController",
+    "Method": "Delete",
+    "RelativePath": "api/Chucvu/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ChucvuController",
     "Method": "AddMultiple",
     "RelativePath": "api/Chucvu/AddMultiple",
     "HttpMethod": "POST",
@@ -146,6 +178,22 @@
       {
         "Name": "chucvus",
         "Type": "System.Collections.Generic.List\u00601[[WebApi.Data.Entites.ChucVu, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ChucvuController",
+    "Method": "Update",
+    "RelativePath": "api/Chucvu/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Data.Entites.ChucVu",
         "IsRequired": true
       }
     ],
@@ -741,39 +789,25 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
+        "Name": "request",
+        "Type": "WebApi.Data.Entites.DonViTinh",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.DonvitinhController",
+    "Method": "Delete",
+    "RelativePath": "api/Donvitinh/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "TenDonViTinh",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "TrangThai",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      },
-      {
-        "Name": "ChiTietPhieuNhaps",
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApi.Data.Entites.ChiTietPhieuNhap, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "ChiTietPhieuXuats",
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApi.Data.Entites.ChiTietPhieuXuat, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "TongHopThietBis",
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApi.Data.Entites.TongHopThietBi, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "TonghopCameras",
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApi.Data.Entites.TonghopCamera, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -796,6 +830,22 @@
   },
   {
     "ContainingType": "WebApi.Controllers.DonvitinhController",
+    "Method": "Update",
+    "RelativePath": "api/Donvitinh/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Data.Entites.DonViTinh",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.DonvitinhController",
     "Method": "UpdateMuliple",
     "RelativePath": "api/Donvitinh/UpdateMultiple",
     "HttpMethod": "PUT",
@@ -805,7 +855,7 @@
       {
         "Name": "donvitinh",
         "Type": "System.Collections.Generic.List\u00601[[WebApi.Data.Entites.DonViTinh, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
