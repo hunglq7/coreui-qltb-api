@@ -87,7 +87,6 @@ namespace WebApi.Services
             }
             var newItems = new ChucVu()
             {
-                Id = Request.Id,
                 TenChucVu = Request.TenChucVu,
                 TrangThai = Request.TrangThai,
 
