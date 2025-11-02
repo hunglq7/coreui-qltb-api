@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.Common;
+using WebApi.Models.MayCao.Tonghopmaycao;
 using WebApi.Models.Tonghopquatgio;
 
 namespace WebApi.Services
@@ -17,6 +18,7 @@ namespace WebApi.Services
         Task<bool> UpdateTonghopquatgio([FromBody] TonghopQuatgio Request);
         Task<bool> DeleteTonghopquatgio(int id);
         Task<PagedResult<TonghopquatgioVm>> GetAllPaging(TonghopquatgioPagingRequest request);
+        Task<List<TonghopquatgioVm>> GetQuatgio();
     }
     public class TonghopquatgioService : ITonghopquatgioService
     {
@@ -151,7 +153,25 @@ namespace WebApi.Services
             }).ToListAsync();
         }
 
-     
+        public async Task<List<TonghopquatgioVm>> GetQuatgio()
+        {
+            var query = from t in _thietbiDbContext.TonghopQuatgio.Include(x => x.DanhmucQuatgio).Include(x => x.PhongBan)
+                        select t;
+            return await query.Select(x => new TonghopquatgioVm()
+            {
+                Id = x.Id,
+                MaQuanLy = x.MaQuanLy,
+                TenThietBi = x.DanhmucQuatgio!.TenThietBi,
+                TenDonVi = x.PhongBan!.TenPhong,
+                ViTriLapDat = x.ViTriLapDat,
+                NgayLap = x.NgayLap,
+                SoLuong = x.SoLuong,
+                TinhTrangThietBi = x.TinhTrangThietBi,
+                DuPhong = x.DuPhong,
+                GhiChu = x.GhiChu
+            }).ToListAsync();
+        }
+
         public async Task<int> SumTonghopquatgio()
         {
             var query = from s in _thietbiDbContext.TonghopQuatgio
@@ -181,5 +201,7 @@ namespace WebApi.Services
             await _thietbiDbContext.SaveChangesAsync();
             return true;
         }
+
+        
     }
 }

@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
@@ -16,6 +17,9 @@ namespace WebApi.Services
         Task<int> Delete(PhongbanVm phongban);
         Task<ApiResult<int>> UpdateMultiple(List<PhongBan> response);
         Task<ApiResult<int>> DeleteMutiple(List<PhongBan> response);
+        Task<bool> Add([FromBody] PhongBan Request);
+        Task<bool> Update([FromBody] PhongBan Request);
+        Task<bool> Delete(int id);
 
     }
     public class PhongbanService : IPhongbanService
@@ -90,7 +94,7 @@ namespace WebApi.Services
 
         public async Task<List<PhongbanVm>> GetPhongban()
         {
-            var query = from p in _dbContext.PhongBans.Where(x => x.TrangThai == true)
+            var query = from p in _dbContext.PhongBans
                         select p;
             return await query.Select(x => new PhongbanVm()
             {
@@ -129,6 +133,47 @@ namespace WebApi.Services
             {
                 return new ApiErrorResult<int>("Lỗi kết nối hệ thống " +ex);
             }
+        }
+
+        public async Task<bool> Add([FromBody] PhongBan Request)
+        {
+            if (Request == null)
+            {
+                return false;
+            }
+            var newItems = new PhongBan()
+            {
+                TenPhong = Request.TenPhong,
+                TrangThai = Request.TrangThai,
+
+            };
+            await _dbContext.PhongBans.AddAsync(newItems);
+            await _dbContext.SaveChangesAsync();
+            return true;
+        }
+        public async Task<bool> Update([FromBody] PhongBan Request)
+        {
+            var items = await _dbContext.PhongBans.FindAsync(Request.Id);
+            if (items == null)
+            {
+                return false;
+            }
+            items.TenPhong = Request.TenPhong;
+            items.TrangThai = Request.TrangThai;
+            _dbContext.Update(items);
+            await _dbContext.SaveChangesAsync();
+            return true;
+        }
+        public async Task<bool> Delete(int id)
+        {
+            var items = await _dbContext.PhongBans.FindAsync(id);
+            if (items == null)
+            {
+                return false;
+            }
+            _dbContext.PhongBans.Remove(items);
+            await _dbContext.SaveChangesAsync();
+            return true;
         }
     }
 }

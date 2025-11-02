@@ -28,16 +28,16 @@ namespace WebApi.Controllers
             return Ok(phongban);
 
         }
-        [HttpPost]
-        public async Task<ActionResult> CreatePhongban(PhongbanCreateRequest request)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            var phongban = await _phongbanService.CreatePhongban(request);
-            return Ok(phongban);
-        }
+        //[HttpPost]
+        //public async Task<ActionResult> CreatePhongban(PhongbanCreateRequest request)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
+        //    var phongban = await _phongbanService.CreatePhongban(request);
+        //    return Ok(phongban);
+        //}
         [HttpPost("delete")]
         public async Task<IActionResult> DeletePhongban(PhongbanVm phongban)
         {
@@ -71,6 +71,40 @@ namespace WebApi.Controllers
             }
             return Ok(response.Count);
 
+        }
+
+
+        [HttpPost]
+        public async Task<ActionResult> Add([FromBody] PhongBan request)
+        {
+            if (request == null)
+            {
+                return BadRequest();
+            }
+            await _phongbanService.Add(request);
+            return Ok();
+        }
+
+        [HttpPut("update")]
+        public async Task<ActionResult> Update([FromBody] PhongBan request)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            await _phongbanService.Update(request);
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            if (id == 0)
+            {
+                return BadRequest();
+            }
+            await _phongbanService.Delete(id);
+            return Ok();
         }
     }
 }

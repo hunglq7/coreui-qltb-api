@@ -78,5 +78,12 @@ namespace WebApi.Controllers
             return Ok(query);
 
         }
+
+        [HttpGet("getAll")]
+        public async Task<ActionResult> GetMaycao()
+        {
+            var maycao = await _tonghopmaycaoService.GetMaycao();
+            return Ok(maycao);
+        }
     }
 }

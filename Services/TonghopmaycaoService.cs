@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
+using WebApi.Models.Chucvu;
 using WebApi.Models.Common;
 using WebApi.Models.MayCao.Tonghopmaycao;
 
@@ -15,6 +16,7 @@ namespace WebApi.Services
         Task<bool> Update(TongHopMayCao request);
         Task<bool> Delete(int id);
         Task<PagedResult<TonghopmaycaoVm>> GetAllPaging(TonghopmaycaoPagingRequest request);
+        Task<List<TonghopmaycaoVm>> GetMaycao();
     }
 
     public class TonghopmaycaoService : ITonghopmaycaoService
@@ -128,8 +130,8 @@ namespace WebApi.Services
                                   {
                                       Id = x.Id,
                                       MaQuanLy = x.MaQuanLy,
-                                      TenThietBi = x.DanhmucMayCao.TenThietBi,
-                                      TenDonVi = x.PhongBan.TenPhong,
+                                      TenThietBi = x.DanhmucMayCao!.TenThietBi,
+                                      TenDonVi = x.PhongBan!.TenPhong,
                                       ViTriLapDat = x.ViTriLapDat,
                                       NgayLap = x.NgayLap,
                                       SoLuong = x.SoLuong,
@@ -149,6 +151,26 @@ namespace WebApi.Services
                 PageSize = request.PageSize,
                 SumRecords = sumRecodes,
             };
+        }
+
+        public async Task<List<TonghopmaycaoVm>> GetMaycao()        {
+            var query = from t in _thietbiDbContext.TongHopMayCaos.Include(x => x.DanhmucMayCao).Include(x => x.PhongBan)
+                        select t;
+            return await query.Select(x => new TonghopmaycaoVm()            {
+                Id = x.Id,
+                MaQuanLy = x.MaQuanLy,
+                TenThietBi = x.DanhmucMayCao!.TenThietBi,
+                TenDonVi = x.PhongBan!.TenPhong,
+                ViTriLapDat = x.ViTriLapDat,
+                NgayLap = x.NgayLap,
+                SoLuong = x.SoLuong,
+                ChieuDaiMay = x.ChieuDaiMay,
+                SoLuongXich = x.SoLuongXich,
+                SoLuongCauMang = x.SoLuongCauMang,
+                TinhTrangThietBi = x.TinhTrangThietBi,
+                duPhong = x.duPhong,
+                GhiChu = x.GhiChu
+            }).ToListAsync();
         }
     }
 }

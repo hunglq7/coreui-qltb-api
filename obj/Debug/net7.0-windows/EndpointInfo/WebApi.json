@@ -3141,17 +3141,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PhongbanCreateRequest"
+                "$ref": "#/components/schemas/PhongBan"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PhongbanCreateRequest"
+                "$ref": "#/components/schemas/PhongBan"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PhongbanCreateRequest"
+                "$ref": "#/components/schemas/PhongBan"
               }
             }
           }
@@ -3267,6 +3267,61 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Phongban/update": {
+      "put": {
+        "tags": [
+          "Phongban"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PhongBan"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PhongBan"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PhongBan"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Phongban/{id}": {
+      "delete": {
+        "tags": [
+          "Phongban"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "Success"
@@ -7276,6 +7331,18 @@
         }
       }
     },
+    "/api/Tonghopmaycao/getAll": {
+      "get": {
+        "tags": [
+          "Tonghopmaycao"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Tonghopmayxuc": {
       "get": {
         "tags": [
@@ -8059,6 +8126,18 @@
               "format": "int32"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopquatgio/getAll": {
+      "get": {
+        "tags": [
+          "Tonghopquatgio"
         ],
         "responses": {
           "200": {
@@ -11063,19 +11142,6 @@
               "$ref": "#/components/schemas/TongHopAptomatKhoidongtu"
             },
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "PhongbanCreateRequest": {
-        "type": "object",
-        "properties": {
-          "tenPhong": {
-            "type": "string",
-            "nullable": true
-          },
-          "trangThai": {
-            "type": "boolean"
           }
         },
         "additionalProperties": false

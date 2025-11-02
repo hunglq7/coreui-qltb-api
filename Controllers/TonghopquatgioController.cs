@@ -77,6 +77,12 @@ namespace WebApi.Controllers
             return Ok(query);
 
         }
+        [HttpGet("getAll")]
+        public async Task<ActionResult> GetQuatgio()
+        {
+            var quatgio = await _tonghopquatgioService.GetQuatgio();
+            return Ok(quatgio);
+        }
 
     }
 }

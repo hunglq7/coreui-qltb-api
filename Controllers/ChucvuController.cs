@@ -23,8 +23,7 @@ namespace WebApi.Controllers
         }
 
 
-        [HttpGet]
-  
+        [HttpGet]  
         public async Task<ActionResult> GetChucvu ()
         {
             var chucvu = await _chucvuService.GetChucvu();
