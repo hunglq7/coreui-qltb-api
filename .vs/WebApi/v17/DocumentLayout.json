@@ -1,54 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DU AN WEB\\coreui-qltb-api\\",
+  "WorkspaceRootPath": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\controllers\\tonghopquatgiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\tonghopquatgiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\controllers\\tonghopmayxuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\tonghopmayxuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\controllers\\tonghopmaycaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\tonghopmaycaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\services\\tonghopquatgioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\tonghopquatgioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\services\\tonghopmaycaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\tonghopmaycaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\models\\maycao\\tonghopmaycao\\tonghopmaycaovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\maycao\\tonghopmaycao\\tonghopmaycaovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DU AN WEB\\coreui-qltb-api\\Migrations\\20251102133337_Tonghopmayxuc-update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251102133337_Tonghopmayxuc-update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\controllers\\chucvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\chucvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\services\\chucvuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\chucvuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\controllers\\tonghopquatgiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\tonghopquatgiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\controllers\\tonghopmaycaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\tonghopmaycaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\services\\tonghopquatgioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\tonghopquatgioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\services\\tonghopmaycaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\tonghopmaycaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\models\\maycao\\tonghopmaycao\\tonghopmaycaovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:models\\maycao\\tonghopmaycao\\tonghopmaycaovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\controllers\\chucvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\chucvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\services\\chucvuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\chucvuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\controllers\\phongbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\controllers\\phongbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:controllers\\phongbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|d:\\du an web\\coreui-qltb-api\\services\\phongbanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\services\\phongbanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:services\\phongbanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|e:\\du an web\\angular-qltb\\coreui-qltb-api\\migrations\\20251102133337_tonghopmayxuc-update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FA1EAE-3620-4410-8A41-0F484750C186}|WebApi.csproj|solutionrelative:migrations\\20251102133337_tonghopmayxuc-update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,101 +67,109 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TonghopmayxucController.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\TonghopmayxucController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TonghopmayxucController.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\TonghopmayxucController.cs",
+              "RelativeToolTip": "Controllers\\TonghopmayxucController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAcwEAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T07:05:01.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TonghopquatgioController.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\TonghopquatgioController.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\TonghopquatgioController.cs",
               "RelativeDocumentMoniker": "Controllers\\TonghopquatgioController.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\TonghopquatgioController.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\TonghopquatgioController.cs",
               "RelativeToolTip": "Controllers\\TonghopquatgioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAFAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-02T14:16:45.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TonghopquatgioService.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Services\\TonghopquatgioService.cs",
-              "RelativeDocumentMoniker": "Services\\TonghopquatgioService.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Services\\TonghopquatgioService.cs",
-              "RelativeToolTip": "Services\\TonghopquatgioService.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAAAKoAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "20251102133337_Tonghopmayxuc-update.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Migrations\\20251102133337_Tonghopmayxuc-update.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251102133337_Tonghopmayxuc-update.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Migrations\\20251102133337_Tonghopmayxuc-update.cs",
+              "RelativeToolTip": "Migrations\\20251102133337_Tonghopmayxuc-update.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwFUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T14:12:44.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T13:33:37.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TonghopmaycaoVm.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Models\\MayCao\\Tonghopmaycao\\TonghopmaycaoVm.cs",
+              "RelativeDocumentMoniker": "Models\\MayCao\\Tonghopmaycao\\TonghopmaycaoVm.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Models\\MayCao\\Tonghopmaycao\\TonghopmaycaoVm.cs",
+              "RelativeToolTip": "Models\\MayCao\\Tonghopmaycao\\TonghopmaycaoVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T12:51:45.708Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "20251102133337_Tonghopmayxuc-update.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Migrations\\20251102133337_Tonghopmayxuc-update.cs",
-              "RelativeDocumentMoniker": "Migrations\\20251102133337_Tonghopmayxuc-update.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Migrations\\20251102133337_Tonghopmayxuc-update.cs",
-              "RelativeToolTip": "Migrations\\20251102133337_Tonghopmayxuc-update.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAgwFUAAAALAAAAAAAAAA==",
+              "Title": "TonghopmaycaoService.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\TonghopmaycaoService.cs",
+              "RelativeDocumentMoniker": "Services\\TonghopmaycaoService.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\TonghopmaycaoService.cs",
+              "RelativeToolTip": "Services\\TonghopmaycaoService.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAQwK0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T13:33:37.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TonghopmaycaoVm.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Models\\MayCao\\Tonghopmaycao\\TonghopmaycaoVm.cs",
-              "RelativeDocumentMoniker": "Models\\MayCao\\Tonghopmaycao\\TonghopmaycaoVm.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Models\\MayCao\\Tonghopmaycao\\TonghopmaycaoVm.cs",
-              "RelativeToolTip": "Models\\MayCao\\Tonghopmaycao\\TonghopmaycaoVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T12:51:45.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T12:46:38.021Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TonghopmaycaoService.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Services\\TonghopmaycaoService.cs",
-              "RelativeDocumentMoniker": "Services\\TonghopmaycaoService.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Services\\TonghopmaycaoService.cs",
-              "RelativeToolTip": "Services\\TonghopmaycaoService.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAQwK0AAAAJAAAAAAAAAA==",
+              "Title": "TonghopmaycaoController.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\TonghopmaycaoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TonghopmaycaoController.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\TonghopmaycaoController.cs",
+              "RelativeToolTip": "Controllers\\TonghopmaycaoController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwFYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T12:46:38.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T12:45:56.703Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TonghopmaycaoController.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\TonghopmaycaoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TonghopmaycaoController.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\TonghopmaycaoController.cs",
-              "RelativeToolTip": "Controllers\\TonghopmaycaoController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAmwFYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T12:45:56.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Properties\\launchSettings.json",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwB0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-02T05:23:16.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TonghopquatgioService.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\TonghopquatgioService.cs",
+              "RelativeDocumentMoniker": "Services\\TonghopquatgioService.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\TonghopquatgioService.cs",
+              "RelativeToolTip": "Services\\TonghopquatgioService.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAAAKoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T14:12:44.559Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
               "Title": "PhongbanController.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\PhongbanController.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\PhongbanController.cs",
               "RelativeDocumentMoniker": "Controllers\\PhongbanController.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\PhongbanController.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\PhongbanController.cs",
               "RelativeToolTip": "Controllers\\PhongbanController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -167,9 +179,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "PhongbanService.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Services\\PhongbanService.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\PhongbanService.cs",
               "RelativeDocumentMoniker": "Services\\PhongbanService.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Services\\PhongbanService.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\PhongbanService.cs",
               "RelativeToolTip": "Services\\PhongbanService.cs",
               "ViewState": "AgIAAH8AAAAAAAAAAAAgwIoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -177,24 +189,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ChucvuController.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\ChucvuController.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\ChucvuController.cs",
               "RelativeDocumentMoniker": "Controllers\\ChucvuController.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\ChucvuController.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\ChucvuController.cs",
               "RelativeToolTip": "Controllers\\ChucvuController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAASwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T13:11:24.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T13:11:24.641Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Controllers\\UsersController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -202,16 +213,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ChucvuService.cs",
-              "DocumentMoniker": "D:\\DU AN WEB\\coreui-qltb-api\\Services\\ChucvuService.cs",
+              "DocumentMoniker": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\ChucvuService.cs",
               "RelativeDocumentMoniker": "Services\\ChucvuService.cs",
-              "ToolTip": "D:\\DU AN WEB\\coreui-qltb-api\\Services\\ChucvuService.cs",
+              "ToolTip": "E:\\DU AN WEB\\Angular-QLTB\\coreui-qltb-api\\Services\\ChucvuService.cs",
               "RelativeToolTip": "Services\\ChucvuService.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAYwDsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T13:14:29.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T13:14:29.603Z"
             }
           ]
         }
