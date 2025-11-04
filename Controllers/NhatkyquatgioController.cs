@@ -51,5 +51,17 @@ namespace WebApi.Controllers
             }
             return Ok(query.Count);
         }
+
+
+        [HttpPost]
+        public async Task<ActionResult> Add([FromBody] NhatKyQuatGio request)
+        {
+            if (request == null)
+            {
+                return BadRequest();
+            }
+            await _nhatkyquatgioService.Add(request);
+            return Ok();
+        }
     }
 }

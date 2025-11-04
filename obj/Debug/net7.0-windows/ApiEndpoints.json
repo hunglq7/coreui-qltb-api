@@ -1428,6 +1428,22 @@
   },
   {
     "ContainingType": "WebApi.Controllers.NhatkyquatgioController",
+    "Method": "Add",
+    "RelativePath": "api/Nhatkyquatgio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Data.Entites.NhatKyQuatGio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.NhatkyquatgioController",
     "Method": "GetDetailById",
     "RelativePath": "api/Nhatkyquatgio/DatailById/{Id}",
     "HttpMethod": "GET",

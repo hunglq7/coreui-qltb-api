@@ -2900,6 +2900,35 @@
             "description": "Success"
           }
         }
+      },
+      "post": {
+        "tags": [
+          "Nhatkyquatgio"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhatKyQuatGio"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhatKyQuatGio"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhatKyQuatGio"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
       }
     },
     "/api/Nhatkyquatgio/DatailById/{Id}": {

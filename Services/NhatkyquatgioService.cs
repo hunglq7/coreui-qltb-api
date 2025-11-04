@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.Common;
@@ -13,6 +14,7 @@ namespace WebApi.Services
         Task<List<NhatKyQuatGio>> getDatailById(int id);
         Task<ApiResult<int>> UpdateMultiple(List<NhatKyQuatGio> request);
         Task<ApiResult<int>> DeleteMutiple(List<NhatKyQuatGio> request);
+        Task<bool> Add([FromBody] NhatKyQuatGio Request);
     }
     public class NhatkyquatgioService : INhatkyquatgioService
     {
@@ -21,6 +23,29 @@ namespace WebApi.Services
         {
             _thietbiDbContext= thietbiDbContext;
         }
+
+        public async Task<bool> Add([FromBody] NhatKyQuatGio Request)
+        {
+            if (Request == null)
+            {
+                return false;
+            }
+            var newItems = new NhatKyQuatGio()
+            {
+                            
+                TonghopquatgioId = Request.TonghopquatgioId,
+                Ngaythang = Request.Ngaythang,
+                DonVi = Request.DonVi,
+                ViTri = Request.ViTri,
+                TrangThai = Request.TrangThai,
+                GhiChu = Request.GhiChu,                
+
+            };
+            await _thietbiDbContext.NhatKyQuatGios.AddAsync(newItems);
+            await _thietbiDbContext.SaveChangesAsync();
+            return true;
+        }
+
         public async Task<ApiResult<int>> DeleteMutiple(List<NhatKyQuatGio> request)
         {
             var ids = request.Select(x => x.Id).ToList();
