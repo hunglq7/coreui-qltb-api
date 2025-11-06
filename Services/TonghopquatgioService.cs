@@ -161,6 +161,7 @@ namespace WebApi.Services
             {
                 Id = x.Id,
                 MaQuanLy = x.MaQuanLy,
+                quatGioId=x.DanhmucQuatgio!.Id,
                 TenThietBi = x.DanhmucQuatgio!.TenThietBi,
                 TenDonVi = x.PhongBan!.TenPhong,
                 ViTriLapDat = x.ViTriLapDat,

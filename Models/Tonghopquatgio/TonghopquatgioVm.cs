@@ -6,6 +6,7 @@ namespace WebApi.Models.Tonghopquatgio
     {
         public int Id { get; set; }      
         public string? MaQuanLy { get; set; }
+        public int quatGioId { get; set; }
         public string? TenThietBi { get; set; }
         public string? TenDonVi { get; set; }
         public string? ViTriLapDat { get; set; }
