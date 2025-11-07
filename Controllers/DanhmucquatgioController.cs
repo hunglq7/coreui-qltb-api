@@ -37,7 +37,6 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("DeleteMultipale")]
-
         public async Task<IActionResult> DeleteMultiple([FromBody] List<DanhmucQuatgio> reponse)
         {
             var query = await _danhmucquatgioService.DeleteMutiple(reponse);
