@@ -83,5 +83,16 @@ namespace WebApi.Controllers
             await _thongsoquatgioService.Delete(id);
             return Ok();
         }
+
+        [HttpPost("DeleteMultipale")]
+        public async Task<ActionResult> DeleteMultiple([FromBody] List<ThongsoQuatgio> request)
+        {
+            var query = await _thongsoquatgioService.DeleteMutiple(request);
+            if (query.Count == 0)
+            {
+                return BadRequest("Xóa bản ghi thất bại");
+            }
+            return Ok(query.Count);
+        }
     }
 }
