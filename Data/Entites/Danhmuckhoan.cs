@@ -14,7 +14,7 @@ namespace WebApi.Data.Entites
         [MaxLength(100)]
         public string TenThietBi { get; set; } = string.Empty;
 
-        [Required]
+    
         [MaxLength(200)]
         public string LoaiThietBi { get; set; } = string.Empty;
 

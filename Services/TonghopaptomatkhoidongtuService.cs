@@ -180,6 +180,7 @@ namespace WebApi.Services
             entity.NgayLap = Request.NgayLap;
             entity.TinhTrangThietBi = Request.TinhTrangThietBi;
             entity.SoLuong = Request.SoLuong;
+            entity.DuPhong = Request.DuPhong;
             entity.GhiChu = Request.GhiChu;
             _thietbiDbContext.Update(entity);
             await _thietbiDbContext.SaveChangesAsync();

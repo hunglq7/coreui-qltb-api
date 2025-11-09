@@ -42,7 +42,7 @@ namespace WebApi.Controllers
         }
 
         [HttpPut("update")]
-        public async Task<IActionResult> Update([FromBody] TongHopBomNuoc request)
+        public async Task<IActionResult> Update([FromBody] TonghopbomnuocUpdateRequest request)
         {
             try
             {

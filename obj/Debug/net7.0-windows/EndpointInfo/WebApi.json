@@ -5296,6 +5296,46 @@
         }
       }
     },
+    "/api/Thongsoquatgio/DeleteMultipale": {
+      "post": {
+        "tags": [
+          "Thongsoquatgio"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/ThongsoQuatgio"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/ThongsoQuatgio"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/ThongsoQuatgio"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Toitruc/paging": {
       "get": {
         "tags": [
@@ -6265,17 +6305,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/TongHopBomNuoc"
+                "$ref": "#/components/schemas/TonghopbomnuocUpdateRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/TongHopBomNuoc"
+                "$ref": "#/components/schemas/TonghopbomnuocUpdateRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/TongHopBomNuoc"
+                "$ref": "#/components/schemas/TonghopbomnuocUpdateRequest"
               }
             }
           }
@@ -9669,7 +9709,6 @@
       },
       "DanhMucKhoan": {
         "required": [
-          "loaiThietBi",
           "tenThietBi"
         ],
         "type": "object",
@@ -9685,8 +9724,8 @@
           },
           "loaiThietBi": {
             "maxLength": 200,
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "ghiChu": {
             "maxLength": 500,
@@ -12481,7 +12520,7 @@
           },
           "ngayLap": {
             "type": "string",
-            "nullable": true
+            "format": "date-time"
           },
           "viTriLapDat": {
             "maxLength": 500,
@@ -12535,7 +12574,7 @@
           },
           "ngayLap": {
             "type": "string",
-            "nullable": true
+            "format": "date-time"
           },
           "viTriLapDat": {
             "type": "string",
@@ -13303,6 +13342,51 @@
         "additionalProperties": false
       },
       "TonghopbomnuocCreateRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maQuanLy": {
+            "type": "string",
+            "nullable": true
+          },
+          "bomNuocId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donViId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "viTriLapDat": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayLap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "soLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tinhTrangThietBi": {
+            "type": "string",
+            "nullable": true
+          },
+          "duPhong": {
+            "type": "boolean"
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TonghopbomnuocUpdateRequest": {
         "type": "object",
         "properties": {
           "id": {

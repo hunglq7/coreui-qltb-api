@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.Common;
+using WebApi.Models.Neo.Tonghopneo;
 using WebApi.Models.Neo.TongHopNeo;
 
 namespace WebApi.Services

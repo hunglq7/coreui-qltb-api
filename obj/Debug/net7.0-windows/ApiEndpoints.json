@@ -2785,6 +2785,22 @@
   },
   {
     "ContainingType": "WebApi.Controllers.ThongsoquatgioController",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/Thongsoquatgio/DeleteMultipale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[WebApi.Data.Entites.ThongsoQuatgio, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ThongsoquatgioController",
     "Method": "GetDetailById",
     "RelativePath": "api/Thongsoquatgio/DetailById/{Id}",
     "HttpMethod": "GET",
@@ -3554,7 +3570,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "WebApi.Data.Entites.TongHopBomNuoc",
+        "Type": "WebApi.Models.TonghopBomnuc.TonghopbomnuocUpdateRequest",
         "IsRequired": true
       }
     ],

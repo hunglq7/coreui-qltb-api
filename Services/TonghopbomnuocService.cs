@@ -15,7 +15,7 @@ namespace WebApi.Services
         Task<TongHopBomNuoc> GetById(int id);
         Task<int> Sum();
         Task<List<TongHopBomNuoc>> getDatailById(int id);
-        Task<bool> Update([FromBody] TongHopBomNuoc Request);
+        Task<bool> Update([FromBody] TonghopbomnuocUpdateRequest Request);
         Task<bool> Delete(int id);
         Task<PagedResult<TonghopBomnuocVm>> GetAllPaging(TonghopbomnuocPagingRequest request);
     }
@@ -211,7 +211,7 @@ namespace WebApi.Services
             }
         }
 
-        public async Task<bool> Update([FromBody] TongHopBomNuoc Request)
+        public async Task<bool> Update([FromBody] TonghopbomnuocUpdateRequest Request)
         {
             try
             {

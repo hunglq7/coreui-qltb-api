@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebApi.Data.EF;
 
@@ -11,9 +12,11 @@ using WebApi.Data.EF;
 namespace WebApi.Migrations
 {
     [DbContext(typeof(ThietbiDbContext))]
-    partial class ThietbiDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251109100443_update-danhmuckhoan")]
+    partial class updatedanhmuckhoan
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -304,7 +307,7 @@ namespace WebApi.Migrations
                         {
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "28a56f56-6c94-46be-8538-3b6c95ae24de",
+                            ConcurrencyStamp = "a9b6e5db-3b71-47ca-a582-69bf119f50e8",
                             Dob = new DateTime(1979, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "hunglq7@gmail.com",
                             EmailConfirmed = true,
@@ -314,7 +317,7 @@ namespace WebApi.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "hunglq7@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAIAAYagAAAAELzWvgPiKwoTaWh236xxh6ar6+wJRvkAzVzyTHmPClQRev/OlqKIRk9HevW8SQ8QzQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEA/wFwSZF4cDFkHjlf6b/W7VuQ6AAw8gZY/ZJpQBIKivA+g/nREIvsLIcXukpLAE8A==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2055,8 +2058,9 @@ namespace WebApi.Migrations
                     b.Property<int>("NeoId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("NgayLap")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("NgayLap")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("SoLuong")
                         .HasColumnType("int");

@@ -14,7 +14,7 @@ namespace WebApi.Data.Entites
         [MaxLength(100)]
         public string DonViTinh { get; set; } = string.Empty;
         public int SoLuong { get; set; }
-        public string NgayLap { get; set; } = string.Empty;
+        public DateTime NgayLap { get; set; }
         [MaxLength(500)]
         public string ViTriLapDat { get; set; } = string.Empty;
         [MaxLength(500)]
