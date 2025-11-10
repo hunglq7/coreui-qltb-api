@@ -57,5 +57,12 @@ namespace WebApi.Controllers
             return Ok(query);
         }
 
+        [HttpGet("getAll")]
+        public async Task<ActionResult> GetAll()
+        {
+            var toitruc = await _service.GetAll();
+            return Ok(toitruc);
+        }
+
     }
 }
