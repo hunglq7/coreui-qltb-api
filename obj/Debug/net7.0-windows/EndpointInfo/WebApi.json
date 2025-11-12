@@ -8215,6 +8215,46 @@
         }
       }
     },
+    "/api/Tonghopquatgio/DeleteMultipale": {
+      "post": {
+        "tags": [
+          "Tonghopquatgio"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/TonghopQuatgio"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/TonghopQuatgio"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/TonghopQuatgio"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/TonghopRole": {
       "post": {
         "tags": [
@@ -8812,6 +8852,18 @@
       }
     },
     "/api/Tonghoptoitruc/sumTonghoptoitruc": {
+      "get": {
+        "tags": [
+          "Tonghoptoitruc"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghoptoitruc/getAll": {
       "get": {
         "tags": [
           "Tonghoptoitruc"
@@ -10079,7 +10131,6 @@
       },
       "Danhmuctoitruc": {
         "required": [
-          "loaiThietBi",
           "tenThietBi"
         ],
         "type": "object",
@@ -10095,8 +10146,8 @@
           },
           "loaiThietBi": {
             "maxLength": 200,
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "namSanXuat": {
             "maxLength": 12,

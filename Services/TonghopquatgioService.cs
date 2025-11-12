@@ -19,6 +19,7 @@ namespace WebApi.Services
         Task<bool> DeleteTonghopquatgio(int id);
         Task<PagedResult<TonghopquatgioVm>> GetAllPaging(TonghopquatgioPagingRequest request);
         Task<List<TonghopquatgioVm>> GetQuatgio();
+        Task<ApiResult<int>> DeleteMutiple(List<TonghopQuatgio> response);
     }
     public class TonghopquatgioService : ITonghopquatgioService
     {
@@ -51,6 +52,28 @@ namespace WebApi.Services
             await _thietbiDbContext.TonghopQuatgio.AddAsync(items);
             await _thietbiDbContext.SaveChangesAsync();
             return true;
+        }
+
+        public async Task<ApiResult<int>> DeleteMutiple(List<TonghopQuatgio> response)
+        {
+            var ids = response.Select(x => x.Id).ToList();
+            if (ids.Count() == 0)
+            {
+                return new ApiErrorResult<int>("Không tìm thấy bản ghi nào");
+
+            }
+
+            var exitItems = _thietbiDbContext.TonghopQuatgio.AsNoTracking().Where(x => ids.Contains(x.Id)).ToList();
+
+            var newItems = exitItems.Select(x => x.Id).ToList();
+            var deff = ids.Except(newItems).ToList();
+            if (deff.Count > 0)
+            {
+                return new ApiErrorResult<int>("Xóa không hợp lệ");
+            }
+            _thietbiDbContext.RemoveRange(exitItems);
+            var count = await _thietbiDbContext.SaveChangesAsync();
+            return new ApiSuccessResult<int>(count);
         }
 
         public async Task<bool> DeleteTonghopquatgio(int id)

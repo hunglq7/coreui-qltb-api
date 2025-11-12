@@ -4,6 +4,7 @@ using WebApi.Models.Common;
 using WebApi.Data.EF;
 using WebApi.Data.Entites;
 using WebApi.Models.Tonghoptoitruc;
+using WebApi.Models.Tonghopquatgio;
 namespace WebApi.Services
 {
     public interface ITonghoptoitrucService
@@ -15,6 +16,7 @@ namespace WebApi.Services
         Task<TongHopToiTruc> GetById(int id);
 
         Task<PagedResult<TonghoptoitrucVm>> GetAllPaging(GetManagerTonghoptoitrucPagingRequest request);
+        Task<List<TonghoptoitrucVm>> GetAll();
     }
     public class TonghoptoitrucService : ITonghoptoitrucService
     {
@@ -62,6 +64,25 @@ namespace WebApi.Services
 
         }
 
+        public async Task<List<TonghoptoitrucVm>> GetAll()
+        {
+            var query = from t in _thietbiDbContext.TongHopToiTrucs.Include(x => x.Danhmuctoitruc).Include(x => x.PhongBan)
+                        select t;
+            return await query.Select(x => new TonghoptoitrucVm()
+            {
+                Id = x.Id,
+                MaQuanLy = x.MaQuanLy,
+                ThietbiId=x.ThietbiId,
+                TenThietBi = x.Danhmuctoitruc.TenThietBi,
+                PhongBan = x.PhongBan.TenPhong,
+                ViTriLapDat = x.ViTriLapDat,
+                NgayLap = x.NgayLap,
+                MucDichSuDung = x.MucDichSuDung,
+                SoLuong = x.SoLuong,
+                TinhTrangThietBi = x.TinhTrangThietBi,
+                DuPhong = x.DuPhong,
+            }).ToListAsync();
+        }
 
         public async Task<PagedResult<TonghoptoitrucVm>> GetAllPaging(GetManagerTonghoptoitrucPagingRequest request)
         {

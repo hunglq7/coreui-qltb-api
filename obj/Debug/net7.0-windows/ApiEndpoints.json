@@ -4540,6 +4540,22 @@
   },
   {
     "ContainingType": "WebApi.Controllers.TonghopquatgioController",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/Tonghopquatgio/DeleteMultipale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reponse",
+        "Type": "System.Collections.Generic.List\u00601[[WebApi.Data.Entites.TonghopQuatgio, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopquatgioController",
     "Method": "GetDetailById",
     "RelativePath": "api/Tonghopquatgio/DetailById/{Id}",
     "HttpMethod": "GET",
@@ -4959,6 +4975,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghoptoitrucController",
+    "Method": "GetAll",
+    "RelativePath": "api/Tonghoptoitruc/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

@@ -68,6 +68,7 @@ namespace Api.Services
             return await query.Select(x => new ThongsokythuattoitrucVm()
             {
                 Id = x.Id,
+                DanhmuctoitrucId=x.DanhmuctoitrucId,
                 TenToiTruc = x.Danhmuctoitruc.TenThietBi,
                 NoiDung = x.NoiDung,
                 DonViTinh = x.DonViTinh,
@@ -137,6 +138,7 @@ namespace Api.Services
             {
                 Id = x.t.Id,
                 TenToiTruc = x.m.TenThietBi,
+                DanhmuctoitrucId=x.m.Id,
                 NoiDung = x.t.NoiDung,
                 DonViTinh = x.t.DonViTinh,
                 ThongSo = x.t.ThongSo,

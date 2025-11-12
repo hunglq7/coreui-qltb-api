@@ -5,6 +5,7 @@
         public int Id { get; set; }
 
         public string? MaQuanLy { get; set; }
+        public int ThietbiId { get; set; }
         public string? TenThietBi { get; set; }
         public string? PhongBan { get; set; }
 
