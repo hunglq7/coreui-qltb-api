@@ -4493,6 +4493,46 @@
         }
       }
     },
+    "/api/Thongsokythuatmaycao/DeleteMultipale": {
+      "post": {
+        "tags": [
+          "Thongsokythuatmaycao"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/ThongSoKyThuatMayCao"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/ThongSoKyThuatMayCao"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/ThongSoKyThuatMayCao"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Thongsokythuatmayxuc": {
       "get": {
         "tags": [
@@ -7405,6 +7445,46 @@
         "tags": [
           "Tonghopmaycao"
         ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopmaycao/DeleteMultipale": {
+      "post": {
+        "tags": [
+          "Tonghopmaycao"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/TongHopMayCao"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/TongHopMayCao"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/TongHopMayCao"
+                }
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "Success"

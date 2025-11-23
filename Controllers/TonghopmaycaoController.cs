@@ -85,5 +85,16 @@ namespace WebApi.Controllers
             var maycao = await _tonghopmaycaoService.GetMaycao();
             return Ok(maycao);
         }
+        [HttpPost("DeleteMultipale")]
+        public async Task<IActionResult> DeleteMultiple([FromBody] List<TongHopMayCao> reponse)
+        {
+            var query = await _tonghopmaycaoService.DeleteMutiple(reponse);
+            if (query.Count == 0)
+            {
+                return NotFound("Không xóa được bản ghi nào");
+            }
+            return Ok(query.Count);
+
+        }
     }
 }

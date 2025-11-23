@@ -2271,6 +2271,22 @@
   },
   {
     "ContainingType": "WebApi.Controllers.ThongsokythuatmaycaoController",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/Thongsokythuatmaycao/DeleteMultipale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reponse",
+        "Type": "System.Collections.Generic.List\u00601[[WebApi.Data.Entites.ThongSoKyThuatMayCao, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ThongsokythuatmaycaoController",
     "Method": "GetDetailById",
     "RelativePath": "api/Thongsokythuatmaycao/DetailById/{Id}",
     "HttpMethod": "GET",
@@ -4040,6 +4056,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopmaycaoController",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/Tonghopmaycao/DeleteMultipale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reponse",
+        "Type": "System.Collections.Generic.List\u00601[[WebApi.Data.Entites.TongHopMayCao, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],

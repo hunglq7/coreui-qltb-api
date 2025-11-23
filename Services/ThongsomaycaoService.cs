@@ -16,6 +16,7 @@ namespace WebApi.Services
         Task<bool> Add(ThongSoKyThuatMayCao request);
         Task<bool> Update(ThongSoKyThuatMayCao request);
         Task<bool> Delete(int id);
+        Task<ApiResult<int>> DeleteMultiple(List<ThongSoKyThuatMayCao> response);
     }
 
     public class ThongsokythuatmaycaoService : IThongsokythuatmaycaoService
@@ -35,6 +36,7 @@ namespace WebApi.Services
             return await query.Select(x => new ThongsokythuatmaycaoVm()
             {
                 Id = x.Id,
+                MayCaoId=x.MayCaoId,
                 TenThietBi = x.DanhmucMayCao.TenThietBi,
                 NoiDung = x.NoiDung,
                 DonViTinh = x.DonViTinh,
@@ -96,7 +98,7 @@ namespace WebApi.Services
             }).ToListAsync();
         }
 
-        public async Task<bool> Add (ThongSoKyThuatMayCao request)
+        public async Task<bool> Add(ThongSoKyThuatMayCao request)
         {
             if (request == null)
             {
@@ -145,6 +147,26 @@ namespace WebApi.Services
             _thietbiDbContext.ThongSoKyThuatMayCaos.Remove(item);
             await _thietbiDbContext.SaveChangesAsync();
             return true;
+        }
+
+        public async Task<ApiResult<int>> DeleteMultiple(List<ThongSoKyThuatMayCao> response)
+        {
+            var ids = response.Select(x => x.Id).ToList();
+            if (ids.Count == 0)
+            {
+                return new ApiErrorResult<int>("Không tìm thấy bản ghi nào");
+            }
+
+            var existingItems = _thietbiDbContext.ThongSoKyThuatMayCaos.AsNoTracking().Where(x => ids.Contains(x.Id)).ToList();
+            if (existingItems.Count != ids.Count)
+            {
+                return new ApiErrorResult<int>("Xóa không hợp lệ");
+            }
+
+            _thietbiDbContext.RemoveRange(existingItems);
+            var count = await _thietbiDbContext.SaveChangesAsync();
+
+            return new ApiSuccessResult<int>(count);
         }
     }
 }
