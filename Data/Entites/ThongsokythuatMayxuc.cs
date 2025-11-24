@@ -7,9 +7,9 @@ namespace WebApi.Data.Entites
     {
         public int Id { get; set; }
         public int MayXucId { get; set; }
-        public string NoiDung { get; set; } = string.Empty;
-        public string DonViTinh { get; set; }=string.Empty;
-        public string ThongSo { get; set; }=string.Empty ;
+        public string? NoiDung { get; set; } 
+        public string? DonViTinh { get; set; }
+        public string? ThongSo { get; set; }
 
         public virtual MayXuc? MayXuc { get; set; }
     }

@@ -229,16 +229,16 @@ namespace WebApi.Services
                 }
 
                 // Update only the properties that should be updated with null-safe assignments
-                mayxuc.MaQuanLy = Request.MaQuanLy ?? string.Empty;
+                mayxuc.MaQuanLy = Request.MaQuanLy;
                 mayxuc.MayXucId = Request.MayXucId;
                 mayxuc.PhongBanId = Request.PhongBanId;
                 mayxuc.LoaiThietBiId = Request.LoaiThietBiId;
-                mayxuc.ViTriLapDat = Request.ViTriLapDat ?? string.Empty;
-                mayxuc.NgayLap = Request.NgayLap != default(DateTime) ? Request.NgayLap : DateTime.Now;
-                mayxuc.SoLuong = Request.SoLuong > 0 ? Request.SoLuong : 1;
-                mayxuc.TinhTrang = Request.TinhTrang ?? string.Empty;
+                mayxuc.ViTriLapDat = Request.ViTriLapDat;
+                mayxuc.NgayLap = Request.NgayLap;
+                mayxuc.SoLuong = Request.SoLuong ;
+                mayxuc.TinhTrang = Request.TinhTrang ;
                 mayxuc.DuPhong = Request.DuPhong;
-                mayxuc.GhiChu = Request.GhiChu ?? string.Empty;
+                mayxuc.GhiChu = Request.GhiChu ;
 
                 // Mark as modified and save
                 _thietbiDbContext.Entry(mayxuc).State = EntityState.Modified;

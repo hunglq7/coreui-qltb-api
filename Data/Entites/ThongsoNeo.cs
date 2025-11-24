@@ -9,11 +9,11 @@ namespace WebApi.Data.Entites
 
         public int NeoId { get; set; }
 
-        public string NoiDung { get; set; } = string.Empty;
+        public string? NoiDung { get; set; } 
 
-        public string DonViTinh { get; set; } = string.Empty;
+        public string? DonViTinh { get; set; } 
 
-        public string ThongSo { get; set; } = string.Empty;
+        public string? ThongSo { get; set; } 
 
         [ForeignKey("NeoId")]
         public virtual DanhmucNeo? DanhmucNeo { get; set; }

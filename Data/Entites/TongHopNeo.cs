@@ -12,16 +12,16 @@ namespace WebApi.Data.Entites
         public int NeoId { get; set; }
         public int DonViId { get; set; }
         [MaxLength(100)]
-        public string DonViTinh { get; set; } = string.Empty;
+        public string? DonViTinh { get; set; } 
         public int SoLuong { get; set; }
         public DateTime NgayLap { get; set; }
         [MaxLength(500)]
-        public string ViTriLapDat { get; set; } = string.Empty;
+        public string? ViTriLapDat { get; set; } 
         [MaxLength(500)]
-        public string TinhTrangKyThuat { get; set; } = string.Empty;
+        public string? TinhTrangKyThuat { get; set; } 
         public Boolean duPhong { get; set; }
         [MaxLength(500)]
-        public string GhiChu { get; set; } = string.Empty;
+        public string? GhiChu { get; set; } 
 
         [ForeignKey("NeoId")]
         public virtual DanhmucNeo? DanhmucNeo { get; set; }

@@ -12,19 +12,19 @@ namespace WebApi.Data.Entites
 
         public int TongHopMayCaoId { get; set; }
 
-        public string NgayThang { get; set; } = string.Empty;
+        public string? NgayThang { get; set; } 
 
         [MaxLength(100)]
-        public string DonVi { get; set; } = string.Empty;
+        public string? DonVi { get; set; } 
 
         [MaxLength(500)]
-        public string ViTri { get; set; } = string.Empty;
+        public string? ViTri { get; set; } 
 
         [MaxLength(500)]
-        public string TrangThai { get; set; } = string.Empty;
+        public string? TrangThai { get; set; } 
 
         [MaxLength(500)]
-        public string GhiChu { get; set; } = string.Empty;
+        public string? GhiChu { get; set; } 
 
         [ForeignKey("TongHopMayCaoId")]
         public virtual TongHopMayCao? TongHopMayCao { get; set; }

@@ -10,25 +10,21 @@ namespace WebApi.Data.Entites
         public int Id { get; set; }
         public int MayXucId { get; set; }
         [MaxLength(50)]
-        public string MaQuanLy { get; set; } = string.Empty;
-        [MaxLength(200)]
-        public int LoaiThietBiId { get; set; }
-        [MaxLength(200)]
+        public string? MaQuanLy { get; set; }     
+        public int LoaiThietBiId { get; set; }    
         public int PhongBanId { get; set; }
-        public string ViTriLapDat { get; set; } = string.Empty;
-        public string TinhTrang { get; set; } = string.Empty;
+        public string? ViTriLapDat { get; set; }
+        public string? TinhTrang { get; set; }
         public DateTime NgayLap { get; set; }
-        public int SoLuong { get; set; }
-        [MaxLength(500)]
+        public int SoLuong { get; set; } 
         public Boolean DuPhong { get; set; }
-        public string GhiChu { get; set; } = string.Empty;
+        public string? GhiChu { get; set; }
         [ForeignKey("MayXucId")]
         public virtual MayXuc? MayXuc { get; set; }
         [ForeignKey("PhongBanId")]
         public virtual PhongBan? PhongBan { get; set; }
         [ForeignKey("LoaiThietBiId")]
         public virtual LoaiThietBi? LoaiThietBi { get; set; }
-
         public virtual IEnumerable<NhatkyMayxuc>? NhatkyMayxucs { get; set; }
     }
 }

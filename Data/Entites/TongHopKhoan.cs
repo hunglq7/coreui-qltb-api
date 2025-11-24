@@ -19,7 +19,7 @@ namespace WebApi.Data.Entites
 
         [Required]
         [MaxLength(200)]
-        public string DonViTinh { get; set; } = string.Empty;
+        public string? DonViTinh { get; set; } 
 
         [Required]
         public int SoLuong { get; set; }
@@ -28,10 +28,10 @@ namespace WebApi.Data.Entites
         public DateTime NgayLap { get; set; }
 
         [MaxLength(500)]
-        public string ViTriLapDat { get; set; } = string.Empty;
+        public string? ViTriLapDat { get; set; }
 
         [MaxLength(200)]
-        public string TinhTrangKyThuat { get; set; } = string.Empty;
+        public string? TinhTrangKyThuat { get; set; } 
         public Boolean duPhong { get; set; }
 
         [MaxLength(500)]

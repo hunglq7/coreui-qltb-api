@@ -10,25 +10,25 @@ namespace WebApi.Data.Entites
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [MaxLength(50)]
-        public string MaQuanLy { get; set; } = string.Empty;
+        public string? MaQuanLy { get; set; } 
         [MaxLength(50)]
-        public string MaHieu { get; set; } = string.Empty;
+        public string? MaHieu { get; set; } 
         [MaxLength(50)]
-        public string TenLoai { get; set; } = string.Empty;
+        public string? TenLoai { get; set; } 
         [MaxLength(50)]
-        public string NuocSX { get; set; } = string.Empty;
+        public string? NuocSX { get; set; } 
         [MaxLength(50)]
-        public string HangSX { get; set; } = string.Empty;
+        public string? HangSX { get; set; } 
         [MaxLength(50)]
-        public string NamSX { get; set; } = string.Empty;
+        public string? NamSX { get; set; } 
         [MaxLength(50)]
-        public string CongSuat { get; set; } = string.Empty;
+        public string? CongSuat { get; set; } 
         [MaxLength(50)]
-        public string DienAp { get; set; } = string.Empty;
+        public string? DienAp { get; set; } 
         [MaxLength(50)]
-        public string SoVongQuay { get; set; } = string.Empty;
+        public string? SoVongQuay { get; set; } 
         [MaxLength(50)]
-        public string LucKeo { get; set; } = string.Empty;
+        public string? LucKeo { get; set; } 
         [MaxLength(50)]
         public string? TocDoKeoCham { get; set; }
         [MaxLength(50)]

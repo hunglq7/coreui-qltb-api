@@ -12,14 +12,14 @@ namespace WebApi.Data.Entites
 
         [Required]
         [MaxLength(100)]
-        public string TenThietBi { get; set; } = string.Empty;
+        public string? TenThietBi { get; set; }
 
     
         [MaxLength(200)]
-        public string LoaiThietBi { get; set; } = string.Empty;
+        public string? LoaiThietBi { get; set; }
 
         [MaxLength(500)]
-        public string GhiChu { get; set; } = string.Empty;
+        public string? GhiChu { get; set; }
         public virtual IEnumerable<TongHopKhoan>? TongHopKhoans { get; set; }
     }
 }

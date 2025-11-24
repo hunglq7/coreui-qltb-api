@@ -12,11 +12,11 @@ namespace WebApi.Data.Entites
         public int Id { get; set; }
         public int QuatgioId { get; set; }
         [MaxLength(500)]
-        public string NoiDung { get; set; } = string.Empty;
+        public string? NoiDung { get; set; } 
         [MaxLength(100)]
-        public string DonViTinh { get; set; } = string.Empty;
+        public string? DonViTinh { get; set; } 
         [MaxLength(200)]
-        public string ThongSo { get; set; } = string.Empty;
+        public string? ThongSo { get; set; }
         [ForeignKey("QuatgioId")]
         public virtual DanhmucQuatgio? DanhmucQuatgio{ get; set; }
         

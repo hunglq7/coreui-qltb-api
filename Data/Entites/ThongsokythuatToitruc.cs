@@ -12,11 +12,11 @@ namespace Api.Data.Entites
         public int DanhmuctoitrucId { get; set; }
         [Required]
         [MaxLength(2000)]
-        public string NoiDung { get; set; } = string.Empty;
+        public string? NoiDung { get; set; } 
         [MaxLength(50)]
-        public string DonViTinh { get; set; }=string.Empty;
+        public string? DonViTinh { get; set; }
         [MaxLength(100)]
-        public string ThongSo { get; set; }=string.Empty ;
+        public string? ThongSo { get; set; }
         [ForeignKey("DanhmuctoitrucId")]
         public virtual Danhmuctoitruc? Danhmuctoitruc{get;set;}
 
