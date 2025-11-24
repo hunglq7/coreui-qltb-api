@@ -2774,6 +2774,92 @@
         }
       }
     },
+    "/api/Nhatkymaycao/Add": {
+      "post": {
+        "tags": [
+          "Nhatkymaycao"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhatKyMayCao"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhatKyMayCao"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhatKyMayCao"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhatkymaycao/update": {
+      "put": {
+        "tags": [
+          "Nhatkymaycao"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhatKyMayCao"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhatKyMayCao"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhatKyMayCao"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhatkymaycao/{Id}": {
+      "delete": {
+        "tags": [
+          "Nhatkymaycao"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Nhatkymayxuc": {
       "get": {
         "tags": [
@@ -12573,12 +12659,10 @@
             "nullable": true
           },
           "loaiThietBiId": {
-            "maxLength": 200,
             "type": "integer",
             "format": "int32"
           },
           "phongBanId": {
-            "maxLength": 200,
             "type": "integer",
             "format": "int32"
           },
@@ -12599,7 +12683,6 @@
             "format": "int32"
           },
           "duPhong": {
-            "maxLength": 500,
             "type": "boolean"
           },
           "ghiChu": {

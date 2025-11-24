@@ -1312,6 +1312,38 @@
   },
   {
     "ContainingType": "WebApi.Controllers.NhatkymaycaoController",
+    "Method": "Delete",
+    "RelativePath": "api/Nhatkymaycao/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.NhatkymaycaoController",
+    "Method": "Add",
+    "RelativePath": "api/Nhatkymaycao/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Data.Entites.NhatKyMayCao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.NhatkymaycaoController",
     "Method": "GetDetailById",
     "RelativePath": "api/Nhatkymaycao/DatailById/{Id}",
     "HttpMethod": "GET",
@@ -1337,6 +1369,22 @@
       {
         "Name": "request",
         "Type": "System.Collections.Generic.List\u00601[[WebApi.Data.Entites.NhatKyMayCao, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.NhatkymaycaoController",
+    "Method": "Update",
+    "RelativePath": "api/Nhatkymaycao/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Data.Entites.NhatKyMayCao",
         "IsRequired": true
       }
     ],

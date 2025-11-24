@@ -12,6 +12,9 @@ namespace WebApi.Services
         Task<List<NhatKyMayCao>> GetDetailById(int id);
         Task<ApiResult<int>> UpdateMultiple(List<NhatKyMayCao> request);
         Task<ApiResult<int>> DeleteMultiple(List<NhatKyMayCao> request);
+        Task<bool> Add(NhatKyMayCao request);
+        Task<bool> Update(NhatKyMayCao request);
+        Task<bool> Delete(int id);
     }
 
     public class NhatkyMayCaoService : INhatkyMayCaoService
@@ -95,6 +98,54 @@ namespace WebApi.Services
             var count = await _thietbiDbContext.SaveChangesAsync();
 
             return new ApiSuccessResult<int>(count);
+        }
+
+        public async Task<bool> Add(NhatKyMayCao request)
+        {
+            if (request == null) return false;
+            var newItems = new NhatKyMayCao()
+            {
+                TongHopMayCaoId = request.TongHopMayCaoId,
+                NgayThang = request.NgayThang,
+                DonVi = request.DonVi,
+                ViTri = request.ViTri,
+                TrangThai = request.TrangThai,
+                GhiChu = request.GhiChu
+            };
+            await _thietbiDbContext.NhatKyMayCaos.AddAsync(newItems);
+            await _thietbiDbContext.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<bool> Update(NhatKyMayCao request)
+        {
+            var existingItem = _thietbiDbContext.NhatKyMayCaos.AsNoTracking().FirstOrDefault(x => x.Id == request.Id);
+            if (existingItem == null)
+            {
+                return false;
+            }
+            existingItem.TongHopMayCaoId = request.TongHopMayCaoId;
+            existingItem.NgayThang = request.NgayThang;
+            existingItem.DonVi = request.DonVi;
+            existingItem.ViTri = request.ViTri;
+            existingItem.TrangThai = request.TrangThai;
+            existingItem.GhiChu = request.GhiChu;
+            _thietbiDbContext.NhatKyMayCaos.Update(existingItem);
+            await _thietbiDbContext.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<bool> Delete(int id)
+        {
+            var item = await _thietbiDbContext.NhatKyMayCaos.FindAsync(id);
+            if (item == null)
+            {
+                return false;
+            }
+
+            _thietbiDbContext.NhatKyMayCaos.Remove(item);
+            await _thietbiDbContext.SaveChangesAsync();
+            return true;
         }
     }
 }
