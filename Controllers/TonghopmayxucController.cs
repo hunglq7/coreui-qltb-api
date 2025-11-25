@@ -28,7 +28,7 @@ namespace WebApi.Controllers
             return Ok(mayxuc);
         }
 
-        [HttpPost]
+        [HttpPost("Add")]
         public async Task<ActionResult> AddTonghopmayxuc([FromBody] MayxucCreateRequest request)
         {
             if (request == null)

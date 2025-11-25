@@ -19,6 +19,7 @@ namespace WebApi.Services
         Task<bool> UpdateTonghopmayxuc([FromBody] MayxucUpdateRequest Request);
         Task<bool> DeleteTonghopmayxuc(int id);
         Task<PagedResult<TonghopmayxucVM>> GetAllPaging(GetManagerTonghopMayxucPagingRequest request);
+ 
 
     }
     public class TonghopmayxucService : ITonghopmayxucService
@@ -265,5 +266,7 @@ namespace WebApi.Services
             var sum = await query.SumAsync(x => x.SoLuong);
             return sum;
         }
+
+       
     }
 }
