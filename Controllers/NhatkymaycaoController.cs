@@ -50,5 +50,39 @@ namespace WebApi.Controllers
             }
             return Ok(query.Count);
         }
+
+
+        [HttpPost("Add")]
+        public async Task<ActionResult> Add([FromBody] NhatKyMayCao request)
+        {
+            if (request == null)
+            {
+                return BadRequest();
+            }
+            await _nhatkyMayCaoService.Add(request);
+            return Ok();
+        }
+
+        [HttpPut("update")]
+        public async Task<ActionResult> Update([FromBody] NhatKyMayCao request)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            await _nhatkyMayCaoService.Update(request);
+            return Ok();
+        }
+
+        [HttpDelete("{Id}")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            if (id == 0)
+            {
+                return BadRequest();
+            }
+            await _nhatkyMayCaoService.Delete(id);
+            return Ok();
+        }
     }
 }
