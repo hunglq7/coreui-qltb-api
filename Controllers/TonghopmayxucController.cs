@@ -1,6 +1,7 @@
 ﻿using Api.Models.Tonghopmayxuc;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WebApi.Data.Entites;
 using WebApi.Models.Tonghopmayxuc;
 using WebApi.Models.Tonghopthietbi;
 using WebApi.Services;
@@ -28,7 +29,7 @@ namespace WebApi.Controllers
             return Ok(mayxuc);
         }
 
-        [HttpPost]
+        [HttpPost("Add")]
         public async Task<ActionResult> AddTonghopmayxuc([FromBody] MayxucCreateRequest request)
         {
             if (request == null)
@@ -89,7 +90,17 @@ namespace WebApi.Controllers
             return Ok(query);
 
         }
+        [HttpPost("DeleteMultipale")]
+        public async Task<IActionResult> DeleteMultiple([FromBody] List<TongHopMayXuc> reponse)
+        {
+            var query = await _tonghopmayxucService.DeleteMutiple(reponse);
+            if (query.Count == 0)
+            {
+                return NotFound("Không xóa được bản ghi nào");
+            }
+            return Ok(query.Count);
 
+        }
 
 
     }

@@ -19,6 +19,7 @@ namespace WebApi.Services
         Task<bool> UpdateTonghopmayxuc([FromBody] MayxucUpdateRequest Request);
         Task<bool> DeleteTonghopmayxuc(int id);
         Task<PagedResult<TonghopmayxucVM>> GetAllPaging(GetManagerTonghopMayxucPagingRequest request);
+        Task<ApiResult<int>> DeleteMutiple(List<TongHopMayXuc> response);
 
     }
     public class TonghopmayxucService : ITonghopmayxucService
@@ -138,8 +139,11 @@ namespace WebApi.Services
             {
                 Id = x.Id,
                 MaQuanLy = x.MaQuanLy ?? string.Empty,
+                MayXucId = x.MayXucId,
                 TenMayXuc = x.MayXuc!.TenThietBi,
+                PhongBanId = x.PhongBanId,
                 TenPhongBan = x.PhongBan != null ? (x.PhongBan.TenPhong ?? string.Empty) : string.Empty,
+                LoaiThietBiId = x.LoaiThietBiId,
                 LoaiThietBi = x.LoaiThietBi != null ? (x.LoaiThietBi.TenLoai ?? string.Empty) : string.Empty,
                 ViTriLapDat = x.ViTriLapDat ?? string.Empty,
                 NgayLap = x.NgayLap,
@@ -264,6 +268,28 @@ namespace WebApi.Services
                         select s;
             var sum = await query.SumAsync(x => x.SoLuong);
             return sum;
+        }
+
+        public async Task<ApiResult<int>> DeleteMutiple(List<TongHopMayXuc> response)
+        {
+            var ids = response.Select(x => x.Id).ToList();
+            if (ids.Count() == 0)
+            {
+                return new ApiErrorResult<int>("Không tìm thấy bản ghi nào");
+
+            }
+
+            var exitItems = _thietbiDbContext.TongHopMayXucs.AsNoTracking().Where(x => ids.Contains(x.Id)).ToList();
+
+            var newItems = exitItems.Select(x => x.Id).ToList();
+            var deff = ids.Except(newItems).ToList();
+            if (deff.Count > 0)
+            {
+                return new ApiErrorResult<int>("Xóa không hợp lệ");
+            }
+            _thietbiDbContext.RemoveRange(exitItems);
+            var count = await _thietbiDbContext.SaveChangesAsync();
+            return new ApiSuccessResult<int>(count);
         }
     }
 }

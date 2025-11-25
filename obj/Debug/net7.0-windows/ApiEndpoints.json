@@ -4235,22 +4235,6 @@
   },
   {
     "ContainingType": "WebApi.Controllers.TonghopmayxucController",
-    "Method": "AddTonghopmayxuc",
-    "RelativePath": "api/Tonghopmayxuc",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "WebApi.Models.Tonghopmayxuc.MayxucCreateRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApi.Controllers.TonghopmayxucController",
     "Method": "GetById",
     "RelativePath": "api/Tonghopmayxuc/{Id}",
     "HttpMethod": "GET",
@@ -4283,6 +4267,22 @@
   },
   {
     "ContainingType": "WebApi.Controllers.TonghopmayxucController",
+    "Method": "AddTonghopmayxuc",
+    "RelativePath": "api/Tonghopmayxuc/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Models.Tonghopmayxuc.MayxucCreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopmayxucController",
     "Method": "GetDetailById",
     "RelativePath": "api/Tonghopmayxuc/DatailById/{Id}",
     "HttpMethod": "GET",
@@ -4292,6 +4292,22 @@
       {
         "Name": "Id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TonghopmayxucController",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/Tonghopmayxuc/DeleteMultipale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reponse",
+        "Type": "System.Collections.Generic.List\u00601[[WebApi.Data.Entites.TongHopMayXuc, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],

@@ -7588,7 +7588,9 @@
             "description": "Success"
           }
         }
-      },
+      }
+    },
+    "/api/Tonghopmayxuc/Add": {
       "post": {
         "tags": [
           "Tonghopmayxuc"
@@ -7791,6 +7793,46 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tonghopmayxuc/DeleteMultipale": {
+      "post": {
+        "tags": [
+          "Tonghopmayxuc"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/TongHopMayXuc"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/TongHopMayXuc"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/TongHopMayXuc"
+                }
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "Success"
